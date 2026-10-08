@@ -1,5 +1,5 @@
 def main():
-    print("Hello from entity-image-localization!")
+    print("Hello from mention_localizer!")
 
 
 if __name__ == "__main__":
