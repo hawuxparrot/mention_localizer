@@ -59,7 +59,7 @@ positional OCR .txt ──────────┼─────────
 1. **Annotations.** `parse_annotation_page` keeps `ordiiif-vocab:MentionedPerson` items and drops every other purpose. Each kept item becomes an `EntityAnnotation`: annotation id, person id, one mention string, and the manifest URL.
 2. **Manifest.** `parse_manifest` reads a IIIF Presentation 3 manifest into a `ManifestDocument`. Canvas order is the page order. Each page is a `PageImage`: image-service URL, width, and height in IIIF pixels.
 3. **Grouping.** Annotations that share a manifest should be collected before any OCR file is read, so each page is parsed once and then queried many times. This stage is not written yet.
-4. **OCR.** `parse_ocr_text` reads one positional text file onto a `PageImage` and returns an `OcrPage`: the page, the token sequence, and the width and height of the OCR coordinate space.
+4. **OCR.** `parse_ocr_text` reads one positional text file onto a `PageImage` and returns an `OcrPage`: the page, the token sequence, and the width and height of the OCR coordinate space. For now the text comes from local `.txt` files in `data/`
 5. **Matching.** `strict_match` slides the mention's tokens across the page and returns the enclosing box of every hit.
 6. **Target.** The box, the image-service URL, and the page source should be written as the fragment selector above. `targets.py` is not written yet. Statistics over hits, misses, and ambiguous mentions are not written yet.
 
@@ -110,6 +110,14 @@ mention_localizer/
     └── test_matching_corpus.py
 ```
 
+## Data
+
+The positional OCR corpus is too large to store on GitHub. It is not part of the repository. `data/` is gitignored.
+
+After cloning, download it from Polybox and extract it next to `eil/` and `tests/`:
+
+```bash
+make setup
 
 
 ## Tests
