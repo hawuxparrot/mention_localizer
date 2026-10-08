@@ -2,7 +2,7 @@
 Contains parsing logic for supplied positional OCR .txt files.
 parse_ocr_text()
 """
-from models import BoundingBox, OcrPage, OcrToken, PageImage
+from .models import BoundingBox, OcrPage, OcrToken, PageImage
 
 OCR_MARKERS = frozenset({"<EOS>", "<EOP>"})
 
@@ -18,6 +18,9 @@ def parse_ocr_text(raw: str, page: PageImage) -> OcrPage:
     tokens returns an empty tuple. This format does not supply confidence
     or layout ids, so those fields are left as None.
 
+    Stored width/height are the OCR-file coordinate space. They are not
+    compared to or scaled into `page.width` / `page.height`.
+
     Raises:
         OcrParseError: If the input is empty or a line is malformed.
     """
@@ -25,7 +28,7 @@ def parse_ocr_text(raw: str, page: PageImage) -> OcrPage:
     if not lines:
         raise OcrParseError("OCR text is empty")
 
-    _parse_page_dimensions(lines[0].strip(), line_number=1)
+    width, height = _parse_page_dimensions(lines[0].strip(), line_number=1)
 
     tokens: list[OcrToken] = []
     for line_number, line in enumerate(lines[1:], start=2):
@@ -34,7 +37,7 @@ def parse_ocr_text(raw: str, page: PageImage) -> OcrPage:
             continue
         tokens.append(_parse_ocr_token_line(stripped, line_number))
 
-    return OcrPage(page=page, tokens=tuple(tokens))
+    return OcrPage(page=page, tokens=tuple(tokens), width=width, height=height)
 
 
 def _parse_page_dimensions(line: str, line_number: int) -> tuple[int, int]:
@@ -54,7 +57,7 @@ def _parse_page_dimensions(line: str, line_number: int) -> tuple[int, int]:
         ) from None
     if width <= 0 or height <= 0:
         raise OcrParseError(
-            f"OCR line {line_number}: page dimensions must be non-negative, "
+            f"OCR line {line_number}: page dimensions must be positive, "
             f"got {width},{height}"
         )
     return width, height

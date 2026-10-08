@@ -5,7 +5,7 @@ strict_match()
 """
 import unicodedata
 
-from rdl_linking.models import BoundingBox, OcrPage
+from .models import BoundingBox, OcrPage
 
 
 def normalize_text(text: str) -> str:

@@ -2,13 +2,14 @@
 Contains domain types shared across the Entity Image Localization tool:
 - BoundingBox
 - OcrToken
-- OcrPage
 - PageImage
+- OcrPage
 - EntityAnnotation
 - ManifestDocument
 """
 
 from dataclasses import dataclass
+
 
 @dataclass(frozen=True)
 class BoundingBox:
@@ -23,10 +24,10 @@ class BoundingBox:
             raise ValueError("x must be non-negative")
         if self.y < 0:
             raise ValueError("y must be non-negative")
-        if self.width < 0:
-            raise ValueError("width must be non-negative")
-        if self.height < 0:
-            raise ValueError("height must be non-negative")
+        if self.width <= 0:
+            raise ValueError("width must be positive")
+        if self.height <= 0:
+            raise ValueError("height must be positive")
 
     @classmethod
     def enclosing(cls, boxes: tuple["BoundingBox", ...]) -> "BoundingBox":
@@ -46,6 +47,7 @@ class BoundingBox:
             height=max_y - min_y,
         )
 
+
 @dataclass(frozen=True)
 class OcrToken:
     """One positional OCR token. confidence and layout ids are optional."""
@@ -56,41 +58,39 @@ class OcrToken:
     paragraphId: int | None = None
     lineId: int | None = None
 
+
 @dataclass(frozen=True)
 class PageImage:
-    """
-    Represents a page image in a IIIF manifest. Contains information needed to identify the image and its OCR tokens.
-    """
-    image_id: str
-    label: str
-    ocr_tokens: tuple[OcrToken, ...]
+    """One IIIF source image. width and height are IIIF pixel size, not OCR-file size."""
+    image_service_url: str
+    width: int
+    height: int
+
 
 @dataclass(frozen=True)
 class OcrPage:
-    """OCR tokens for one page, in reading order."""
+    """OCR tokens for one page, in reading order.
+
+    width and height are the OCR-file coordinate space (first line of the
+    .txt). They are not assumed equal to page.width / page.height.
+    """
     page: PageImage
     tokens: tuple[OcrToken, ...]
+    width: int
+    height: int
 
 
 @dataclass(frozen=True)
 class EntityAnnotation:
-    """
-    Represents an entity annotation. Contains information needed to identify entity mention and query OCR.
-    """
+    """Entity mention plus the coarse IIIF manifest it targets."""
     annotation_id: str
     entity_id: str
     mention: str
     target_manifest: str
 
+
 @dataclass(frozen=True)
 class ManifestDocument:
-    """
-    Represents a IIIF manifest document. Contains information needed to identify the manifest and its images.
-    """
+    """Ordered page images from one IIIF Manifest."""
     manifest_id: str
-    label: str
-    pages: tuple[PageImage]
-
-
-
-    
+    pages: tuple[PageImage, ...]

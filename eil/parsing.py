@@ -3,10 +3,9 @@ Contains parsing logic for the Entity Image Localization tool.
 parse_annotation_page()
 parse_entity_annotation()
 """
-from curses import raw
 from typing import Any
 
-from models import EntityAnnotation
+from .models import EntityAnnotation
 
 MENTIONED_PERSON = "ordiiif-vocab:MentionedPerson"
 
