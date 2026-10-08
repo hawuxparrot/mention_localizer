@@ -20,11 +20,11 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1765_6__1061-publication_46003-mentioned-person-person_00293",
     "mention": "Dan. Fellenberg, Prof. der Rechten",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1765_006!oeg-002_1765_006_0038.jpg/179,1186,652,51/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1765_6__1061-publication_46003-mentioned-person-person_00509",
@@ -47,38 +47,38 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1765_6__1061-publication_46003-mentioned-person-person_06281",
     "mention": "Sam. Ant. Wilhelmi, Profess. der griechischen Sprache und der Sittenlehre",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
-    "error": null,
-    "crop_url": null
-  },
-  {
-    "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1765_6__1061-publication_46003-mentioned-person-person_06583",
-    "mention": "de Valmont de Bomare Professeur en histoire naturelle à Paris, membre de plusieurs Académies",
     "match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!soe!1765_006!soe-001_1765_006_0043.jpg/407,596,719,149/full/0/default.jpg"
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1765_006!oeg-002_1765_006_0038.jpg/184,1254,820,101/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1765_6__1061-publication_46003-mentioned-person-person_06583",
+    "mention": "de Valmont de Bomare Professeur en histoire naturelle à Paris, membre de plusieurs Académies",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1765_6__1061-publication_46003-mentioned-person-person_06897",
     "mention": "Abr. Pagan, der öconom. Gesellschaft in Nydau Secretär",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1765_006!oeg-002_1765_006_0039.jpg/358,1045,816,91/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1765_6__1061-publication_46003-mentioned-person-person_01088",
     "mention": "Frau Vicat, eine gebohrne Curtas, aus Losane",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1765_006!oeg-002_1765_006_0039.jpg/270,1166,786,44/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1765_6__1061-publication_46003-mentioned-person-person_11771",
@@ -92,20 +92,20 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1765_6__1061-publication_46003-mentioned-person-person_11932",
     "mention": "Mörikofer von Frauenfeld",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1765_006!oeg-002_1765_006_0038.jpg/191,1870,444,54/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1765_6__1061-publication_46003-mentioned-person-person_11965",
     "mention": "Fried. Walther in Bern",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1765_006!oeg-002_1765_006_0038.jpg/190,1807,430,48/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1765_6__1061-publication_46003-mentioned-person-person_11973",
@@ -128,11 +128,11 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1765_6__1061-publication_46003-mentioned-person-person_11927",
     "mention": "Moschard, Pf. zu Bevillard im Münsterthal",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1765_006!oeg-002_1765_006_0039.jpg/355,808,756,46/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1765_6__1061-publication_46003-mentioned-person-person_11919",
@@ -155,11 +155,11 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1765_6__1061-publication_46003-mentioned-person-person_11873",
     "mention": "Christ, Landvogt zu Mönchenstein, aus Basel",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1765_006!oeg-002_1765_006_0039.jpg/355,631,774,41/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1765_6__1061-publication_46003-mentioned-person-person_11869",
@@ -182,20 +182,20 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1765_6__1061-publication_46003-mentioned-person-person_09574",
     "mention": "Vasserot von Dardagny aus Genf",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1765_006!oeg-002_1765_006_0039.jpg/350,336,580,42/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1765_6__1061-publication_46003-mentioned-person-person_00316",
     "mention": "Freudenreich, alt Stiftschafner von Zofingen",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1765_006!oeg-002_1765_006_0038.jpg/185,1371,779,53/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1765_6__1061-publication_46003-mentioned-person-person_08587",
@@ -218,11 +218,11 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1765_6__1061-publication_46003-mentioned-person-person_11888",
     "mention": "Felice, aus Murten",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1765_006!oeg-002_1765_006_0039.jpg/358,878,343,39/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1765_6__1061-publication_46003-mentioned-person-person_00968",

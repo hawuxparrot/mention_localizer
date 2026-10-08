@@ -68,7 +68,7 @@ positional OCR .txt ──────────┼─────────
 4. **OCR files.** `index_ocr_directory` maps a page-image filename to one positional `.txt` under `data/`. The filename is the last `!`-separated segment of the IIIF service URL. A missing file is an error. Two files with the same stem are an error; neither is chosen.
 5. **OCR.** `parse_ocr_text` reads one positional text file onto a `PageImage` and returns an `OcrPage`: the page, the token sequence, and the width and height of the OCR coordinate space.
 6. **Matching.** `strict_match` still finds an exact token sequence. Localization uses `lenient_match`. It first drops editorial markup (`...`, `u.[s.w.]`, parenthetical membership notes), then ignores punctuation stuck to a token, then allows a small per-token edit distance for OCR substitutions. `v.` is not expanded to `von`. `find_image_regions` runs that on every manifest page, in canvas order, and scales each hit into IIIF pixels. The first hit is the earliest page, then the earliest token match on that page. The scaled box is an `ImageRegion`. `ImageRegion.box` is always in the page's IIIF coordinates.
-7. **Target.** `precise_target` writes the fragment selector above from that `ImageRegion`. The pipeline copies the original AnnotationPage and replaces only `target` when there is at least one hit. Zero hits leave the coarse manifest URL in place. More than one hit still writes the first region, and the real match count stays on the per-annotation result. Each written crop URL is requested; a failed image response is recorded and does not stop the next annotation.
+7. **Target.** `precise_target` writes the fragment selector above from that `ImageRegion`. The pipeline copies the original AnnotationPage and replaces `target` when there is at least one hit. A mention whose language differs from `journal.language` is searched on the `parallelVersions` edition of the mention's language, so a German mention on a French page uses the German manifest. Zero hits on the annotation's own manifest leave that coarse URL in place. A miss on a parallel edition leaves that edition's manifest URL. More than one hit still writes the first region, and the real match count stays on the per-annotation result. Each written crop URL is requested; a failed image response is recorded and does not stop the next annotation.
 
 `main.py` reads one AnnotationPage JSON, writes the patched page, and prints one diagnostic line per MentionedPerson. `scripts/localize_corpus.py` does that for every RdL AnnotationPage whose volume is in the local OCR corpus, and writes `examples/statistics.json`.
 
@@ -96,17 +96,17 @@ The input OCR file starts with `width,height`. Each later line is `text x,y,widt
 
 ## Corpus results
 
-`scripts/localize_corpus.py` was run on the OCR in `data/` (15,163 page files) and the RdL annotation pages for those volumes. Published person targets are already precise, so each one was set back to its manifest URL before matching. `lenient_match` then searched every page of that manifest.
+`scripts/localize_corpus.py` was run on the OCR in `data/` (15,163 page files) and the RdL annotation pages for those volumes. Published person targets are already precise, so each one was set back to a manifest URL before matching. A mention whose language differs from the journal is searched on the parallel edition of that language: a German mention on a French page is matched against the German manifest, and the box is on the German image. `lenient_match` then searches every page of the chosen manifest.
 
 560 annotation pages fall in the corpus. 30 of them contain a parseable `MentionedPerson`. The other 530 do not. Another 255 person annotations were skipped because `body.identifier` is missing, which the parser rejects.
 
 | | Persons | Localized | Unmatched | More than one match |
 | --- | ---: | ---: | ---: | ---: |
-| Whole corpus | 842 | 226 (26.8%) | 616 | 5 |
+| Whole corpus | 842 | 382 (45.4%) | 460 | 6 |
 | German (`oeg`) | 480 | 220 (45.8%) | 260 | 4 |
-| French (`soe`) | 362 | 6 (1.7%) | 356 | 1 |
+| French (`soe`) | 362 | 162 (44.8%) | 200 | 2 |
 
-All 226 crop URLs returned an image. None failed the image check. The French pages stay low because those mentions are not the French text on the scan.
+All 382 crop URLs returned an image. The French-page hits are the same kind of result as the German edition they were redirected to, not boxes on the French scan. The published French boxes were not used as ground truth.
 
 | Volume | Persons | Localized | Unmatched |
 | --- | ---: | ---: | ---: |
@@ -121,14 +121,16 @@ All 226 crop URLs returned an image. None failed the image check. The French pag
 | `oeg-002` 1770/11 | 10 | 5 | 5 |
 | `oeg-002` 1771/12 | 2 | 0 | 2 |
 | `oeg-003` 1779/1 | 48 | 32 | 16 |
-| `soe-001` 1761/2 | 79 | 1 | 78 |
-| `soe-001` 1762/3 | 33 | 0 | 33 |
+| `soe-001` 1761/2 | 79 | 32 | 47 |
+| `soe-001` 1762/3 | 33 | 15 | 18 |
 | `soe-001` 1763/4 | 3 | 1 | 2 |
-| `soe-001` 1764/5 | 167 | 3 | 164 |
-| `soe-001` 1765/6 | 34 | 1 | 33 |
-| `soe-001` 1766/7 | 21 | 0 | 21 |
-| `soe-001` 1767/8 | 4 | 0 | 4 |
-| `soe-001` 1769/10 | 21 | 0 | 21 |
+| `soe-001` 1764/5 | 167 | 80 | 87 |
+| `soe-001` 1765/6 | 34 | 15 | 19 |
+| `soe-001` 1766/7 | 21 | 12 | 9 |
+| `soe-001` 1767/8 | 4 | 2 | 2 |
+| `soe-001` 1769/10 | 21 | 5 | 16 |
+
+Per-page counts, crop URLs, and the patched AnnotationPages are under `examples/`. `examples/statistics.json` is the full aggregate.
 
 Per-page counts, crop URLs, and the patched AnnotationPages are under `examples/`. `examples/statistics.json` is the full aggregate.
 

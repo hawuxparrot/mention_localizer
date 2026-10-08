@@ -2,11 +2,11 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1767_8__39-publication_46039-mentioned-person-person_11782",
     "mention": "Obrist Schmalz, regierender Landvogt auf Lenzburg",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1767_008!oeg-002_1767_008_0043.jpg/335,589,869,85/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1767_8__39-publication_46039-mentioned-person-person_12245",
@@ -29,10 +29,10 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1767_8__39-publication_46039-mentioned-person-person_11888",
     "mention": "Hauptmann Felice von Murten",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1767_008!oeg-002_1767_008_0046.jpg/107,810,541,57/full/0/default.jpg"
   }
 ]

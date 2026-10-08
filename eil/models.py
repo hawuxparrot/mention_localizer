@@ -83,11 +83,16 @@ class OcrPage:
 
 @dataclass(frozen=True)
 class EntityAnnotation:
-    """Entity mention plus the coarse IIIF manifest it targets."""
+    """Entity mention plus the coarse IIIF manifest it targets.
+
+    ``mention_language`` is the language of the mention string, when the
+    annotation records one. It is not the language of the journal.
+    """
     annotation_id: str
     entity_id: str
     mention: str
     target_manifest: str
+    mention_language: str | None = None
 
 
 @dataclass(frozen=True)

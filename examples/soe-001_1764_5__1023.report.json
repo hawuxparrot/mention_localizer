@@ -2,11 +2,11 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1023-publication_45937-mentioned-person-person_00367",
     "mention": "von Goumoens, Oberist-Lieutenant",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0446.jpg/140,1649,606,53/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1023-publication_45937-mentioned-person-person_00412",
@@ -20,20 +20,20 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1023-publication_45937-mentioned-person-person_00351",
     "mention": "von Gingins, Herr zu Chivili",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0446.jpg/138,1714,521,55/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1023-publication_45937-mentioned-person-person_00978",
     "mention": "Stek, General-Commissarius",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0447.jpg/298,1417,487,39/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1023-publication_45937-mentioned-person-person_00955",
@@ -56,11 +56,11 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1023-publication_45937-mentioned-person-person_00646",
     "mention": "May von Rued",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0447.jpg/300,624,290,45/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1023-publication_45937-mentioned-person-person_01112",
@@ -92,38 +92,38 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1023-publication_45937-mentioned-person-person_03779",
     "mention": "Kirchberger von Gottstatt, der Sohn",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0447.jpg/296,560,635,44/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1023-publication_45937-mentioned-person-person_05715",
     "mention": "Steiger, Herr zu Montricher",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0447.jpg/298,1482,499,41/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1023-publication_45937-mentioned-person-person_04499",
     "mention": "Micheli Ducrest",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0447.jpg/304,755,291,42/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1023-publication_45937-mentioned-person-person_05968",
     "mention": "Tscharner, Hofmeister zu Königsfelden",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0448.jpg/113,310,652,51/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1023-publication_45937-mentioned-person-person_11844",
@@ -155,29 +155,29 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1023-publication_45937-mentioned-person-person_12245",
     "mention": "Perinnet de Faugnes",
-    "match_count": 1,
-    "precise_target_written": true,
-    "crop_validation_succeeded": true,
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
     "error": null,
-    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!soe!1764_005!soe-001_1764_005_0490.jpg/152,1435,460,45/full/0/default.jpg"
+    "crop_url": null
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1023-publication_45937-mentioned-person-person_11771",
     "mention": "Manuel, MnhHr. Heimlicher",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0447.jpg/302,694,501,40/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1023-publication_45937-mentioned-person-person_11764",
     "mention": "Jenner, substit. Sekelschreiber",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0447.jpg/302,494,508,41/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1023-publication_45937-mentioned-person-person_11836",
@@ -191,11 +191,11 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1023-publication_45937-mentioned-person-person_11837",
     "mention": "Stettler, Raths-Exspektant",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0447.jpg/297,1547,454,40/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1023-publication_45937-mentioned-person-person_11841",
@@ -227,29 +227,29 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1023-publication_45937-mentioned-person-person_11839",
     "mention": "von Tavel von Königsfelden",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0448.jpg/106,182,480,45/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1023-publication_45937-mentioned-person-person_11838",
     "mention": "Stürler, Mnhhr. Rathsh.",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0447.jpg/297,1613,454,39/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1023-publication_45937-mentioned-person-person_11823",
     "mention": "Castenhofer, Fürsprech",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0446.jpg/138,873,403,42/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1023-publication_45937-mentioned-person-person_11821",
@@ -272,20 +272,20 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1023-publication_45937-mentioned-person-person_11819",
     "mention": "Fischer, Mnhhr. Rathsherr",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0446.jpg/137,1193,469,54/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1023-publication_45937-mentioned-person-person_11816",
     "mention": "Fassnacht, Landv. von Morsee",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0446.jpg/136,1124,510,55/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1023-publication_45937-mentioned-person-person_11817",
@@ -299,11 +299,11 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1023-publication_45937-mentioned-person-person_12151",
     "mention": "Sinner, alt Landv. von Buchsee",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0447.jpg/304,1151,537,41/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1023-publication_45937-mentioned-person-person_12152",
@@ -335,29 +335,29 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1023-publication_45937-mentioned-person-person_11810",
     "mention": "von Erlach, Freyherr von Spiez",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
-    "error": null,
-    "crop_url": null
-  },
-  {
-    "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1023-publication_45937-mentioned-person-person_11812",
-    "mention": "Berseth, Landv. zu Wiflispurg",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
-    "error": null,
-    "crop_url": null
-  },
-  {
-    "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1023-publication_45937-mentioned-person-person_11870",
-    "mention": "Calendrini, Major d'Artillerie",
     "match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!soe!1764_005!soe-001_1764_005_0489.jpg/539,889,716,51/full/0/default.jpg"
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0446.jpg/134,1058,568,50/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1023-publication_45937-mentioned-person-person_11812",
+    "mention": "Berseth, Landv. zu Wiflispurg",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0446.jpg/127,670,514,50/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1023-publication_45937-mentioned-person-person_11870",
+    "mention": "Calendrini, Major d'Artillerie",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1023-publication_45937-mentioned-person-person_11867",
@@ -380,20 +380,20 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1023-publication_45937-mentioned-person-person_11830",
     "mention": "Mutach, Raths-Exspektant",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0447.jpg/303,952,455,41/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1023-publication_45937-mentioned-person-person_11833",
     "mention": "Rosselet, Fürsprech",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0447.jpg/303,1083,335,42/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1023-publication_45937-mentioned-person-person_08377",
@@ -416,20 +416,20 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1023-publication_45937-mentioned-person-person_09299",
     "mention": "Hortin von Waberen",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0447.jpg/301,427,367,41/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1023-publication_45937-mentioned-person-person_09425",
     "mention": "von Wattenwyl, Mnhhr. Rathsherr",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0448.jpg/117,507,635,45/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1023-publication_45937-mentioned-person-person_09642",
@@ -452,19 +452,19 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1023-publication_45937-mentioned-person-person_00672",
     "mention": "Mniszech, Graff",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0447.jpg/301,825,296,40/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1023-publication_45937-mentioned-person-person_04524",
     "mention": "Mniszech, Graff Starost von Sanoke",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0447.jpg/301,822,656,42/full/0/default.jpg"
   }
 ]

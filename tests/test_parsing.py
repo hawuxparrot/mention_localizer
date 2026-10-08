@@ -28,7 +28,16 @@ def test_parse_entity_annotation_returns_mentioned_person() -> None:
     assert annotation.annotation_id == "https://example.org/ann/1"
     assert annotation.entity_id == "https://example.org/person/1"
     assert annotation.mention == "Haller"
+    assert annotation.mention_language is None
     assert annotation.target_manifest == "https://example.org/manifest"
+
+
+def test_parse_entity_annotation_keeps_mention_language() -> None:
+    raw = person_annotation()
+    raw["body"]["mention"][0]["language"] = "de"
+    annotation = parse_entity_annotation(raw)
+    assert annotation is not None
+    assert annotation.mention_language == "de"
 
 
 def test_parse_entity_annotation_ignores_non_person() -> None:

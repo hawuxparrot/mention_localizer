@@ -55,12 +55,13 @@ def localize_annotation_page(
 ) -> LocalizationRun:
     """Localize every MentionedPerson and patch precise targets in place.
 
-    The input document is not mutated. Only an annotation's ``target`` is
-    replaced, and only when mention matching found at least one hit. A
-    failure while localizing or validating one annotation is recorded on
-    that annotation and does not stop the rest of the page. If any page
-    in the manifest has no OCR file, that annotation is not matched
-    against the remaining pages.
+    The input document is not mutated. An annotation's ``target`` is
+    replaced when a hit is written. A mention whose language differs from
+    the journal is searched on the parallel edition, and a miss then
+    leaves that edition's manifest URL. A failure while localizing or
+    validating one annotation is recorded on that annotation and does not
+    stop the rest of the page. If any page in the manifest has no OCR
+    file, that annotation is not matched against the remaining pages.
 
     Structural problems in the AnnotationPage still raise, via
     ``parse_annotation_page``.
@@ -83,7 +84,7 @@ def localize_annotation_page(
     fetcher = fetch_manifest or fetch_json
     checker = validate_crop or crop_url_is_image
     results = tuple(
-        _localize_one(item, annotation, ocr_index, fetcher, checker)
+        _localize_one(item, annotation, patched, ocr_index, fetcher, checker)
         for item, annotation in zip(person_items, annotations, strict=True)
     )
     return LocalizationRun(annotation_page=patched, results=results)
@@ -92,18 +93,22 @@ def localize_annotation_page(
 def _localize_one(
     item: dict[str, Any],
     annotation: EntityAnnotation,
+    annotation_page: dict[str, Any],
     ocr_index: Mapping[str, Path],
     fetch_manifest: ManifestFetcher,
     validate_crop: CropValidator,
 ) -> AnnotationResult:
+    search_manifest = resolve_search_manifest(annotation_page, annotation)
     try:
-        manifest = parse_manifest(fetch_manifest(annotation.target_manifest))
+        manifest = parse_manifest(fetch_manifest(search_manifest))
         ocr_pages = _load_ocr_pages(manifest, ocr_index)
         regions = find_image_regions(annotation.mention, ocr_pages)
     except Exception as exc:
         return _result(annotation, error=_error_text(exc))
 
     if not regions:
+        if isinstance(item.get("target"), str):
+            item["target"] = search_manifest
         return _result(annotation, match_count=0)
 
     target = precise_target(regions[0])
@@ -116,6 +121,54 @@ def _localize_one(
         crop_validation_succeeded=_crop_ok(crop, validate_crop),
         crop_url=crop,
     )
+
+
+def resolve_search_manifest(
+    annotation_page: Mapping[str, Any],
+    annotation: EntityAnnotation,
+) -> str:
+    """Return the IIIF manifest whose pages should be searched.
+
+    A mention in another language than the journal is searched on the
+    parallel edition of that language. ``parallelVersions`` carries that
+    manifest. Otherwise the annotation's own target manifest is used.
+    """
+    mention_language = _language_tag(annotation.mention_language)
+    journal_language = _language_tag(_journal_language(annotation_page))
+    if mention_language and journal_language and mention_language != journal_language:
+        parallel = _parallel_manifest(annotation_page, mention_language)
+        if parallel:
+            return parallel
+    return annotation.target_manifest
+
+
+def _journal_language(annotation_page: Mapping[str, Any]) -> str | None:
+    journal = annotation_page.get("journal")
+    if not isinstance(journal, dict):
+        return None
+    return journal.get("language") if isinstance(journal.get("language"), str) else None
+
+
+def _parallel_manifest(annotation_page: Mapping[str, Any], language: str) -> str | None:
+    versions = annotation_page.get("parallelVersions")
+    if not isinstance(versions, list):
+        return None
+    for entry in versions:
+        if not isinstance(entry, dict):
+            continue
+        if _language_tag(entry.get("lang")) != language:
+            continue
+        url = entry.get("manifestUrl")
+        if isinstance(url, str) and url.strip():
+            return url.strip()
+    return None
+
+
+def _language_tag(value: object) -> str | None:
+    if not isinstance(value, str):
+        return None
+    tag = value.strip().lower()
+    return tag or None
 
 
 def _load_ocr_pages(

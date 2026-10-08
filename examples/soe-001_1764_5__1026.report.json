@@ -11,37 +11,37 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1026-publication_45973-mentioned-person-person_12328",
     "mention": "Sprüngli, Pfarrhr. zu Birrwyl",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0044.jpg/143,1564,537,48/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1026-publication_45973-mentioned-person-person_12039",
     "mention": "Froelich, Pfarrhr. zu Rued",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0044.jpg/132,1694,450,51/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1026-publication_45973-mentioned-person-person_11815",
     "mention": "Gottl. Effinger, v. Wildek",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0044.jpg/143,1364,467,46/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1026-publication_45973-mentioned-person-person_11997",
     "mention": "von Waldner von Berwille, Brigad. in diensten der K. Frankreich",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0044.jpg/143,1182,817,90/full/0/default.jpg"
   }
 ]

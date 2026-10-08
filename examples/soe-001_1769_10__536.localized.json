@@ -1309,7 +1309,22 @@
           "id": "ordiiif-vocab:MentionedPerson"
         }
       },
-      "target": "https://www.e-periodica.ch/iiif/soe-001:1769:10::536/manifest",
+      "target": {
+        "rendering": [
+          {
+            "format": "image/jpeg",
+            "type": "Image",
+            "id": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1769_010!oeg-002_1769_010_0032.jpg/107,1754,551,45/full/0/default.jpg"
+          }
+        ],
+        "rdlRegion": "main",
+        "source": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1769_010!oeg-002_1769_010_0032.jpg",
+        "selector": {
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
+          "value": "xywh=107,1754,551,45",
+          "type": "FragmentSelector"
+        }
+      },
       "motivation": "linking",
       "type": "Annotation",
       "id": "https://manifests.republique-des-lettres.ch/soe-001_1769_10__536-publication_46079-mentioned-person-person_00456"
@@ -1360,7 +1375,22 @@
           "id": "ordiiif-vocab:MentionedPerson"
         }
       },
-      "target": "https://www.e-periodica.ch/iiif/soe-001:1769:10::536/manifest",
+      "target": {
+        "rendering": [
+          {
+            "format": "image/jpeg",
+            "type": "Image",
+            "id": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1769_010!oeg-002_1769_010_0033.jpg/397,509,841,93/full/0/default.jpg"
+          }
+        ],
+        "rdlRegion": "main",
+        "source": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1769_010!oeg-002_1769_010_0033.jpg",
+        "selector": {
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
+          "value": "xywh=397,509,841,93",
+          "type": "FragmentSelector"
+        }
+      },
       "motivation": "linking",
       "type": "Annotation",
       "id": "https://manifests.republique-des-lettres.ch/soe-001_1769_10__536-publication_46079-mentioned-person-person_00639"
@@ -1415,7 +1445,7 @@
           "id": "ordiiif-vocab:MentionedPerson"
         }
       },
-      "target": "https://www.e-periodica.ch/iiif/soe-001:1769:10::536/manifest",
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1769:10::519/manifest",
       "motivation": "linking",
       "type": "Annotation",
       "id": "https://manifests.republique-des-lettres.ch/soe-001_1769_10__536-publication_46079-mentioned-person-person_00710"
@@ -1466,7 +1496,7 @@
           "id": "ordiiif-vocab:MentionedPerson"
         }
       },
-      "target": "https://www.e-periodica.ch/iiif/soe-001:1769:10::536/manifest",
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1769:10::519/manifest",
       "motivation": "linking",
       "type": "Annotation",
       "id": "https://manifests.republique-des-lettres.ch/soe-001_1769_10__536-publication_46079-mentioned-person-person_00580"
@@ -1517,7 +1547,7 @@
           "id": "ordiiif-vocab:MentionedPerson"
         }
       },
-      "target": "https://www.e-periodica.ch/iiif/soe-001:1769:10::536/manifest",
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1769:10::519/manifest",
       "motivation": "linking",
       "type": "Annotation",
       "id": "https://manifests.republique-des-lettres.ch/soe-001_1769_10__536-publication_46079-mentioned-person-person_08126"
@@ -1568,7 +1598,7 @@
           "id": "ordiiif-vocab:MentionedPerson"
         }
       },
-      "target": "https://www.e-periodica.ch/iiif/soe-001:1769:10::536/manifest",
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1769:10::519/manifest",
       "motivation": "linking",
       "type": "Annotation",
       "id": "https://manifests.republique-des-lettres.ch/soe-001_1769_10__536-publication_46079-mentioned-person-person_02092"
@@ -1619,7 +1649,22 @@
           "id": "ordiiif-vocab:MentionedPerson"
         }
       },
-      "target": "https://www.e-periodica.ch/iiif/soe-001:1769:10::536/manifest",
+      "target": {
+        "rendering": [
+          {
+            "format": "image/jpeg",
+            "type": "Image",
+            "id": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1769_010!oeg-002_1769_010_0032.jpg/114,1820,824,92/full/0/default.jpg"
+          }
+        ],
+        "rdlRegion": "main",
+        "source": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1769_010!oeg-002_1769_010_0032.jpg",
+        "selector": {
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
+          "value": "xywh=114,1820,824,92",
+          "type": "FragmentSelector"
+        }
+      },
       "motivation": "linking",
       "type": "Annotation",
       "id": "https://manifests.republique-des-lettres.ch/soe-001_1769_10__536-publication_46079-mentioned-person-person_05984"
@@ -1670,7 +1715,7 @@
           "id": "ordiiif-vocab:MentionedPerson"
         }
       },
-      "target": "https://www.e-periodica.ch/iiif/soe-001:1769:10::536/manifest",
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1769:10::519/manifest",
       "motivation": "linking",
       "type": "Annotation",
       "id": "https://manifests.republique-des-lettres.ch/soe-001_1769_10__536-publication_46079-mentioned-person-person_11928"
@@ -1721,7 +1766,22 @@
           "id": "ordiiif-vocab:MentionedPerson"
         }
       },
-      "target": "https://www.e-periodica.ch/iiif/soe-001:1769:10::536/manifest",
+      "target": {
+        "rendering": [
+          {
+            "format": "image/jpeg",
+            "type": "Image",
+            "id": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1769_010!oeg-002_1769_010_0034.jpg/106,838,718,58/full/0/default.jpg"
+          }
+        ],
+        "rdlRegion": "main",
+        "source": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1769_010!oeg-002_1769_010_0034.jpg",
+        "selector": {
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
+          "value": "xywh=106,838,718,58",
+          "type": "FragmentSelector"
+        }
+      },
       "motivation": "linking",
       "type": "Annotation",
       "id": "https://manifests.republique-des-lettres.ch/soe-001_1769_10__536-publication_46079-mentioned-person-person_11939"
@@ -1772,7 +1832,7 @@
           "id": "ordiiif-vocab:MentionedPerson"
         }
       },
-      "target": "https://www.e-periodica.ch/iiif/soe-001:1769:10::536/manifest",
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1769:10::519/manifest",
       "motivation": "linking",
       "type": "Annotation",
       "id": "https://manifests.republique-des-lettres.ch/soe-001_1769_10__536-publication_46079-mentioned-person-person_11859"
@@ -1823,7 +1883,22 @@
           "id": "ordiiif-vocab:MentionedPerson"
         }
       },
-      "target": "https://www.e-periodica.ch/iiif/soe-001:1769:10::536/manifest",
+      "target": {
+        "rendering": [
+          {
+            "format": "image/jpeg",
+            "type": "Image",
+            "id": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1769_010!oeg-002_1769_010_0033.jpg/388,739,848,132/full/0/default.jpg"
+          }
+        ],
+        "rdlRegion": "main",
+        "source": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1769_010!oeg-002_1769_010_0033.jpg",
+        "selector": {
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
+          "value": "xywh=388,739,848,132",
+          "type": "FragmentSelector"
+        }
+      },
       "motivation": "linking",
       "type": "Annotation",
       "id": "https://manifests.republique-des-lettres.ch/soe-001_1769_10__536-publication_46079-mentioned-person-person_11860"
@@ -1874,7 +1949,7 @@
           "id": "ordiiif-vocab:MentionedPerson"
         }
       },
-      "target": "https://www.e-periodica.ch/iiif/soe-001:1769:10::536/manifest",
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1769:10::519/manifest",
       "motivation": "linking",
       "type": "Annotation",
       "id": "https://manifests.republique-des-lettres.ch/soe-001_1769_10__536-publication_46079-mentioned-person-person_11961"
@@ -1925,7 +2000,7 @@
           "id": "ordiiif-vocab:MentionedPerson"
         }
       },
-      "target": "https://www.e-periodica.ch/iiif/soe-001:1769:10::536/manifest",
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1769:10::519/manifest",
       "motivation": "linking",
       "type": "Annotation",
       "id": "https://manifests.republique-des-lettres.ch/soe-001_1769_10__536-publication_46079-mentioned-person-person_11910"
@@ -1976,7 +2051,7 @@
           "id": "ordiiif-vocab:MentionedPerson"
         }
       },
-      "target": "https://www.e-periodica.ch/iiif/soe-001:1769:10::536/manifest",
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1769:10::519/manifest",
       "motivation": "linking",
       "type": "Annotation",
       "id": "https://manifests.republique-des-lettres.ch/soe-001_1769_10__536-publication_46079-mentioned-person-person_11914"
@@ -2027,7 +2102,7 @@
           "id": "ordiiif-vocab:MentionedPerson"
         }
       },
-      "target": "https://www.e-periodica.ch/iiif/soe-001:1769:10::536/manifest",
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1769:10::519/manifest",
       "motivation": "linking",
       "type": "Annotation",
       "id": "https://manifests.republique-des-lettres.ch/soe-001_1769_10__536-publication_46079-mentioned-person-person_11915"
@@ -2078,7 +2153,7 @@
           "id": "ordiiif-vocab:MentionedPerson"
         }
       },
-      "target": "https://www.e-periodica.ch/iiif/soe-001:1769:10::536/manifest",
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1769:10::519/manifest",
       "motivation": "linking",
       "type": "Annotation",
       "id": "https://manifests.republique-des-lettres.ch/soe-001_1769_10__536-publication_46079-mentioned-person-person_11918"
@@ -2129,7 +2204,7 @@
           "id": "ordiiif-vocab:MentionedPerson"
         }
       },
-      "target": "https://www.e-periodica.ch/iiif/soe-001:1769:10::536/manifest",
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1769:10::519/manifest",
       "motivation": "linking",
       "type": "Annotation",
       "id": "https://manifests.republique-des-lettres.ch/soe-001_1769_10__536-publication_46079-mentioned-person-person_11802"
@@ -2180,7 +2255,7 @@
           "id": "ordiiif-vocab:MentionedPerson"
         }
       },
-      "target": "https://www.e-periodica.ch/iiif/soe-001:1769:10::536/manifest",
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1769:10::519/manifest",
       "motivation": "linking",
       "type": "Annotation",
       "id": "https://manifests.republique-des-lettres.ch/soe-001_1769_10__536-publication_46079-mentioned-person-person_11898"
@@ -2231,7 +2306,7 @@
           "id": "ordiiif-vocab:MentionedPerson"
         }
       },
-      "target": "https://www.e-periodica.ch/iiif/soe-001:1769:10::536/manifest",
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1769:10::519/manifest",
       "motivation": "linking",
       "type": "Annotation",
       "id": "https://manifests.republique-des-lettres.ch/soe-001_1769_10__536-publication_46079-mentioned-person-person_11902"
@@ -2282,7 +2357,7 @@
           "id": "ordiiif-vocab:MentionedPerson"
         }
       },
-      "target": "https://www.e-periodica.ch/iiif/soe-001:1769:10::536/manifest",
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1769:10::519/manifest",
       "motivation": "linking",
       "type": "Annotation",
       "id": "https://manifests.republique-des-lettres.ch/soe-001_1769_10__536-publication_46079-mentioned-person-person_08675"
@@ -2337,7 +2412,7 @@
           "id": "ordiiif-vocab:MentionedPerson"
         }
       },
-      "target": "https://www.e-periodica.ch/iiif/soe-001:1769:10::536/manifest",
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1769:10::519/manifest",
       "motivation": "linking",
       "type": "Annotation",
       "id": "https://manifests.republique-des-lettres.ch/soe-001_1769_10__536-publication_46079-mentioned-person-person_00320"

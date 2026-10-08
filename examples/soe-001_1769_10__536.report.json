@@ -2,20 +2,20 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1769_10__536-publication_46079-mentioned-person-person_00456",
     "mention": "Hilfer, der Arzney Dr. in Bern",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1769_010!oeg-002_1769_010_0032.jpg/107,1754,551,45/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1769_10__536-publication_46079-mentioned-person-person_00639",
     "mention": "Dr. Mattani, öffentlicher Lehrer auf der hohen Schule zu Pisa, verschiedener Akademien Mitglied",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1769_010!oeg-002_1769_010_0033.jpg/397,509,841,93/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1769_10__536-publication_46079-mentioned-person-person_00710",
@@ -56,11 +56,11 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1769_10__536-publication_46079-mentioned-person-person_05984",
     "mention": "Tschiffeli, älterer Sohn des Vicepräsidenten der Gesellschaft",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1769_010!oeg-002_1769_010_0032.jpg/114,1820,824,92/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1769_10__536-publication_46079-mentioned-person-person_11928",
@@ -74,11 +74,11 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1769_10__536-publication_46079-mentioned-person-person_11939",
     "mention": "Panchaud, Altvenner der Stadt Milden",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1769_010!oeg-002_1769_010_0034.jpg/106,838,718,58/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1769_10__536-publication_46079-mentioned-person-person_11859",
@@ -92,11 +92,11 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1769_10__536-publication_46079-mentioned-person-person_11860",
     "mention": "von Avelines, der Akademie der Wissenschaften und schönen Künste in Angers beständiger Sekretär, und der Landbaues-Gesellschat Mitglied",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1769_010!oeg-002_1769_010_0033.jpg/388,739,848,132/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1769_10__536-publication_46079-mentioned-person-person_11961",

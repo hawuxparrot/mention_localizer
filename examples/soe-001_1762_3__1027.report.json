@@ -11,20 +11,20 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_00376",
     "mention": "Gressier, von Latour",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1762_003!oeg-002_1762_003_0081.jpg/403,1765,333,34/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_00436",
     "mention": "Henchoz, der Arz. D. des Raths zu Vivis",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1762_003!oeg-002_1762_003_0081.jpg/401,1811,669,40/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_00120",
@@ -56,11 +56,11 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_01044",
     "mention": "von Traitorens, Prof. in der Philosophie",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1762_003!oeg-002_1762_003_0080.jpg/101,228,651,37/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_00710",
@@ -74,29 +74,29 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_00790",
     "mention": "Polier, Herr von S. Germain, des Raths",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1762_003!oeg-002_1762_003_0080.jpg/118,1232,698,40/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_00789",
     "mention": "Polier, von Bottens; Pfarrherr",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1762_003!oeg-002_1762_003_0080.jpg/94,319,532,41/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_00999",
     "mention": "Struve, der Chimie gelahrter",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1762_003!oeg-002_1762_003_0080.jpg/107,365,476,35/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_01032",
@@ -110,11 +110,11 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_00579",
     "mention": "Leresche, Dechan, Pfarrhr. zu Chebres",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1762_003!oeg-002_1762_003_0081.jpg/400,1857,618,37/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_00775",
@@ -128,11 +128,11 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_00868",
     "mention": "Rosset, Professor",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1762_003!oeg-002_1762_003_0080.jpg/116,1508,265,38/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_00609",
@@ -164,11 +164,11 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_11944",
     "mention": "Rafinesque, Pfarrhr. zu Begnin",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1762_003!oeg-002_1762_003_0084.jpg/101,1061,521,40/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12162",
@@ -200,20 +200,20 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12228",
     "mention": "Duchet, Castlan zu Remaussens im kanton Friburg",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1762_003!oeg-002_1762_003_0082.jpg/138,967,772,59/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_11991",
     "mention": "*Perdonet, Leut. der miliz zu Vivis (*=Mitglied der engeren Gesellschaft)",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1762_003!oeg-002_1762_003_0082.jpg/132,531,581,42/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12146",
@@ -254,38 +254,38 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12236",
     "mention": "D. Verdelhan, der R. Dr.",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1762_003!oeg-002_1762_003_0083.jpg/361,967,419,48/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_11867",
     "mention": "M. von Boutes, Herr zu Champvent",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1762_003!oeg-002_1762_003_0083.jpg/358,746,621,47/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12166",
     "mention": "von Chandieu, Obrist",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1762_003!oeg-002_1762_003_0080.jpg/105,924,358,34/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12169",
     "mention": "von Middes, Hauptmann",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1762_003!oeg-002_1762_003_0080.jpg/114,1143,423,39/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_08594",

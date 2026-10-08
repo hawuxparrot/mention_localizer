@@ -93,11 +93,16 @@ def parse_entity_annotation(raw: dict[str, Any]) -> EntityAnnotation | None:
             f"{annotation_id}: invalid mention.value"
         )
 
+    language = raw_mention.get("language")
+    if not isinstance(language, str) or not language.strip():
+        language = None
+
     return EntityAnnotation(
         annotation_id=annotation_id,
         entity_id=entity_id,
         mention=mention,
         target_manifest=target_manifest,
+        mention_language=language.strip() if language else None,
     )
 
 

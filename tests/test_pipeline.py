@@ -347,3 +347,71 @@ def test_manifest_fetch_error_does_not_abort_later_annotations(tmp_path) -> None
     assert run.annotation_page["items"][0]["target"] == MANIFEST
     assert run.results[1].match_count == 1
     assert run.results[1].precise_target_written is True
+
+
+def test_german_mention_on_french_page_searches_the_parallel_edition(tmp_path) -> None:
+    _write_ocr(tmp_path, "french-page", 100, 50, ["Docteur 1,1,2,2"])
+    _write_ocr(tmp_path, "german-page", 100, 50, ["Bourgeois 10,4,8,6"])
+    french = "https://example.org/soe/manifest"
+    german = "https://example.org/oeg/manifest"
+    raw = {
+        "type": "AnnotationPage",
+        "journal": {"language": "fr"},
+        "parallelVersions": [{"lang": "de", "manifestUrl": german}],
+        "items": [_person("https://example.org/ann/1", "Bourgeois", target=french)],
+    }
+    run, calls = _run(
+        raw,
+        tmp_path,
+        {
+            french: _manifest(french, [("french-page", 100, 50)]),
+            german: _manifest(german, [("german-page", 100, 50)]),
+        },
+        validate=lambda url: True,
+    )
+    assert calls["manifests"] == [german]
+    target = run.annotation_page["items"][0]["target"]
+    assert target["source"] == _service("german-page")
+    assert target["selector"]["value"] == "xywh=10,4,8,6"
+    assert run.results[0].match_count == 1
+
+
+def test_german_mention_miss_records_the_parallel_manifest(tmp_path) -> None:
+    _write_ocr(tmp_path, "german-page", 100, 50, ["Haller 1,1,2,2"])
+    french = "https://example.org/soe/manifest"
+    german = "https://example.org/oeg/manifest"
+    raw = {
+        "journal": {"language": "fr"},
+        "parallelVersions": [{"lang": "de", "manifestUrl": german}],
+        "items": [_person("https://example.org/ann/1", "Bourgeois", target=french)],
+    }
+    run, calls = _run(
+        raw,
+        tmp_path,
+        {german: _manifest(german, [("german-page", 100, 50)])},
+        validate=lambda url: True,
+    )
+    assert calls["manifests"] == [german]
+    assert run.annotation_page["items"][0]["target"] == german
+    assert run.results[0].match_count == 0
+    assert run.results[0].precise_target_written is False
+
+
+def test_matching_mention_language_keeps_the_annotation_manifest(tmp_path) -> None:
+    _write_ocr(tmp_path, "german-page", 100, 50, ["Bourgeois 1,1,2,2"])
+    french = "https://example.org/soe/manifest"
+    german = "https://example.org/oeg/manifest"
+    raw = {
+        "journal": {"language": "de"},
+        "parallelVersions": [{"lang": "fr", "manifestUrl": french}],
+        "items": [_person("https://example.org/ann/1", "Bourgeois", target=german)],
+    }
+    run, calls = _run(
+        raw,
+        tmp_path,
+        {german: _manifest(german, [("german-page", 100, 50)])},
+        validate=lambda url: True,
+    )
+    assert calls["manifests"] == [german]
+    assert run.results[0].match_count == 1
+    assert run.annotation_page["items"][0]["target"]["source"] == _service("german-page")
