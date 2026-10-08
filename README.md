@@ -50,7 +50,7 @@ IIIF Manifest ──► ManifestDocument ──► PageImage (service URL, IIIF 
                               │                    │
 positional OCR .txt ──────────┼──────────► OcrPage (tokens, OCR size)
                               │                    │
-                              └──── strict_match ─┘
+                              └──── lenient_match ─┘
                                         │
                                         ▼
                               scale OCR box into IIIF pixels
@@ -67,7 +67,7 @@ positional OCR .txt ──────────┼─────────
 3. **Grouping.** Annotations that share a manifest should be collected before any OCR file is read, so each page is parsed once and then queried many times. This stage is not written yet.
 4. **OCR files.** `index_ocr_directory` maps a page-image filename to one positional `.txt` under `data/`. The filename is the last `!`-separated segment of the IIIF service URL. A missing file is an error. Two files with the same stem are an error; neither is chosen.
 5. **OCR.** `parse_ocr_text` reads one positional text file onto a `PageImage` and returns an `OcrPage`: the page, the token sequence, and the width and height of the OCR coordinate space.
-6. **Matching.** `strict_match` slides the mention's tokens across one page and returns every enclosing box, in OCR coordinates. `find_image_regions` does that for every manifest page, in canvas order, and scales each hit into IIIF pixels. The first hit is the earliest page, then the earliest token match on that page. The scaled box is an `ImageRegion`. `ImageRegion.box` is always in the page's IIIF coordinates.
+6. **Matching.** `strict_match` still finds an exact token sequence. Localization uses `lenient_match`. It first drops editorial markup (`...`, `u.[s.w.]`, parenthetical membership notes), then ignores punctuation stuck to a token, then allows a small per-token edit distance for OCR substitutions. `v.` is not expanded to `von`. `find_image_regions` runs that on every manifest page, in canvas order, and scales each hit into IIIF pixels. The first hit is the earliest page, then the earliest token match on that page. The scaled box is an `ImageRegion`. `ImageRegion.box` is always in the page's IIIF coordinates.
 7. **Target.** `precise_target` writes the fragment selector above from that `ImageRegion`. The pipeline copies the original AnnotationPage and replaces only `target` when there is at least one hit. Zero hits leave the coarse manifest URL in place. More than one hit still writes the first region, and the real match count stays on the per-annotation result. Each written crop URL is requested; a failed image response is recorded and does not stop the next annotation.
 
 `main.py` reads an AnnotationPage JSON, writes the patched page, and prints one diagnostic line per MentionedPerson.
@@ -80,11 +80,11 @@ positional OCR .txt ──────────┼─────────
 | Person annotations to mentions       | `eil/parsing.py`  | Done        |
 | IIIF manifest to ordered page images | `eil/iiif.py`     | Done        |
 | Positional OCR to tokens             | `eil/ocr.py`      | Done        |
-| Exact mention to enclosing boxes     | `eil/matching.py` | Done        |
+| Exact and lenient mention matching   | `eil/matching.py` | Done        |
 | Shared types                         | `eil/models.py`   | Done        |
 | Attach an OCR file to a page image   | `eil/ocr_index.py` | Done        |
 | Scale OCR boxes into IIIF pixels     | `eil/geometry.py` | Done        |
-| Strict matches across one manifest   | `eil/localize.py` | Done        |
+| Mention matches across one manifest  | `eil/localize.py` | Done        |
 | Build the fragment-selector target   | `eil/targets.py`  | Done        |
 | Patch the page and record each hit   | `eil/pipeline.py` | Done        |
 | Command-line pipeline                | `main.py`         | Done        |
@@ -108,7 +108,7 @@ mention_localizer/
 │   ├── ocr.py         # positional OCR text → OcrPage
 │   ├── ocr_index.py   # page image filename → one OCR .txt
 │   ├── geometry.py    # OCR box → IIIF box
-│   ├── matching.py    # mention → enclosing boxes
+│   ├── matching.py    # strict and lenient mention matching
 │   ├── localize.py    # manifest pages → ImageRegion hits
 │   ├── targets.py     # ImageRegion → fragment-selector target
 │   ├── fetch.py       # manifest JSON and crop-image check

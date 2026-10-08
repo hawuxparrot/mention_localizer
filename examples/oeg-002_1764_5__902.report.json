@@ -2,10 +2,10 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__902-publication_45971-mentioned-person-person_00385",
     "mention": "Sam. Gruner v. Worlauffen, des gr. R.",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
-    "crop_url": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0036.jpg/103,771,692,44/full/0/default.jpg",
     "error": null
   },
   {
@@ -38,10 +38,10 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__902-publication_45971-mentioned-person-person_00085",
     "mention": "Jos. Freyherr von Beroldingen, Domherr zu Speyer",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
-    "crop_url": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0039.jpg/284,1267,846,104/full/0/default.jpg",
     "error": null
   },
   {
@@ -56,37 +56,37 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__902-publication_45971-mentioned-person-person_00368",
     "mention": "Em. vonm Graffenried, Hr. zu Worb",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
-    "crop_url": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0036.jpg/105,704,651,44/full/0/default.jpg",
     "error": null
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__902-publication_45971-mentioned-person-person_00112",
     "mention": "C. Em. von Bonstetten, des täglichen Raths, war Präsident in 1761",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
-    "crop_url": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0035.jpg/330,1143,842,98/full/0/default.jpg",
     "error": null
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__902-publication_45971-mentioned-person-person_00233",
     "mention": "Jakob Dik, der Theol. Stud. und Botanikus",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
-    "crop_url": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0035.jpg/319,1378,771,50/full/0/default.jpg",
     "error": null
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__902-publication_45971-mentioned-person-person_00447",
     "mention": "... Herrenschwand v. Grain, der Arz. Dr.",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
-    "crop_url": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0038.jpg/246,1062,656,48/full/0/default.jpg",
     "error": null
   },
   {
@@ -101,19 +101,19 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__902-publication_45971-mentioned-person-person_00495",
     "mention": "* .. Ith, der Arzneykunst Doktor (*=Mitglied der engern Gesellschaft)",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
-    "crop_url": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0036.jpg/166,1371,530,44/full/0/default.jpg",
     "error": null
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__902-publication_45971-mentioned-person-person_00622",
     "mention": "Walomont in Geldern [frz.: de Malomont, en Gueldres; ci-devant Officier en France]",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
-    "crop_url": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0041.jpg/255,1089,394,38/full/0/default.jpg",
     "error": null
   },
   {
@@ -146,10 +146,10 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__902-publication_45971-mentioned-person-person_01032",
     "mention": ".. Tissot, der Arz. Dr. in Losane, verschied. ausländ. Akad. mitglied",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
-    "crop_url": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0038.jpg/172,1127,789,96/full/0/default.jpg",
     "error": null
   },
   {
@@ -164,19 +164,19 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__902-publication_45971-mentioned-person-person_00953",
     "mention": "Friedr. Sinner, des tägl. R. würklicher Präs. für 1764",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
-    "crop_url": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0037.jpg/303,423,840,92/full/0/default.jpg",
     "error": null
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__902-publication_45971-mentioned-person-person_00609",
     "mention": ".. von Loys v. Chesaux, verschied. ausländ. Akad. mitglied",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
-    "crop_url": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0038.jpg/172,1536,795,104/full/0/default.jpg",
     "error": null
   },
   {
@@ -191,19 +191,19 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__902-publication_45971-mentioned-person-person_06456",
     "mention": "Abrah. Freudenreich, des tägl. Rathes, alt Venner, war Präs. in 1760 und 1762",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
-    "crop_url": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0035.jpg/315,1748,842,97/full/0/default.jpg",
     "error": null
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__902-publication_45971-mentioned-person-person_06490",
     "mention": "von Montigny, der Akad. der Wiss. und der Ges. des Landbaues zu Paris mitglied",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
-    "crop_url": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0039.jpg/285,996,841,100/full/0/default.jpg",
     "error": null
   },
   {
@@ -227,19 +227,19 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__902-publication_45971-mentioned-person-person_01644",
     "mention": "Dan. Bernoulli, Prof. der Rechten zu Basel",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
-    "crop_url": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0039.jpg/288,1449,782,58/full/0/default.jpg",
     "error": null
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__902-publication_45971-mentioned-person-person_02362",
     "mention": "Hr. von Aubenton v. Montbard",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
-    "crop_url": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0039.jpg/219,1827,579,59/full/0/default.jpg",
     "error": null
   },
   {
@@ -254,37 +254,37 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__902-publication_45971-mentioned-person-person_01073",
     "mention": ".. Vautravers v. Rokhall u.[s.w.]",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
-    "crop_url": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0038.jpg/249,996,386,41/full/0/default.jpg",
     "error": null
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__902-publication_45971-mentioned-person-person_01099",
     "mention": "von Voltaire",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
-    "crop_url": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0041.jpg/258,793,252,34/full/0/default.jpg",
     "error": null
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__902-publication_45971-mentioned-person-person_01223",
     "mention": "Latourette, mitglied des Münzraths und der Ges. des Feldbaues in Lyon",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
-    "crop_url": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0041.jpg/256,672,844,99/full/0/default.jpg",
     "error": null
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__902-publication_45971-mentioned-person-person_01653",
     "mention": "Baron von Bernstorff, Chambellan am dänischen Hofe",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
-    "crop_url": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0039.jpg/292,411,836,106/full/0/default.jpg",
     "error": null
   },
   {
@@ -299,10 +299,10 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__902-publication_45971-mentioned-person-person_01945",
     "mention": "*Em. von Graffenried, Hr. zu Burgistein (*Mitglied der engern Gesellschaft)",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
-    "crop_url": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0036.jpg/114,639,718,41/full/0/default.jpg",
     "error": null
   },
   {
@@ -353,10 +353,10 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__902-publication_45971-mentioned-person-person_03663",
     "mention": "... Jenner",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
-    "crop_url": null,
+    "match_count": 4,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0035.jpg/1032,1761,125,41/full/0/default.jpg",
     "error": null
   },
   {
@@ -371,19 +371,19 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__902-publication_45971-mentioned-person-person_04499",
     "mention": "Micheli Ducret in Genf",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
-    "crop_url": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0040.jpg/124,1176,423,42/full/0/default.jpg",
     "error": null
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__902-publication_45971-mentioned-person-person_04521",
     "mention": "Marquis von Mirabeau",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
-    "crop_url": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0039.jpg/285,672,439,46/full/0/default.jpg",
     "error": null
   },
   {
@@ -398,19 +398,19 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__902-publication_45971-mentioned-person-person_05521",
     "mention": "Seigneux, dermalen in Brüssel",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
-    "crop_url": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0038.jpg/257,1790,540,55/full/0/default.jpg",
     "error": null
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__902-publication_45971-mentioned-person-person_05694",
     "mention": "Albr. Stapffer, Diakon. zu Diesbach bey Thun",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
-    "crop_url": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0038.jpg/120,860,838,50/full/0/default.jpg",
     "error": null
   },
   {
@@ -443,10 +443,10 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__902-publication_45971-mentioned-person-person_11783",
     "mention": ".. Schweizer, Hauptmann in Piemont",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
-    "crop_url": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0037.jpg/414,359,617,42/full/0/default.jpg",
     "error": null
   },
   {
@@ -479,10 +479,10 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__902-publication_45971-mentioned-person-person_11770",
     "mention": "*C. L. Manuel (*=Mitglied der engern Gesellschaft)",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
-    "crop_url": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0036.jpg/109,1574,250,39/full/0/default.jpg",
     "error": null
   },
   {
@@ -578,19 +578,19 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__902-publication_45971-mentioned-person-person_11755",
     "mention": "Albr. Frisching v. Wyl",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
-    "crop_url": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0036.jpg/107,281,412,41/full/0/default.jpg",
     "error": null
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__902-publication_45971-mentioned-person-person_11751",
     "mention": "Ludw. Ernst v. Montelier",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
-    "crop_url": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0035.jpg/311,1682,442,42/full/0/default.jpg",
     "error": null
   },
   {
@@ -605,10 +605,10 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__902-publication_45971-mentioned-person-person_11756",
     "mention": "Gabr. Frisching v. Wyl",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
-    "crop_url": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0036.jpg/116,212,428,45/full/0/default.jpg",
     "error": null
   },
   {
@@ -623,10 +623,10 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__902-publication_45971-mentioned-person-person_11757",
     "mention": "F. L. von Graffenried, Hr. zu Carouge, des ge R. Landv. zu Wangen",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
-    "crop_url": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0036.jpg/104,412,847,88/full/0/default.jpg",
     "error": null
   },
   {
@@ -659,10 +659,10 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__902-publication_45971-mentioned-person-person_11870",
     "mention": "Calandrini, Artilleriemajor in Genf",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
-    "crop_url": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0040.jpg/125,1044,617,44/full/0/default.jpg",
     "error": null
   },
   {
@@ -677,46 +677,46 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__902-publication_45971-mentioned-person-person_11874",
     "mention": "Colebrooke, britannischer Minister zu Bern",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
-    "crop_url": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0040.jpg/124,498,758,46/full/0/default.jpg",
     "error": null
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__902-publication_45971-mentioned-person-person_11875",
     "mention": "Marquis de Costa in Savoy",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
-    "crop_url": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0040.jpg/127,1397,508,41/full/0/default.jpg",
     "error": null
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__902-publication_45971-mentioned-person-person_11977",
     "mention": "Hr. Reinhardt, markgräfl. badendurl. geh. Rath",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
-    "crop_url": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0041.jpg/187,191,820,58/full/0/default.jpg",
     "error": null
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__902-publication_45971-mentioned-person-person_11878",
     "mention": ".. Doxat in Losane",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
-    "crop_url": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0038.jpg/261,1666,300,42/full/0/default.jpg",
     "error": null
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__902-publication_45971-mentioned-person-person_12028",
     "mention": "*Jak. Gerwer, Diakon. am grossen Münster (*=Mitglied der engern Gesellschaft)",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
-    "crop_url": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0036.jpg/112,342,749,46/full/0/default.jpg",
     "error": null
   },
   {
@@ -731,19 +731,19 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__902-publication_45971-mentioned-person-person_11887",
     "mention": "Fäsch, des gr. R. zu Basel",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
-    "crop_url": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0039.jpg/288,1639,485,58/full/0/default.jpg",
     "error": null
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__902-publication_45971-mentioned-person-person_11796",
     "mention": "B. R. Tscharner v. Bümpliz",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
-    "crop_url": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0037.jpg/297,1056,480,41/full/0/default.jpg",
     "error": null
   },
   {
@@ -758,19 +758,19 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__902-publication_45971-mentioned-person-person_11903",
     "mention": "Graf von Henning",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
-    "crop_url": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0041.jpg/258,375,351,52/full/0/default.jpg",
     "error": null
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__902-publication_45971-mentioned-person-person_11897",
     "mention": "Graf Franz Ginnani, Patricier zu Ravenna",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
-    "crop_url": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0039.jpg/288,932,782,54/full/0/default.jpg",
     "error": null
   },
   {
@@ -794,37 +794,37 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__902-publication_45971-mentioned-person-person_11805",
     "mention": "Sam. von Werdt, Hr. zu Toffen, alt Landv. zu Vivis",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
-    "crop_url": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0037.jpg/300,1419,840,90/full/0/default.jpg",
     "error": null
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__902-publication_45971-mentioned-person-person_00089",
     "mention": "*El. Bertrand, erster Prediger bey der französischen Kirche, verschied. ausländ. Akad. Mitglied, der Ges. Sekretär in der französ. sprache (*Mitglied der engern Gesellschaft)",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
-    "crop_url": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0035.jpg/358,976,817,149/full/0/default.jpg",
     "error": null
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__902-publication_45971-mentioned-person-person_08346",
     "mention": "R. von Wattenwyl v. Montbenai, Schulth. des h. l. auss. Standes",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
-    "crop_url": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0037.jpg/297,1307,841,90/full/0/default.jpg",
     "error": null
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__902-publication_45971-mentioned-person-person_08524",
     "mention": "Albr. von Mülinen v. Montscharan",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
-    "crop_url": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0036.jpg/99,1751,636,48/full/0/default.jpg",
     "error": null
   },
   {
@@ -902,10 +902,10 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__902-publication_45971-mentioned-person-person_00672",
     "mention": "Michel Graf Mniszech, Starost von Jovorow",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
-    "crop_url": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0040.jpg/127,565,795,50/full/0/default.jpg",
     "error": null
   },
   {
@@ -920,10 +920,10 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__902-publication_45971-mentioned-person-person_01501",
     "mention": "Barthes von Marmorieres aus Languedok",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
-    "crop_url": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0040.jpg/126,1464,748,41/full/0/default.jpg",
     "error": null
   },
   {
@@ -938,10 +938,10 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__902-publication_45971-mentioned-person-person_11936",
     "mention": "And. Naville in Genf",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
-    "crop_url": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0040.jpg/125,1111,387,45/full/0/default.jpg",
     "error": null
   },
   {
@@ -956,10 +956,10 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__902-publication_45971-mentioned-person-person_07870",
     "mention": "Iselin, Rathschreiber zu Basel",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
-    "crop_url": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0039.jpg/290,1387,514,52/full/0/default.jpg",
     "error": null
   },
   {

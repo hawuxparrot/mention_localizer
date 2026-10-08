@@ -56,7 +56,7 @@ def localize_annotation_page(
     """Localize every MentionedPerson and patch precise targets in place.
 
     The input document is not mutated. Only an annotation's ``target`` is
-    replaced, and only when strict matching found at least one hit. A
+    replaced, and only when mention matching found at least one hit. A
     failure while localizing or validating one annotation is recorded on
     that annotation and does not stop the rest of the page. If any page
     in the manifest has no OCR file, that annotation is not matched
