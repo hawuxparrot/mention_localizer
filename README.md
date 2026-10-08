@@ -41,7 +41,7 @@ Note: The query string is the mention, not the person. One person can map to mul
 
 ## Intended architecture
 
-Each page is parsed once. Every mention aimed at that manifest is then matched against the parsed tokens.
+Annotations are localized one at a time. Grouping mentions that share a manifest, so each page is parsed once, is still to come.
 
 ```text
 AnnotationPage ──► EntityAnnotation (mention + manifest URL)
@@ -53,17 +53,24 @@ positional OCR .txt ──────────┼─────────
                               └──── strict_match ─┘
                                         │
                                         ▼
+                              scale OCR box into IIIF pixels
+                                        │
+                                        ▼
+                                   ImageRegion
+                                        │
+                                        ▼
                               IIIF FragmentSelector target
 ```
 
 1. **Annotations.** `parse_annotation_page` keeps `ordiiif-vocab:MentionedPerson` items and drops every other purpose. Each kept item becomes an `EntityAnnotation`: annotation id, person id, one mention string, and the manifest URL.
 2. **Manifest.** `parse_manifest` reads a IIIF Presentation 3 manifest into a `ManifestDocument`. Canvas order is the page order. Each page is a `PageImage`: image-service URL, width, and height in IIIF pixels.
 3. **Grouping.** Annotations that share a manifest should be collected before any OCR file is read, so each page is parsed once and then queried many times. This stage is not written yet.
-4. **OCR.** `parse_ocr_text` reads one positional text file onto a `PageImage` and returns an `OcrPage`: the page, the token sequence, and the width and height of the OCR coordinate space. For now the text comes from local `.txt` files in `data/`
-5. **Matching.** `strict_match` slides the mention's tokens across the page and returns the enclosing box of every hit.
-6. **Target.** The box, the image-service URL, and the page source should be written as the fragment selector above. `targets.py` is not written yet. Statistics over hits, misses, and ambiguous mentions are not written yet.
+4. **OCR files.** `index_ocr_directory` maps a page-image filename to one positional `.txt` under `data/`. The filename is the last `!`-separated segment of the IIIF service URL. A missing file is an error. Two files with the same stem are an error; neither is chosen.
+5. **OCR.** `parse_ocr_text` reads one positional text file onto a `PageImage` and returns an `OcrPage`: the page, the token sequence, and the width and height of the OCR coordinate space.
+6. **Matching.** `strict_match` slides the mention's tokens across one page and returns every enclosing box, in OCR coordinates. `find_image_regions` does that for every manifest page, in canvas order, and scales each hit into IIIF pixels. The first hit is the earliest page, then the earliest token match on that page. The scaled box is an `ImageRegion`. `ImageRegion.box` is always in the page's IIIF coordinates.
+7. **Target.** `precise_target` writes the fragment selector above from that `ImageRegion`. The pipeline copies the original AnnotationPage and replaces only `target` when there is at least one hit. Zero hits leave the coarse manifest URL in place. More than one hit still writes the first region, and the real match count stays on the per-annotation result. Each written crop URL is requested; a failed image response is recorded and does not stop the next annotation.
 
-`main.py` is a placeholder. Nothing yet runs this sequence end to end.
+`main.py` reads an AnnotationPage JSON, writes the patched page, and prints one diagnostic line per MentionedPerson.
 
 ## Current status
 
@@ -75,12 +82,13 @@ positional OCR .txt ──────────┼─────────
 | Positional OCR to tokens             | `eil/ocr.py`      | Done        |
 | Exact mention to enclosing boxes     | `eil/matching.py` | Done        |
 | Shared types                         | `eil/models.py`   | Done        |
+| Attach an OCR file to a page image   | `eil/ocr_index.py` | Done        |
+| Scale OCR boxes into IIIF pixels     | `eil/geometry.py` | Done        |
+| Strict matches across one manifest   | `eil/localize.py` | Done        |
+| Build the fragment-selector target   | `eil/targets.py`  | Done        |
+| Patch the page and record each hit   | `eil/pipeline.py` | Done        |
+| Command-line pipeline                | `main.py`         | Done        |
 | Group mentions by manifest           | —                 | Not started |
-| Attach an OCR file to a canvas       | —                 | Not started |
-| Scale OCR boxes into IIIF pixels     | —                 | Not started |
-| Build the fragment-selector target   | —                 | Not started |
-| Statistics                           | —                 | Not started |
-| Command-line pipeline                | `main.py`         | Placeholder |
 
 
 The input OCR file starts with `width,height`. Each later line is `text x,y,width,height`. The text is everything before the last space, so a token may contain spaces or commas. Blank lines and `<EOS>` / `<EOP>` are skipped. Confidence and layout ids are not in this format; those fields on `OcrToken` stay `None`.
@@ -94,11 +102,17 @@ mention_localizer/
 ├── main.py
 ├── eil/
 │   ├── models.py      # BoundingBox, OcrToken, PageImage, OcrPage,
-│   │                   # EntityAnnotation, ManifestDocument
+│   │                   # EntityAnnotation, ManifestDocument, ImageRegion
 │   ├── parsing.py     # AnnotationPage → EntityAnnotation
 │   ├── iiif.py        # IIIF Presentation 3 → ManifestDocument
 │   ├── ocr.py         # positional OCR text → OcrPage
-│   └── matching.py    # mention → enclosing boxes
+│   ├── ocr_index.py   # page image filename → one OCR .txt
+│   ├── geometry.py    # OCR box → IIIF box
+│   ├── matching.py    # mention → enclosing boxes
+│   ├── localize.py    # manifest pages → ImageRegion hits
+│   ├── targets.py     # ImageRegion → fragment-selector target
+│   ├── fetch.py       # manifest JSON and crop-image check
+│   └── pipeline.py    # AnnotationPage → patched page + diagnostics
 └── tests/
     ├── helpers.py
     ├── test_models.py
@@ -106,25 +120,29 @@ mention_localizer/
     ├── test_iiif.py
     ├── test_ocr.py
     ├── test_ocr_corpus.py
+    ├── test_ocr_index.py
+    ├── test_geometry.py
     ├── test_matching.py
-    └── test_matching_corpus.py
+    ├── test_matching_corpus.py
+    ├── test_localize.py
+    ├── test_targets.py
+    ├── test_fetch.py
+    └── test_pipeline.py
 ```
 
 ## Data
 
-The positional OCR corpus is too large to store on GitHub. It is not part of the repository. `data/` is gitignored.
-
-After cloning, download it from Polybox and extract it next to `eil/` and `tests/`:
-
+The positional OCR corpus is too large for GitHub, so it is not in the clone. `data/` is gitignored.
+From the repository root:
 ```bash
 make setup
-
+```
+`make setup` installs the project, then `scripts/fetch_ocr.py` downloads the corpus from Polybox and extracts it to `data/`.
 
 ## Tests
 
 ```bash
-uv sync --extra dev
 uv run pytest
 ```
 
-Unit tests build their own pages. Corpus tests read positional OCR under `data/` next to the package or one directory above it, and they skip when that directory is absent. They check that real pages parse, that punctuation and apostrophes stay inside tokens, and that `strict_match` returns the expected boxes for a few known strings.
+Run `make setup` once before this. Unit tests build their own pages. Corpus tests read `data/` and skip when it is absent. They check that real pages parse, that punctuation and apostrophes stay inside tokens, and that `strict_match` returns the expected boxes for a few known strings.

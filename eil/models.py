@@ -6,6 +6,7 @@ Contains domain types shared across the Entity Image Localization tool:
 - OcrPage
 - EntityAnnotation
 - ManifestDocument
+- ImageRegion
 """
 
 from dataclasses import dataclass
@@ -94,3 +95,15 @@ class ManifestDocument:
     """Ordered page images from one IIIF Manifest."""
     manifest_id: str
     pages: tuple[PageImage, ...]
+
+
+@dataclass(frozen=True)
+class ImageRegion:
+    """A region of one IIIF page image.
+
+    ``box`` is always in the IIIF pixel coordinate system of ``page``,
+    never in OCR-file coordinates. Target generation can use it without
+    knowing how the box was found.
+    """
+    page: PageImage
+    box: BoundingBox

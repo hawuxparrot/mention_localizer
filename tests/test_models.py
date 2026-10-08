@@ -1,6 +1,8 @@
+from dataclasses import FrozenInstanceError
+
 import pytest
 
-from eil.models import BoundingBox, ManifestDocument, PageImage
+from eil.models import BoundingBox, ImageRegion, ManifestDocument, PageImage
 
 
 def test_bounding_box_rejects_zero_width() -> None:
@@ -64,6 +66,16 @@ def test_page_image_does_not_carry_ocr_tokens() -> None:
     )
     assert not hasattr(page, "ocr_tokens")
     assert not hasattr(page, "label")
+
+
+def test_image_region_stores_page_and_iiif_box() -> None:
+    page = PageImage("https://iiif.example.org/image", 10, 20)
+    box = BoundingBox(1, 2, 3, 4)
+    region = ImageRegion(page=page, box=box)
+    assert region.page is page
+    assert region.box == box
+    with pytest.raises(FrozenInstanceError):
+        region.box = BoundingBox(0, 0, 1, 1)  # type: ignore[misc]
 
 
 def test_manifest_document_preserves_page_order() -> None:
