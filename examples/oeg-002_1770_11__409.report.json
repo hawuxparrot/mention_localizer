@@ -1,0 +1,92 @@
+[
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1770_11__409-publication_46081-mentioned-person-person_00973",
+    "mention": "von Stahl, Herr zu Jerwakant, Oberster in kayserl. russischen Diensten u.[s.w.]",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1770_11__409-publication_46081-mentioned-person-person_00931",
+    "mention": "Scopoli M. D. Professor der metallurgischen Chymie zu Idria",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1770_11__409-publication_46081-mentioned-person-person_01369",
+    "mention": "Andreä, Hofapotheker in Hanover",
+    "match_count": 2,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1770_011!oeg-002_1770_011_0015.jpg/301,1190,591,42/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1770_11__409-publication_46081-mentioned-person-person_05943",
+    "mention": "F. L. Tribolet, Stadtarzt in Bern, beständiger Sekretär der Gesellschaft",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1770_011!oeg-002_1770_011_0015.jpg/290,1727,828,91/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1770_11__409-publication_46081-mentioned-person-person_11931",
+    "mention": "von Mopinot, Ritter des St. Ludwigs-Ordens, Cavallerie-Oberster in französischen Diensten u.[s.w.]",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1770_11__409-publication_46081-mentioned-person-person_11885",
+    "mention": "Abt Expilli, Thesaurier der königl. Chroherrenstift zu Tarascon",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1770_11__409-publication_46081-mentioned-person-person_11775",
+    "mention": "Morell von Aubonne, Negotiant in Bern",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1770_011!oeg-002_1770_011_0015.jpg/287,1672,723,42/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1770_11__409-publication_46081-mentioned-person-person_11892",
+    "mention": "S. W. Ewd.[?] Pater Frisi, Professor der Mathematik in Mayland",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1770_11__409-publication_46081-mentioned-person-person_04526",
+    "mention": "Graf Mniszek der jüngere",
+    "match_count": 2,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1770_011!oeg-002_1770_011_0005.jpg/349,970,462,44/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1770_11__409-publication_46081-mentioned-person-person_00130",
+    "mention": "Brisson, Inspektor der Manufakturen in Lyon",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1770_011!oeg-002_1770_011_0005.jpg/355,876,771,42/full/0/default.jpg"
+  }
+]

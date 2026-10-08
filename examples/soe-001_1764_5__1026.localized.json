@@ -1,0 +1,540 @@
+{
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "label": {
+    "de": [
+      "Annotationen zu: OeG Zweiggesellschaften AB (1764)"
+    ]
+  },
+  "type": "AnnotationPage",
+  "id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1026.json",
+  "rights": "https://creativecommons.org/licenses/by/4.0/",
+  "provider": [
+    {
+      "label": {
+        "de": [
+          "République des Lettres"
+        ],
+        "en": [
+          "République des Lettres"
+        ],
+        "fr": [
+          "République des Lettres"
+        ]
+      },
+      "type": "Agent",
+      "id": "https://republique-des-lettres.ch"
+    }
+  ],
+  "created": "2026-10-05T11:23:39",
+  "journal": {
+    "label": {
+      "de": [
+        "Schriften der Ökonomischen Gesellschaft Bern (französischsprachige Ausgabe)"
+      ],
+      "en": [
+        "Publications of the Economic Society of Bern (French-language edition)"
+      ],
+      "fr": [
+        "Publications de la Société économique de Berne (édition française)"
+      ]
+    },
+    "title": {
+      "fr": [
+        "Mémoires et observations recueillies par la Société œconomique de Berne"
+      ]
+    },
+    "language": "fr",
+    "id": "oeg_memoires_fr"
+  },
+  "rdlRelationType": "single-publication",
+  "homepageCount": 1,
+  "metadata": [
+    {
+      "value": {
+        "de": [
+          "https://www.e-periodica.ch/iiif/soe-001:1764:5::1026/manifest"
+        ]
+      },
+      "label": {
+        "de": [
+          "Manifest"
+        ],
+        "en": [
+          "Manifest"
+        ],
+        "fr": [
+          "Manifeste"
+        ]
+      }
+    },
+    {
+      "value": {
+        "fr": [
+          "Mémoires et observations recueillies par la Société œconomique de Berne"
+        ]
+      },
+      "label": {
+        "de": [
+          "Zeitschrift"
+        ],
+        "en": [
+          "Journal"
+        ],
+        "fr": [
+          "Revue"
+        ]
+      }
+    },
+    {
+      "value": {
+        "de": [
+          "1764 (5/1), XII-XVI"
+        ]
+      },
+      "label": {
+        "de": [
+          "Kollation"
+        ],
+        "en": [
+          "Collation"
+        ],
+        "fr": [
+          "Collation"
+        ]
+      }
+    },
+    {
+      "value": {
+        "fr": [
+          "OeG Zweiggesellschaften AB (1764)"
+        ]
+      },
+      "label": {
+        "de": [
+          "Kurzform"
+        ],
+        "en": [
+          "Short title"
+        ],
+        "fr": [
+          "Titre court"
+        ]
+      }
+    },
+    {
+      "value": {
+        "fr": [
+          "Mémoires fournis par les sociétés correspondantes"
+        ]
+      },
+      "label": {
+        "de": [
+          "Artikeltitel"
+        ],
+        "en": [
+          "Article title"
+        ],
+        "fr": [
+          "Titre de l’article"
+        ]
+      }
+    },
+    {
+      "value": {
+        "de": [
+          "Französisch"
+        ]
+      },
+      "label": {
+        "de": [
+          "Sprache"
+        ],
+        "en": [
+          "Language"
+        ],
+        "fr": [
+          "Langue"
+        ]
+      }
+    },
+    {
+      "value": {
+        "de": [
+          "1"
+        ]
+      },
+      "label": {
+        "de": [
+          "Anzahl verknüpfter RdL-Publikationen"
+        ],
+        "en": [
+          "Number of linked RdL publication records"
+        ],
+        "fr": [
+          "Nombre de notices RdL liées"
+        ]
+      }
+    }
+  ],
+  "parallelVersions": [
+    {
+      "manifestUrl": "https://www.e-periodica.ch/iiif/oeg-002:1764:5::903/manifest",
+      "containedTitle": "Abhandlungen/Mémoires (1764, Vol. 05, No. 01)",
+      "collation": "1764 (5/1), XLI-XLIV",
+      "lang": "de",
+      "journalId": "oeg_abhandlungen_de",
+      "title": "Abhandlungen so von den Mitarbeitenden Gesellschaften eingeschikt worden",
+      "annotationPage": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__903.json"
+    }
+  ],
+  "homepage": [
+    {
+      "label": {
+        "de": [
+          "Publikationseintrag auf République des Lettres"
+        ],
+        "en": [
+          "Publication record at République des Lettres"
+        ],
+        "fr": [
+          "Entrée de publication sur République des Lettres"
+        ]
+      },
+      "format": "application/json",
+      "type": "Text",
+      "id": "https://hallernet-backend-proxy.hidora.com/api/data/publication/45973/json"
+    }
+  ],
+  "items": [
+    {
+      "body": {
+        "label": {
+          "de": [
+            "Abhandlungen und Beobachtungen der Ökonomischen Gesellschaft Bern"
+          ],
+          "en": [
+            "Memoirs and observations of the Economic Society of Bern"
+          ],
+          "fr": [
+            "Mémoires et observations de la Société économique de Berne"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://republique-des-lettres.ch/edition/oeg-abhandlungen",
+        "purpose": {
+          "label": {
+            "de": [
+              "Digitale Edition"
+            ],
+            "en": [
+              "Digital Scholarly Edition"
+            ],
+            "fr": [
+              "Édition numérique"
+            ]
+          },
+          "id": "ordiiif-vocab:Edition"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/soe-001:1764:5::1026/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1026-publication_45973-edition"
+    },
+    {
+      "body": {
+        "value": "Ce numéro compile divers mémoires présentés par plusieurs sociétés suisses, portant sur l’agriculture (abandon des pâturages communs, amélioration du grain, culture du colza, du mûrier blanc, du panais, fertilisation, apiculture, la viticulture), le commerce, les observations météorologiques et l’éducation rurale.",
+        "language": "fr",
+        "type": "TextualBody",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/publication/45973/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "KI-generierte Zusammenfassung"
+            ],
+            "en": [
+              "AI-generated summary"
+            ],
+            "fr": [
+              "Résumé généré par IA"
+            ]
+          },
+          "id": "ordiiif-vocab:AISummary"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/soe-001:1764:5::1026/manifest",
+      "motivation": "commenting",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1026-publication_45973-ai-summary-fr"
+    },
+    {
+      "body": {
+        "value": "OeG",
+        "type": "TextualBody"
+      },
+      "target": "https://www.e-periodica.ch/iiif/soe-001:1764:5::1026/manifest",
+      "motivation": "classifying",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1026-publication_45973-category-oeg-1"
+    },
+    {
+      "body": {
+        "identifier": "https://d-nb.info/gnd/118636979",
+        "mention": [
+          {
+            "value": "J. G. Zimmermann, der Arz. Dr. u.[s.w.] u.[s.w.] zu Brugg",
+            "language": "de",
+            "type": "TextualBody",
+            "purpose": {
+              "label": {
+                "de": [
+                  "Textbeleg"
+                ],
+                "en": [
+                  "Textual attestation"
+                ],
+                "fr": [
+                  "Attestation textuelle"
+                ]
+              },
+              "id": "ordiiif-vocab:MentionString"
+            }
+          }
+        ],
+        "thumbnail": {
+          "type": "Image",
+          "id": "https://iiif.ub.unibe.ch/image/v3/haller/image_01000_01.tif/201,137,1369,1369/max/0/default.jpg"
+        },
+        "label": {
+          "de": [
+            "Zimmermann, Johann Georg (1728-1795)"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/person/01165/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Erwähnte Person"
+            ],
+            "en": [
+              "Mentioned person"
+            ],
+            "fr": [
+              "Personne mentionnée"
+            ]
+          },
+          "id": "ordiiif-vocab:MentionedPerson"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/soe-001:1764:5::1026/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1026-publication_45973-mentioned-person-person_01165"
+    },
+    {
+      "body": {
+        "identifier": "https://d-nb.info/gnd/1089800517",
+        "mention": [
+          {
+            "value": "Sprüngli, Pfarrhr. zu Birrwyl",
+            "language": "de",
+            "type": "TextualBody",
+            "purpose": {
+              "label": {
+                "de": [
+                  "Textbeleg"
+                ],
+                "en": [
+                  "Textual attestation"
+                ],
+                "fr": [
+                  "Attestation textuelle"
+                ]
+              },
+              "id": "ordiiif-vocab:MentionString"
+            }
+          }
+        ],
+        "label": {
+          "de": [
+            "Sprüngli, Abraham (-1783)"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/person/12328/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Erwähnte Person"
+            ],
+            "en": [
+              "Mentioned person"
+            ],
+            "fr": [
+              "Personne mentionnée"
+            ]
+          },
+          "id": "ordiiif-vocab:MentionedPerson"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/soe-001:1764:5::1026/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1026-publication_45973-mentioned-person-person_12328"
+    },
+    {
+      "body": {
+        "identifier": "https://d-nb.info/gnd/1089803877",
+        "mention": [
+          {
+            "value": "Froelich, Pfarrhr. zu Rued",
+            "language": "de",
+            "type": "TextualBody",
+            "purpose": {
+              "label": {
+                "de": [
+                  "Textbeleg"
+                ],
+                "en": [
+                  "Textual attestation"
+                ],
+                "fr": [
+                  "Attestation textuelle"
+                ]
+              },
+              "id": "ordiiif-vocab:MentionString"
+            }
+          }
+        ],
+        "label": {
+          "de": [
+            "Fröhlich, Heinrich (1723-1795)"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/person/12039/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Erwähnte Person"
+            ],
+            "en": [
+              "Mentioned person"
+            ],
+            "fr": [
+              "Personne mentionnée"
+            ]
+          },
+          "id": "ordiiif-vocab:MentionedPerson"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/soe-001:1764:5::1026/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1026-publication_45973-mentioned-person-person_12039"
+    },
+    {
+      "body": {
+        "identifier": "https://d-nb.info/gnd/1208742671",
+        "mention": [
+          {
+            "value": "Gottl. Effinger, v. Wildek",
+            "language": "de",
+            "type": "TextualBody",
+            "purpose": {
+              "label": {
+                "de": [
+                  "Textbeleg"
+                ],
+                "en": [
+                  "Textual attestation"
+                ],
+                "fr": [
+                  "Attestation textuelle"
+                ]
+              },
+              "id": "ordiiif-vocab:MentionString"
+            }
+          }
+        ],
+        "label": {
+          "de": [
+            "Effinger, Gottlieb Ludwig (1726-1806)"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/person/11815/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Erwähnte Person"
+            ],
+            "en": [
+              "Mentioned person"
+            ],
+            "fr": [
+              "Personne mentionnée"
+            ]
+          },
+          "id": "ordiiif-vocab:MentionedPerson"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/soe-001:1764:5::1026/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1026-publication_45973-mentioned-person-person_11815"
+    },
+    {
+      "body": {
+        "identifier": "https://d-nb.info/gnd/1345586515",
+        "mention": [
+          {
+            "value": "von Waldner von Berwille, Brigad. in diensten der K. Frankreich",
+            "language": "de",
+            "type": "TextualBody",
+            "purpose": {
+              "label": {
+                "de": [
+                  "Textbeleg"
+                ],
+                "en": [
+                  "Textual attestation"
+                ],
+                "fr": [
+                  "Attestation textuelle"
+                ]
+              },
+              "id": "ordiiif-vocab:MentionString"
+            }
+          }
+        ],
+        "label": {
+          "de": [
+            "Waldner, Christian Friedrich Dagobert (1712-1783)"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/person/11997/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Erwähnte Person"
+            ],
+            "en": [
+              "Mentioned person"
+            ],
+            "fr": [
+              "Personne mentionnée"
+            ]
+          },
+          "id": "ordiiif-vocab:MentionedPerson"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/soe-001:1764:5::1026/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1026-publication_45973-mentioned-person-person_11997"
+    }
+  ]
+}

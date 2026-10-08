@@ -1,0 +1,1594 @@
+{
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "label": {
+    "de": [
+      "Annotationen zu: OeG Beratschlagungen AB (1770)"
+    ]
+  },
+  "type": "AnnotationPage",
+  "id": "https://manifests.republique-des-lettres.ch/oeg-002_1770_11__409.json",
+  "rights": "https://creativecommons.org/licenses/by/4.0/",
+  "provider": [
+    {
+      "label": {
+        "de": [
+          "République des Lettres"
+        ],
+        "en": [
+          "République des Lettres"
+        ],
+        "fr": [
+          "République des Lettres"
+        ]
+      },
+      "type": "Agent",
+      "id": "https://republique-des-lettres.ch"
+    }
+  ],
+  "created": "2026-10-05T11:23:39",
+  "journal": {
+    "label": {
+      "de": [
+        "Schriften der Ökonomischen Gesellschaft Bern (deutschsprachige Ausgabe)"
+      ],
+      "en": [
+        "Publications of the Economic Society of Bern (German-language edition)"
+      ],
+      "fr": [
+        "Publications de la Société économique de Berne (édition allemande)"
+      ]
+    },
+    "title": {
+      "de": [
+        "Abhandlungen und Beobachtungen durch die Ökonomische Gesellschaft zu Bern gesammelt"
+      ]
+    },
+    "language": "de",
+    "id": "oeg_abhandlungen_de"
+  },
+  "rdlRelationType": "single-publication",
+  "homepageCount": 1,
+  "metadata": [
+    {
+      "value": {
+        "de": [
+          "https://www.e-periodica.ch/iiif/oeg-002:1770:11::409/manifest"
+        ]
+      },
+      "label": {
+        "de": [
+          "Manifest"
+        ],
+        "en": [
+          "Manifest"
+        ],
+        "fr": [
+          "Manifeste"
+        ]
+      }
+    },
+    {
+      "value": {
+        "de": [
+          "Abhandlungen und Beobachtungen durch die Ökonomische Gesellschaft zu Bern gesammelt"
+        ]
+      },
+      "label": {
+        "de": [
+          "Zeitschrift"
+        ],
+        "en": [
+          "Journal"
+        ],
+        "fr": [
+          "Revue"
+        ]
+      }
+    },
+    {
+      "value": {
+        "de": [
+          "1770 (11/1), I-XV"
+        ]
+      },
+      "label": {
+        "de": [
+          "Kollation"
+        ],
+        "en": [
+          "Collation"
+        ],
+        "fr": [
+          "Collation"
+        ]
+      }
+    },
+    {
+      "value": {
+        "de": [
+          "OeG Beratschlagungen AB (1770)"
+        ]
+      },
+      "label": {
+        "de": [
+          "Kurzform"
+        ],
+        "en": [
+          "Short title"
+        ],
+        "fr": [
+          "Titre court"
+        ]
+      }
+    },
+    {
+      "value": {
+        "de": [
+          "Auszüge einiger Berathschlagungen der ökonomischen Gesellschaft"
+        ]
+      },
+      "label": {
+        "de": [
+          "Artikeltitel"
+        ],
+        "en": [
+          "Article title"
+        ],
+        "fr": [
+          "Titre de l’article"
+        ]
+      }
+    },
+    {
+      "value": {
+        "de": [
+          "Deutsch"
+        ]
+      },
+      "label": {
+        "de": [
+          "Sprache"
+        ],
+        "en": [
+          "Language"
+        ],
+        "fr": [
+          "Langue"
+        ]
+      }
+    },
+    {
+      "value": {
+        "de": [
+          "1"
+        ]
+      },
+      "label": {
+        "de": [
+          "Anzahl verknüpfter RdL-Publikationen"
+        ],
+        "en": [
+          "Number of linked RdL publication records"
+        ],
+        "fr": [
+          "Nombre de notices RdL liées"
+        ]
+      }
+    }
+  ],
+  "parallelVersions": [
+    {
+      "manifestUrl": "https://www.e-periodica.ch/iiif/soe-001:1770:11::8/manifest",
+      "containedTitle": "Abhandlungen/Mémoires (1770, Vol. 11, No. 01)",
+      "collation": "1770 (11/1), III-XV",
+      "lang": "fr",
+      "journalId": "oeg_memoires_fr",
+      "title": "Extrait des actes et des délibérations de la Société œconomique de Berne, 1769",
+      "annotationPage": "https://manifests.republique-des-lettres.ch/soe-001_1770_11__8.json"
+    }
+  ],
+  "homepage": [
+    {
+      "label": {
+        "de": [
+          "Publikationseintrag auf République des Lettres"
+        ],
+        "en": [
+          "Publication record at République des Lettres"
+        ],
+        "fr": [
+          "Entrée de publication sur République des Lettres"
+        ]
+      },
+      "format": "application/json",
+      "type": "Text",
+      "id": "https://hallernet-backend-proxy.hidora.com/api/data/publication/46081/json"
+    }
+  ],
+  "items": [
+    {
+      "body": {
+        "label": {
+          "de": [
+            "Abhandlungen und Beobachtungen der Ökonomischen Gesellschaft Bern"
+          ],
+          "en": [
+            "Memoirs and observations of the Economic Society of Bern"
+          ],
+          "fr": [
+            "Mémoires et observations de la Société économique de Berne"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://republique-des-lettres.ch/edition/oeg-abhandlungen",
+        "purpose": {
+          "label": {
+            "de": [
+              "Digitale Edition"
+            ],
+            "en": [
+              "Digital Scholarly Edition"
+            ],
+            "fr": [
+              "Édition numérique"
+            ]
+          },
+          "id": "ordiiif-vocab:Edition"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1770:11::409/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1770_11__409-publication_46081-edition"
+    },
+    {
+      "body": {
+        "label": {
+          "de": [
+            "Versammlung der Oekonomischen Gesellschaft Bern, 8. April 1769"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/meeting/00027/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Versammlung"
+            ],
+            "en": [
+              "Meeting"
+            ],
+            "fr": [
+              "Séance"
+            ]
+          },
+          "id": "ordiiif-vocab:Meeting"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1770:11::409/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1770_11__409-publication_46081-meeting-meeting_00027"
+    },
+    {
+      "body": {
+        "label": {
+          "de": [
+            "Versammlung der Oekonomischen Gesellschaft Bern, 7. Januar 1769"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/meeting/00307/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Versammlung"
+            ],
+            "en": [
+              "Meeting"
+            ],
+            "fr": [
+              "Séance"
+            ]
+          },
+          "id": "ordiiif-vocab:Meeting"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1770:11::409/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1770_11__409-publication_46081-meeting-meeting_00307"
+    },
+    {
+      "body": {
+        "label": {
+          "de": [
+            "Versammlung der Oekonomischen Gesellschaft Bern, 9. Januar 1769"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/meeting/00308/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Versammlung"
+            ],
+            "en": [
+              "Meeting"
+            ],
+            "fr": [
+              "Séance"
+            ]
+          },
+          "id": "ordiiif-vocab:Meeting"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1770:11::409/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1770_11__409-publication_46081-meeting-meeting_00308"
+    },
+    {
+      "body": {
+        "label": {
+          "de": [
+            "Versammlung der Oekonomischen Gesellschaft Bern, 23. Januar 1769"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/meeting/00309/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Versammlung"
+            ],
+            "en": [
+              "Meeting"
+            ],
+            "fr": [
+              "Séance"
+            ]
+          },
+          "id": "ordiiif-vocab:Meeting"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1770:11::409/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1770_11__409-publication_46081-meeting-meeting_00309"
+    },
+    {
+      "body": {
+        "label": {
+          "de": [
+            "Versammlung der Oekonomischen Gesellschaft Bern, 30. Januar 1769"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/meeting/00310/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Versammlung"
+            ],
+            "en": [
+              "Meeting"
+            ],
+            "fr": [
+              "Séance"
+            ]
+          },
+          "id": "ordiiif-vocab:Meeting"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1770:11::409/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1770_11__409-publication_46081-meeting-meeting_00310"
+    },
+    {
+      "body": {
+        "label": {
+          "de": [
+            "Versammlung der Oekonomischen Gesellschaft Bern, 4. Februar 1769"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/meeting/00311/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Versammlung"
+            ],
+            "en": [
+              "Meeting"
+            ],
+            "fr": [
+              "Séance"
+            ]
+          },
+          "id": "ordiiif-vocab:Meeting"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1770:11::409/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1770_11__409-publication_46081-meeting-meeting_00311"
+    },
+    {
+      "body": {
+        "label": {
+          "de": [
+            "Versammlung der Oekonomischen Gesellschaft Bern, 6. Februar 1769"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/meeting/00312/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Versammlung"
+            ],
+            "en": [
+              "Meeting"
+            ],
+            "fr": [
+              "Séance"
+            ]
+          },
+          "id": "ordiiif-vocab:Meeting"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1770:11::409/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1770_11__409-publication_46081-meeting-meeting_00312"
+    },
+    {
+      "body": {
+        "label": {
+          "de": [
+            "Versammlung der Oekonomischen Gesellschaft Bern, 13. Februar 1769"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/meeting/00313/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Versammlung"
+            ],
+            "en": [
+              "Meeting"
+            ],
+            "fr": [
+              "Séance"
+            ]
+          },
+          "id": "ordiiif-vocab:Meeting"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1770:11::409/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1770_11__409-publication_46081-meeting-meeting_00313"
+    },
+    {
+      "body": {
+        "label": {
+          "de": [
+            "Versammlung der Oekonomischen Gesellschaft Bern, 27. Februar 1769"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/meeting/00314/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Versammlung"
+            ],
+            "en": [
+              "Meeting"
+            ],
+            "fr": [
+              "Séance"
+            ]
+          },
+          "id": "ordiiif-vocab:Meeting"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1770:11::409/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1770_11__409-publication_46081-meeting-meeting_00314"
+    },
+    {
+      "body": {
+        "label": {
+          "de": [
+            "Versammlung der Oekonomischen Gesellschaft Bern, 4. März 1769"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/meeting/00315/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Versammlung"
+            ],
+            "en": [
+              "Meeting"
+            ],
+            "fr": [
+              "Séance"
+            ]
+          },
+          "id": "ordiiif-vocab:Meeting"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1770:11::409/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1770_11__409-publication_46081-meeting-meeting_00315"
+    },
+    {
+      "body": {
+        "label": {
+          "de": [
+            "Versammlung der Oekonomischen Gesellschaft Bern, 6. März 1769"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/meeting/00316/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Versammlung"
+            ],
+            "en": [
+              "Meeting"
+            ],
+            "fr": [
+              "Séance"
+            ]
+          },
+          "id": "ordiiif-vocab:Meeting"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1770:11::409/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1770_11__409-publication_46081-meeting-meeting_00316"
+    },
+    {
+      "body": {
+        "label": {
+          "de": [
+            "Versammlung der Oekonomischen Gesellschaft Bern, 13. März 1769"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/meeting/00317/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Versammlung"
+            ],
+            "en": [
+              "Meeting"
+            ],
+            "fr": [
+              "Séance"
+            ]
+          },
+          "id": "ordiiif-vocab:Meeting"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1770:11::409/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1770_11__409-publication_46081-meeting-meeting_00317"
+    },
+    {
+      "body": {
+        "label": {
+          "de": [
+            "Versammlung der Oekonomischen Gesellschaft Bern, 20. März 1769"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/meeting/00318/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Versammlung"
+            ],
+            "en": [
+              "Meeting"
+            ],
+            "fr": [
+              "Séance"
+            ]
+          },
+          "id": "ordiiif-vocab:Meeting"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1770:11::409/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1770_11__409-publication_46081-meeting-meeting_00318"
+    },
+    {
+      "body": {
+        "label": {
+          "de": [
+            "Versammlung der Oekonomischen Gesellschaft Bern, 3. April 1769"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/meeting/00319/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Versammlung"
+            ],
+            "en": [
+              "Meeting"
+            ],
+            "fr": [
+              "Séance"
+            ]
+          },
+          "id": "ordiiif-vocab:Meeting"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1770:11::409/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1770_11__409-publication_46081-meeting-meeting_00319"
+    },
+    {
+      "body": {
+        "label": {
+          "de": [
+            "Versammlung der Oekonomischen Gesellschaft Bern, 10. April 1769"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/meeting/00320/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Versammlung"
+            ],
+            "en": [
+              "Meeting"
+            ],
+            "fr": [
+              "Séance"
+            ]
+          },
+          "id": "ordiiif-vocab:Meeting"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1770:11::409/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1770_11__409-publication_46081-meeting-meeting_00320"
+    },
+    {
+      "body": {
+        "label": {
+          "de": [
+            "Versammlung der Oekonomischen Gesellschaft Bern, 17. April 1769"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/meeting/00321/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Versammlung"
+            ],
+            "en": [
+              "Meeting"
+            ],
+            "fr": [
+              "Séance"
+            ]
+          },
+          "id": "ordiiif-vocab:Meeting"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1770:11::409/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1770_11__409-publication_46081-meeting-meeting_00321"
+    },
+    {
+      "body": {
+        "label": {
+          "de": [
+            "Versammlung der Oekonomischen Gesellschaft Bern, 24. April 1769"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/meeting/00322/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Versammlung"
+            ],
+            "en": [
+              "Meeting"
+            ],
+            "fr": [
+              "Séance"
+            ]
+          },
+          "id": "ordiiif-vocab:Meeting"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1770:11::409/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1770_11__409-publication_46081-meeting-meeting_00322"
+    },
+    {
+      "body": {
+        "label": {
+          "de": [
+            "Versammlung der Oekonomischen Gesellschaft Bern, 26. Juni 1769"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/meeting/00323/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Versammlung"
+            ],
+            "en": [
+              "Meeting"
+            ],
+            "fr": [
+              "Séance"
+            ]
+          },
+          "id": "ordiiif-vocab:Meeting"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1770:11::409/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1770_11__409-publication_46081-meeting-meeting_00323"
+    },
+    {
+      "body": {
+        "label": {
+          "de": [
+            "Versammlung der Oekonomischen Gesellschaft Bern, 31. Juli 1769"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/meeting/00324/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Versammlung"
+            ],
+            "en": [
+              "Meeting"
+            ],
+            "fr": [
+              "Séance"
+            ]
+          },
+          "id": "ordiiif-vocab:Meeting"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1770:11::409/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1770_11__409-publication_46081-meeting-meeting_00324"
+    },
+    {
+      "body": {
+        "label": {
+          "de": [
+            "Versammlung der Oekonomischen Gesellschaft Bern, 28. August 1769"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/meeting/00325/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Versammlung"
+            ],
+            "en": [
+              "Meeting"
+            ],
+            "fr": [
+              "Séance"
+            ]
+          },
+          "id": "ordiiif-vocab:Meeting"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1770:11::409/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1770_11__409-publication_46081-meeting-meeting_00325"
+    },
+    {
+      "body": {
+        "label": {
+          "de": [
+            "Versammlung der Oekonomischen Gesellschaft Bern, 25. September 1769"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/meeting/00326/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Versammlung"
+            ],
+            "en": [
+              "Meeting"
+            ],
+            "fr": [
+              "Séance"
+            ]
+          },
+          "id": "ordiiif-vocab:Meeting"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1770:11::409/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1770_11__409-publication_46081-meeting-meeting_00326"
+    },
+    {
+      "body": {
+        "label": {
+          "de": [
+            "Versammlung der Oekonomischen Gesellschaft Bern, 30. Oktober 1769"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/meeting/00327/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Versammlung"
+            ],
+            "en": [
+              "Meeting"
+            ],
+            "fr": [
+              "Séance"
+            ]
+          },
+          "id": "ordiiif-vocab:Meeting"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1770:11::409/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1770_11__409-publication_46081-meeting-meeting_00327"
+    },
+    {
+      "body": {
+        "label": {
+          "de": [
+            "Versammlung der Oekonomischen Gesellschaft Bern, 27. November 1769"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/meeting/00328/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Versammlung"
+            ],
+            "en": [
+              "Meeting"
+            ],
+            "fr": [
+              "Séance"
+            ]
+          },
+          "id": "ordiiif-vocab:Meeting"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1770:11::409/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1770_11__409-publication_46081-meeting-meeting_00328"
+    },
+    {
+      "body": {
+        "label": {
+          "de": [
+            "Versammlung der Oekonomischen Gesellschaft Bern, 4. Dezember 1769"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/meeting/00329/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Versammlung"
+            ],
+            "en": [
+              "Meeting"
+            ],
+            "fr": [
+              "Séance"
+            ]
+          },
+          "id": "ordiiif-vocab:Meeting"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1770:11::409/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1770_11__409-publication_46081-meeting-meeting_00329"
+    },
+    {
+      "body": {
+        "label": {
+          "de": [
+            "Versammlung der Oekonomischen Gesellschaft Bern, 11. Dezember 1769"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/meeting/00330/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Versammlung"
+            ],
+            "en": [
+              "Meeting"
+            ],
+            "fr": [
+              "Séance"
+            ]
+          },
+          "id": "ordiiif-vocab:Meeting"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1770:11::409/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1770_11__409-publication_46081-meeting-meeting_00330"
+    },
+    {
+      "body": {
+        "label": {
+          "de": [
+            "Versammlung der Oekonomischen Gesellschaft Bern, 18. Dezember 1769"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/meeting/00730/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Versammlung"
+            ],
+            "en": [
+              "Meeting"
+            ],
+            "fr": [
+              "Séance"
+            ]
+          },
+          "id": "ordiiif-vocab:Meeting"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1770:11::409/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1770_11__409-publication_46081-meeting-meeting_00730"
+    },
+    {
+      "body": {
+        "value": "OeG",
+        "type": "TextualBody"
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1770:11::409/manifest",
+      "motivation": "classifying",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1770_11__409-publication_46081-category-oeg-1"
+    },
+    {
+      "body": {
+        "identifier": "https://d-nb.info/gnd/117672066X",
+        "mention": [
+          {
+            "value": "von Stahl, Herr zu Jerwakant, Oberster in kayserl. russischen Diensten u.[s.w.]",
+            "language": "de",
+            "type": "TextualBody",
+            "purpose": {
+              "label": {
+                "de": [
+                  "Textbeleg"
+                ],
+                "en": [
+                  "Textual attestation"
+                ],
+                "fr": [
+                  "Attestation textuelle"
+                ]
+              },
+              "id": "ordiiif-vocab:MentionString"
+            }
+          }
+        ],
+        "label": {
+          "de": [
+            "Staal, Carl Friedrich von (1721-1789)"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/person/00973/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Erwähnte Person"
+            ],
+            "en": [
+              "Mentioned person"
+            ],
+            "fr": [
+              "Personne mentionnée"
+            ]
+          },
+          "id": "ordiiif-vocab:MentionedPerson"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1770:11::409/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1770_11__409-publication_46081-mentioned-person-person_00973"
+    },
+    {
+      "body": {
+        "identifier": "https://d-nb.info/gnd/11909360X",
+        "mention": [
+          {
+            "value": "Scopoli M. D. Professor der metallurgischen Chymie zu Idria",
+            "language": "de",
+            "type": "TextualBody",
+            "purpose": {
+              "label": {
+                "de": [
+                  "Textbeleg"
+                ],
+                "en": [
+                  "Textual attestation"
+                ],
+                "fr": [
+                  "Attestation textuelle"
+                ]
+              },
+              "id": "ordiiif-vocab:MentionString"
+            }
+          }
+        ],
+        "label": {
+          "de": [
+            "Scopoli, Giovanni Antonio (1723-1788)"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/person/00931/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Erwähnte Person"
+            ],
+            "en": [
+              "Mentioned person"
+            ],
+            "fr": [
+              "Personne mentionnée"
+            ]
+          },
+          "id": "ordiiif-vocab:MentionedPerson"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1770:11::409/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1770_11__409-publication_46081-mentioned-person-person_00931"
+    },
+    {
+      "body": {
+        "identifier": "https://d-nb.info/gnd/116012366",
+        "mention": [
+          {
+            "value": "Andreä, Hofapotheker in Hanover",
+            "language": "de",
+            "type": "TextualBody",
+            "purpose": {
+              "label": {
+                "de": [
+                  "Textbeleg"
+                ],
+                "en": [
+                  "Textual attestation"
+                ],
+                "fr": [
+                  "Attestation textuelle"
+                ]
+              },
+              "id": "ordiiif-vocab:MentionString"
+            }
+          }
+        ],
+        "label": {
+          "de": [
+            "Andreae, Johann Gerhard Reinhard (1724-1793)"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/person/01369/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Erwähnte Person"
+            ],
+            "en": [
+              "Mentioned person"
+            ],
+            "fr": [
+              "Personne mentionnée"
+            ]
+          },
+          "id": "ordiiif-vocab:MentionedPerson"
+        }
+      },
+      "target": {
+        "rendering": [
+          {
+            "format": "image/jpeg",
+            "type": "Image",
+            "id": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1770_011!oeg-002_1770_011_0015.jpg/301,1190,591,42/full/0/default.jpg"
+          }
+        ],
+        "rdlRegion": "main",
+        "source": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1770_011!oeg-002_1770_011_0015.jpg",
+        "selector": {
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
+          "value": "xywh=301,1190,591,42",
+          "type": "FragmentSelector"
+        }
+      },
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1770_11__409-publication_46081-mentioned-person-person_01369"
+    },
+    {
+      "body": {
+        "identifier": "https://d-nb.info/gnd/1089552866",
+        "mention": [
+          {
+            "value": "F. L. Tribolet, Stadtarzt in Bern, beständiger Sekretär der Gesellschaft",
+            "language": "de",
+            "type": "TextualBody",
+            "purpose": {
+              "label": {
+                "de": [
+                  "Textbeleg"
+                ],
+                "en": [
+                  "Textual attestation"
+                ],
+                "fr": [
+                  "Attestation textuelle"
+                ]
+              },
+              "id": "ordiiif-vocab:MentionString"
+            }
+          }
+        ],
+        "label": {
+          "de": [
+            "Tribolet, Franz Ludwig (1743-1819)"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/person/05943/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Erwähnte Person"
+            ],
+            "en": [
+              "Mentioned person"
+            ],
+            "fr": [
+              "Personne mentionnée"
+            ]
+          },
+          "id": "ordiiif-vocab:MentionedPerson"
+        }
+      },
+      "target": {
+        "rendering": [
+          {
+            "format": "image/jpeg",
+            "type": "Image",
+            "id": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1770_011!oeg-002_1770_011_0015.jpg/290,1727,828,91/full/0/default.jpg"
+          }
+        ],
+        "rdlRegion": "main",
+        "source": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1770_011!oeg-002_1770_011_0015.jpg",
+        "selector": {
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
+          "value": "xywh=290,1727,828,91",
+          "type": "FragmentSelector"
+        }
+      },
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1770_11__409-publication_46081-mentioned-person-person_05943"
+    },
+    {
+      "body": {
+        "identifier": "https://d-nb.info/gnd/128493011",
+        "mention": [
+          {
+            "value": "von Mopinot, Ritter des St. Ludwigs-Ordens, Cavallerie-Oberster in französischen Diensten u.[s.w.]",
+            "language": "de",
+            "type": "TextualBody",
+            "purpose": {
+              "label": {
+                "de": [
+                  "Textbeleg"
+                ],
+                "en": [
+                  "Textual attestation"
+                ],
+                "fr": [
+                  "Attestation textuelle"
+                ]
+              },
+              "id": "ordiiif-vocab:MentionString"
+            }
+          }
+        ],
+        "label": {
+          "de": [
+            "Mopinot de la Chapotte, Antoine-Rigobert (1717-nach 1793)"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/person/11931/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Erwähnte Person"
+            ],
+            "en": [
+              "Mentioned person"
+            ],
+            "fr": [
+              "Personne mentionnée"
+            ]
+          },
+          "id": "ordiiif-vocab:MentionedPerson"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1770:11::409/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1770_11__409-publication_46081-mentioned-person-person_11931"
+    },
+    {
+      "body": {
+        "identifier": "https://d-nb.info/gnd/117515981",
+        "mention": [
+          {
+            "value": "Abt Expilli, Thesaurier der königl. Chroherrenstift zu Tarascon",
+            "language": "de",
+            "type": "TextualBody",
+            "purpose": {
+              "label": {
+                "de": [
+                  "Textbeleg"
+                ],
+                "en": [
+                  "Textual attestation"
+                ],
+                "fr": [
+                  "Attestation textuelle"
+                ]
+              },
+              "id": "ordiiif-vocab:MentionString"
+            }
+          }
+        ],
+        "label": {
+          "de": [
+            "Expilly, Jean-Joseph (1719-1793)"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/person/11885/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Erwähnte Person"
+            ],
+            "en": [
+              "Mentioned person"
+            ],
+            "fr": [
+              "Personne mentionnée"
+            ]
+          },
+          "id": "ordiiif-vocab:MentionedPerson"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1770:11::409/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1770_11__409-publication_46081-mentioned-person-person_11885"
+    },
+    {
+      "body": {
+        "identifier": "https://d-nb.info/gnd/1256393592",
+        "mention": [
+          {
+            "value": "Morell von Aubonne, Negotiant in Bern",
+            "language": "de",
+            "type": "TextualBody",
+            "purpose": {
+              "label": {
+                "de": [
+                  "Textbeleg"
+                ],
+                "en": [
+                  "Textual attestation"
+                ],
+                "fr": [
+                  "Attestation textuelle"
+                ]
+              },
+              "id": "ordiiif-vocab:MentionString"
+            }
+          }
+        ],
+        "label": {
+          "de": [
+            "Morel"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/person/11775/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Erwähnte Person"
+            ],
+            "en": [
+              "Mentioned person"
+            ],
+            "fr": [
+              "Personne mentionnée"
+            ]
+          },
+          "id": "ordiiif-vocab:MentionedPerson"
+        }
+      },
+      "target": {
+        "rendering": [
+          {
+            "format": "image/jpeg",
+            "type": "Image",
+            "id": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1770_011!oeg-002_1770_011_0015.jpg/287,1672,723,42/full/0/default.jpg"
+          }
+        ],
+        "rdlRegion": "main",
+        "source": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1770_011!oeg-002_1770_011_0015.jpg",
+        "selector": {
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
+          "value": "xywh=287,1672,723,42",
+          "type": "FragmentSelector"
+        }
+      },
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1770_11__409-publication_46081-mentioned-person-person_11775"
+    },
+    {
+      "body": {
+        "identifier": "https://d-nb.info/gnd/10012822X",
+        "mention": [
+          {
+            "value": "S. W. Ewd.[?] Pater Frisi, Professor der Mathematik in Mayland",
+            "language": "de",
+            "type": "TextualBody",
+            "purpose": {
+              "label": {
+                "de": [
+                  "Textbeleg"
+                ],
+                "en": [
+                  "Textual attestation"
+                ],
+                "fr": [
+                  "Attestation textuelle"
+                ]
+              },
+              "id": "ordiiif-vocab:MentionString"
+            }
+          }
+        ],
+        "label": {
+          "de": [
+            "Frisi, Paolo (1728-1784)"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/person/11892/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Erwähnte Person"
+            ],
+            "en": [
+              "Mentioned person"
+            ],
+            "fr": [
+              "Personne mentionnée"
+            ]
+          },
+          "id": "ordiiif-vocab:MentionedPerson"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1770:11::409/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1770_11__409-publication_46081-mentioned-person-person_11892"
+    },
+    {
+      "body": {
+        "identifier": "https://d-nb.info/gnd/125638786X",
+        "mention": [
+          {
+            "value": "Graf Mniszek der jüngere",
+            "language": "de",
+            "type": "TextualBody",
+            "purpose": {
+              "label": {
+                "de": [
+                  "Textbeleg"
+                ],
+                "en": [
+                  "Textual attestation"
+                ],
+                "fr": [
+                  "Attestation textuelle"
+                ]
+              },
+              "id": "ordiiif-vocab:MentionString"
+            }
+          }
+        ],
+        "label": {
+          "de": [
+            "Mniszek, Stanislaus (1745-1806)"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/person/04526/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Erwähnte Person"
+            ],
+            "en": [
+              "Mentioned person"
+            ],
+            "fr": [
+              "Personne mentionnée"
+            ]
+          },
+          "id": "ordiiif-vocab:MentionedPerson"
+        }
+      },
+      "target": {
+        "rendering": [
+          {
+            "format": "image/jpeg",
+            "type": "Image",
+            "id": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1770_011!oeg-002_1770_011_0005.jpg/349,970,462,44/full/0/default.jpg"
+          }
+        ],
+        "rdlRegion": "main",
+        "source": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1770_011!oeg-002_1770_011_0005.jpg",
+        "selector": {
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
+          "value": "xywh=349,970,462,44",
+          "type": "FragmentSelector"
+        }
+      },
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1770_11__409-publication_46081-mentioned-person-person_04526"
+    },
+    {
+      "body": {
+        "identifier": "https://d-nb.info/gnd/1253259666",
+        "mention": [
+          {
+            "value": "Brisson, Inspektor der Manufakturen in Lyon",
+            "language": "de",
+            "type": "TextualBody",
+            "purpose": {
+              "label": {
+                "de": [
+                  "Textbeleg"
+                ],
+                "en": [
+                  "Textual attestation"
+                ],
+                "fr": [
+                  "Attestation textuelle"
+                ]
+              },
+              "id": "ordiiif-vocab:MentionString"
+            }
+          }
+        ],
+        "label": {
+          "de": [
+            "Brisson, Antoine-François (1728-1796)"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/person/00130/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Erwähnte Person"
+            ],
+            "en": [
+              "Mentioned person"
+            ],
+            "fr": [
+              "Personne mentionnée"
+            ]
+          },
+          "id": "ordiiif-vocab:MentionedPerson"
+        }
+      },
+      "target": {
+        "rendering": [
+          {
+            "format": "image/jpeg",
+            "type": "Image",
+            "id": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1770_011!oeg-002_1770_011_0005.jpg/355,876,771,42/full/0/default.jpg"
+          }
+        ],
+        "rdlRegion": "main",
+        "source": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1770_011!oeg-002_1770_011_0005.jpg",
+        "selector": {
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
+          "value": "xywh=355,876,771,42",
+          "type": "FragmentSelector"
+        }
+      },
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1770_11__409-publication_46081-mentioned-person-person_00130"
+    }
+  ]
+}

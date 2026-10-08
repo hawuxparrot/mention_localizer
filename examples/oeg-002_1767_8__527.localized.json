@@ -1,0 +1,489 @@
+{
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "label": {
+    "de": [
+      "Annotationen zu: OeG Zweiggesellschaften AB (1767)"
+    ]
+  },
+  "type": "AnnotationPage",
+  "id": "https://manifests.republique-des-lettres.ch/oeg-002_1767_8__527.json",
+  "rights": "https://creativecommons.org/licenses/by/4.0/",
+  "provider": [
+    {
+      "label": {
+        "de": [
+          "République des Lettres"
+        ],
+        "en": [
+          "République des Lettres"
+        ],
+        "fr": [
+          "République des Lettres"
+        ]
+      },
+      "type": "Agent",
+      "id": "https://republique-des-lettres.ch"
+    }
+  ],
+  "created": "2026-10-05T11:23:39",
+  "journal": {
+    "label": {
+      "de": [
+        "Schriften der Ökonomischen Gesellschaft Bern (deutschsprachige Ausgabe)"
+      ],
+      "en": [
+        "Publications of the Economic Society of Bern (German-language edition)"
+      ],
+      "fr": [
+        "Publications de la Société économique de Berne (édition allemande)"
+      ]
+    },
+    "title": {
+      "de": [
+        "Abhandlungen und Beobachtungen durch die Ökonomische Gesellschaft zu Bern gesammelt"
+      ]
+    },
+    "language": "de",
+    "id": "oeg_abhandlungen_de"
+  },
+  "rdlRelationType": "single-publication",
+  "homepageCount": 1,
+  "metadata": [
+    {
+      "value": {
+        "de": [
+          "https://www.e-periodica.ch/iiif/oeg-002:1767:8::527/manifest"
+        ]
+      },
+      "label": {
+        "de": [
+          "Manifest"
+        ],
+        "en": [
+          "Manifest"
+        ],
+        "fr": [
+          "Manifeste"
+        ]
+      }
+    },
+    {
+      "value": {
+        "de": [
+          "Abhandlungen und Beobachtungen durch die Ökonomische Gesellschaft zu Bern gesammelt"
+        ]
+      },
+      "label": {
+        "de": [
+          "Zeitschrift"
+        ],
+        "en": [
+          "Journal"
+        ],
+        "fr": [
+          "Revue"
+        ]
+      }
+    },
+    {
+      "value": {
+        "de": [
+          "1767 (8/1), XL-XLV"
+        ]
+      },
+      "label": {
+        "de": [
+          "Kollation"
+        ],
+        "en": [
+          "Collation"
+        ],
+        "fr": [
+          "Collation"
+        ]
+      }
+    },
+    {
+      "value": {
+        "de": [
+          "OeG Zweiggesellschaften AB (1767)"
+        ]
+      },
+      "label": {
+        "de": [
+          "Kurzform"
+        ],
+        "en": [
+          "Short title"
+        ],
+        "fr": [
+          "Titre court"
+        ]
+      }
+    },
+    {
+      "value": {
+        "de": [
+          "Eingesandte Nachrichten von den Abhandlungen und Beyträgen einicher mitarbeitenden Gesellschadten vom Jahr 1766"
+        ]
+      },
+      "label": {
+        "de": [
+          "Artikeltitel"
+        ],
+        "en": [
+          "Article title"
+        ],
+        "fr": [
+          "Titre de l’article"
+        ]
+      }
+    },
+    {
+      "value": {
+        "de": [
+          "Deutsch"
+        ]
+      },
+      "label": {
+        "de": [
+          "Sprache"
+        ],
+        "en": [
+          "Language"
+        ],
+        "fr": [
+          "Langue"
+        ]
+      }
+    },
+    {
+      "value": {
+        "de": [
+          "1"
+        ]
+      },
+      "label": {
+        "de": [
+          "Anzahl verknüpfter RdL-Publikationen"
+        ],
+        "en": [
+          "Number of linked RdL publication records"
+        ],
+        "fr": [
+          "Nombre de notices RdL liées"
+        ]
+      }
+    }
+  ],
+  "parallelVersions": [
+    {
+      "manifestUrl": "https://www.e-periodica.ch/iiif/soe-001:1767:8::39/manifest",
+      "containedTitle": "Abhandlungen/Mémoires (1767, Vol. 08, No. 01)",
+      "collation": "1767 (8/1), XXXI-XXXVII",
+      "lang": "fr",
+      "journalId": "oeg_memoires_fr",
+      "title": "Relations de quelques-unes des sociétés correspondantes",
+      "annotationPage": "https://manifests.republique-des-lettres.ch/soe-001_1767_8__39.json"
+    }
+  ],
+  "homepage": [
+    {
+      "label": {
+        "de": [
+          "Publikationseintrag auf République des Lettres"
+        ],
+        "en": [
+          "Publication record at République des Lettres"
+        ],
+        "fr": [
+          "Entrée de publication sur République des Lettres"
+        ]
+      },
+      "format": "application/json",
+      "type": "Text",
+      "id": "https://hallernet-backend-proxy.hidora.com/api/data/publication/46039/json"
+    }
+  ],
+  "items": [
+    {
+      "body": {
+        "label": {
+          "de": [
+            "Abhandlungen und Beobachtungen der Ökonomischen Gesellschaft Bern"
+          ],
+          "en": [
+            "Memoirs and observations of the Economic Society of Bern"
+          ],
+          "fr": [
+            "Mémoires et observations de la Société économique de Berne"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://republique-des-lettres.ch/edition/oeg-abhandlungen",
+        "purpose": {
+          "label": {
+            "de": [
+              "Digitale Edition"
+            ],
+            "en": [
+              "Digital Scholarly Edition"
+            ],
+            "fr": [
+              "Édition numérique"
+            ]
+          },
+          "id": "ordiiif-vocab:Edition"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1767:8::527/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1767_8__527-publication_46039-edition"
+    },
+    {
+      "body": {
+        "value": "OeG",
+        "type": "TextualBody"
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1767:8::527/manifest",
+      "motivation": "classifying",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1767_8__527-publication_46039-category-oeg-1"
+    },
+    {
+      "body": {
+        "identifier": "https://d-nb.info/gnd/1255862955",
+        "mention": [
+          {
+            "value": "Obrist Schmalz, regierender Landvogt auf Lenzburg",
+            "language": "de",
+            "type": "TextualBody",
+            "purpose": {
+              "label": {
+                "de": [
+                  "Textbeleg"
+                ],
+                "en": [
+                  "Textual attestation"
+                ],
+                "fr": [
+                  "Attestation textuelle"
+                ]
+              },
+              "id": "ordiiif-vocab:MentionString"
+            }
+          }
+        ],
+        "label": {
+          "de": [
+            "Schmalz, Johann Rudolf (1713-1795)"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/person/11782/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Erwähnte Person"
+            ],
+            "en": [
+              "Mentioned person"
+            ],
+            "fr": [
+              "Personne mentionnée"
+            ]
+          },
+          "id": "ordiiif-vocab:MentionedPerson"
+        }
+      },
+      "target": {
+        "rendering": [
+          {
+            "format": "image/jpeg",
+            "type": "Image",
+            "id": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1767_008!oeg-002_1767_008_0043.jpg/335,589,869,85/full/0/default.jpg"
+          }
+        ],
+        "rdlRegion": "main",
+        "source": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1767_008!oeg-002_1767_008_0043.jpg",
+        "selector": {
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
+          "value": "xywh=335,589,869,85",
+          "type": "FragmentSelector"
+        }
+      },
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1767_8__527-publication_46039-mentioned-person-person_11782"
+    },
+    {
+      "body": {
+        "identifier": "https://d-nb.info/gnd/1256770051",
+        "mention": [
+          {
+            "value": "Perrinet von Faugnes, Hr. zu Tovenay",
+            "language": "de",
+            "type": "TextualBody",
+            "purpose": {
+              "label": {
+                "de": [
+                  "Textbeleg"
+                ],
+                "en": [
+                  "Textual attestation"
+                ],
+                "fr": [
+                  "Attestation textuelle"
+                ]
+              },
+              "id": "ordiiif-vocab:MentionString"
+            }
+          }
+        ],
+        "label": {
+          "de": [
+            "Perrinet de Faugnes, Pierre (1715-1773)"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/person/12245/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Erwähnte Person"
+            ],
+            "en": [
+              "Mentioned person"
+            ],
+            "fr": [
+              "Personne mentionnée"
+            ]
+          },
+          "id": "ordiiif-vocab:MentionedPerson"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1767:8::527/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1767_8__527-publication_46039-mentioned-person-person_12245"
+    },
+    {
+      "body": {
+        "identifier": "https://d-nb.info/gnd/133545776",
+        "mention": [
+          {
+            "value": "Mingard, Pfarrherr zu Granson",
+            "language": "de",
+            "type": "TextualBody",
+            "purpose": {
+              "label": {
+                "de": [
+                  "Textbeleg"
+                ],
+                "en": [
+                  "Textual attestation"
+                ],
+                "fr": [
+                  "Attestation textuelle"
+                ]
+              },
+              "id": "ordiiif-vocab:MentionString"
+            }
+          }
+        ],
+        "label": {
+          "de": [
+            "Mingard, Gabriel-Jean-Henri (1729-1786)"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/person/12362/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Erwähnte Person"
+            ],
+            "en": [
+              "Mentioned person"
+            ],
+            "fr": [
+              "Personne mentionnée"
+            ]
+          },
+          "id": "ordiiif-vocab:MentionedPerson"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1767:8::527/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1767_8__527-publication_46039-mentioned-person-person_12362"
+    },
+    {
+      "body": {
+        "identifier": "https://d-nb.info/gnd/1126281735",
+        "mention": [
+          {
+            "value": "Hauptmann Felice von Murten",
+            "language": "de",
+            "type": "TextualBody",
+            "purpose": {
+              "label": {
+                "de": [
+                  "Textbeleg"
+                ],
+                "en": [
+                  "Textual attestation"
+                ],
+                "fr": [
+                  "Attestation textuelle"
+                ]
+              },
+              "id": "ordiiif-vocab:MentionString"
+            }
+          }
+        ],
+        "label": {
+          "de": [
+            "Felice, Charles-Henri (ca. 1706-?)"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/person/11888/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Erwähnte Person"
+            ],
+            "en": [
+              "Mentioned person"
+            ],
+            "fr": [
+              "Personne mentionnée"
+            ]
+          },
+          "id": "ordiiif-vocab:MentionedPerson"
+        }
+      },
+      "target": {
+        "rendering": [
+          {
+            "format": "image/jpeg",
+            "type": "Image",
+            "id": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1767_008!oeg-002_1767_008_0046.jpg/107,810,541,57/full/0/default.jpg"
+          }
+        ],
+        "rdlRegion": "main",
+        "source": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1767_008!oeg-002_1767_008_0046.jpg",
+        "selector": {
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
+          "value": "xywh=107,810,541,57",
+          "type": "FragmentSelector"
+        }
+      },
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1767_8__527-publication_46039-mentioned-person-person_11888"
+    }
+  ]
+}

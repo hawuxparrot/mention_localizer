@@ -1,0 +1,1148 @@
+{
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "label": {
+    "de": [
+      "Annotationen zu: OeG Mitglieder AB (1766)"
+    ]
+  },
+  "type": "AnnotationPage",
+  "id": "https://manifests.republique-des-lettres.ch/soe-001_1766_7__1032.json",
+  "rights": "https://creativecommons.org/licenses/by/4.0/",
+  "provider": [
+    {
+      "label": {
+        "de": [
+          "République des Lettres"
+        ],
+        "en": [
+          "République des Lettres"
+        ],
+        "fr": [
+          "République des Lettres"
+        ]
+      },
+      "type": "Agent",
+      "id": "https://republique-des-lettres.ch"
+    }
+  ],
+  "created": "2026-10-05T11:23:39",
+  "journal": {
+    "label": {
+      "de": [
+        "Schriften der Ökonomischen Gesellschaft Bern (französischsprachige Ausgabe)"
+      ],
+      "en": [
+        "Publications of the Economic Society of Bern (French-language edition)"
+      ],
+      "fr": [
+        "Publications de la Société économique de Berne (édition française)"
+      ]
+    },
+    "title": {
+      "fr": [
+        "Mémoires et observations recueillies par la Société œconomique de Berne"
+      ]
+    },
+    "language": "fr",
+    "id": "oeg_memoires_fr"
+  },
+  "rdlRelationType": "single-publication",
+  "homepageCount": 1,
+  "metadata": [
+    {
+      "value": {
+        "de": [
+          "https://www.e-periodica.ch/iiif/soe-001:1766:7::1032/manifest"
+        ]
+      },
+      "label": {
+        "de": [
+          "Manifest"
+        ],
+        "en": [
+          "Manifest"
+        ],
+        "fr": [
+          "Manifeste"
+        ]
+      }
+    },
+    {
+      "value": {
+        "fr": [
+          "Mémoires et observations recueillies par la Société œconomique de Berne"
+        ]
+      },
+      "label": {
+        "de": [
+          "Zeitschrift"
+        ],
+        "en": [
+          "Journal"
+        ],
+        "fr": [
+          "Revue"
+        ]
+      }
+    },
+    {
+      "value": {
+        "de": [
+          "1766 (7/1), XXVI-XXVII"
+        ]
+      },
+      "label": {
+        "de": [
+          "Kollation"
+        ],
+        "en": [
+          "Collation"
+        ],
+        "fr": [
+          "Collation"
+        ]
+      }
+    },
+    {
+      "value": {
+        "fr": [
+          "OeG Mitglieder AB (1766)"
+        ]
+      },
+      "label": {
+        "de": [
+          "Kurzform"
+        ],
+        "en": [
+          "Short title"
+        ],
+        "fr": [
+          "Titre court"
+        ]
+      }
+    },
+    {
+      "value": {
+        "fr": [
+          "Liste des membres tant ordinaires qu'honoraires, reçus dans le courant de l'année, suivant l'ordre de leur élection"
+        ]
+      },
+      "label": {
+        "de": [
+          "Artikeltitel"
+        ],
+        "en": [
+          "Article title"
+        ],
+        "fr": [
+          "Titre de l’article"
+        ]
+      }
+    },
+    {
+      "value": {
+        "de": [
+          "Französisch"
+        ]
+      },
+      "label": {
+        "de": [
+          "Sprache"
+        ],
+        "en": [
+          "Language"
+        ],
+        "fr": [
+          "Langue"
+        ]
+      }
+    },
+    {
+      "value": {
+        "de": [
+          "1"
+        ]
+      },
+      "label": {
+        "de": [
+          "Anzahl verknüpfter RdL-Publikationen"
+        ],
+        "en": [
+          "Number of linked RdL publication records"
+        ],
+        "fr": [
+          "Nombre de notices RdL liées"
+        ]
+      }
+    }
+  ],
+  "parallelVersions": [
+    {
+      "manifestUrl": "https://www.e-periodica.ch/iiif/oeg-002:1766:7::1043/manifest",
+      "containedTitle": "Abhandlungen/Mémoires (1766, Vol. 07, No. 01)",
+      "collation": "1766 (7/1), XXVII-XXVIII",
+      "lang": "de",
+      "journalId": "oeg_abhandlungen_de",
+      "title": "Verzeichnis der neuangenommenen Mit- und Ehrenglieder",
+      "annotationPage": "https://manifests.republique-des-lettres.ch/oeg-002_1766_7__1043.json"
+    }
+  ],
+  "homepage": [
+    {
+      "label": {
+        "de": [
+          "Publikationseintrag auf République des Lettres"
+        ],
+        "en": [
+          "Publication record at République des Lettres"
+        ],
+        "fr": [
+          "Entrée de publication sur République des Lettres"
+        ]
+      },
+      "format": "application/json",
+      "type": "Text",
+      "id": "https://hallernet-backend-proxy.hidora.com/api/data/publication/46008/json"
+    }
+  ],
+  "items": [
+    {
+      "body": {
+        "label": {
+          "de": [
+            "Abhandlungen und Beobachtungen der Ökonomischen Gesellschaft Bern"
+          ],
+          "en": [
+            "Memoirs and observations of the Economic Society of Bern"
+          ],
+          "fr": [
+            "Mémoires et observations de la Société économique de Berne"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://republique-des-lettres.ch/edition/oeg-abhandlungen",
+        "purpose": {
+          "label": {
+            "de": [
+              "Digitale Edition"
+            ],
+            "en": [
+              "Digital Scholarly Edition"
+            ],
+            "fr": [
+              "Édition numérique"
+            ]
+          },
+          "id": "ordiiif-vocab:Edition"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/soe-001:1766:7::1032/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/soe-001_1766_7__1032-publication_46008-edition"
+    },
+    {
+      "body": {
+        "value": "Ce texte présente la liste des membres ordinaires et honoraires d’une société, reçus au cours de l'année, avec leurs titres et fonctions (conseil, secrétaire, capitaine, médecin, académicien, etc.).",
+        "language": "fr",
+        "type": "TextualBody",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/publication/46008/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "KI-generierte Zusammenfassung"
+            ],
+            "en": [
+              "AI-generated summary"
+            ],
+            "fr": [
+              "Résumé généré par IA"
+            ]
+          },
+          "id": "ordiiif-vocab:AISummary"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/soe-001:1766:7::1032/manifest",
+      "motivation": "commenting",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/soe-001_1766_7__1032-publication_46008-ai-summary-fr"
+    },
+    {
+      "body": {
+        "value": "OeG",
+        "type": "TextualBody"
+      },
+      "target": "https://www.e-periodica.ch/iiif/soe-001:1766:7::1032/manifest",
+      "motivation": "classifying",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/soe-001_1766_7__1032-publication_46008-category-oeg-1"
+    },
+    {
+      "body": {
+        "identifier": "https://d-nb.info/gnd/1253235848",
+        "mention": [
+          {
+            "value": "Bourgeois, der Arzney Doktor zu Ifferten",
+            "language": "de",
+            "type": "TextualBody",
+            "purpose": {
+              "label": {
+                "de": [
+                  "Textbeleg"
+                ],
+                "en": [
+                  "Textual attestation"
+                ],
+                "fr": [
+                  "Attestation textuelle"
+                ]
+              },
+              "id": "ordiiif-vocab:MentionString"
+            }
+          }
+        ],
+        "label": {
+          "de": [
+            "Bourgeois, Nicolas-Maximilien (1718-1775)"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/person/00120/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Erwähnte Person"
+            ],
+            "en": [
+              "Mentioned person"
+            ],
+            "fr": [
+              "Personne mentionnée"
+            ]
+          },
+          "id": "ordiiif-vocab:MentionedPerson"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/soe-001:1766:7::1032/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/soe-001_1766_7__1032-publication_46008-mentioned-person-person_00120"
+    },
+    {
+      "body": {
+        "identifier": "https://d-nb.info/gnd/14049104X",
+        "mention": [
+          {
+            "value": "Langhans, Doktor der Arzneykunst",
+            "language": "de",
+            "type": "TextualBody",
+            "purpose": {
+              "label": {
+                "de": [
+                  "Textbeleg"
+                ],
+                "en": [
+                  "Textual attestation"
+                ],
+                "fr": [
+                  "Attestation textuelle"
+                ]
+              },
+              "id": "ordiiif-vocab:MentionString"
+            }
+          }
+        ],
+        "label": {
+          "de": [
+            "Langhans, Daniel (1728-1813)"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/person/00567/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Erwähnte Person"
+            ],
+            "en": [
+              "Mentioned person"
+            ],
+            "fr": [
+              "Personne mentionnée"
+            ]
+          },
+          "id": "ordiiif-vocab:MentionedPerson"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/soe-001:1766:7::1032/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/soe-001_1766_7__1032-publication_46008-mentioned-person-person_00567"
+    },
+    {
+      "body": {
+        "identifier": "https://d-nb.info/gnd/100037461",
+        "mention": [
+          {
+            "value": "Freyherr von Münchhausen",
+            "language": "de",
+            "type": "TextualBody",
+            "purpose": {
+              "label": {
+                "de": [
+                  "Textbeleg"
+                ],
+                "en": [
+                  "Textual attestation"
+                ],
+                "fr": [
+                  "Attestation textuelle"
+                ]
+              },
+              "id": "ordiiif-vocab:MentionString"
+            }
+          }
+        ],
+        "label": {
+          "de": [
+            "Münchhausen, Otto von (1716-1774)"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/person/00704/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Erwähnte Person"
+            ],
+            "en": [
+              "Mentioned person"
+            ],
+            "fr": [
+              "Personne mentionnée"
+            ]
+          },
+          "id": "ordiiif-vocab:MentionedPerson"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/soe-001:1766:7::1032/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/soe-001_1766_7__1032-publication_46008-mentioned-person-person_00704"
+    },
+    {
+      "body": {
+        "identifier": "https://d-nb.info/gnd/123944902",
+        "mention": [
+          {
+            "value": "Sinner, von Baleigues, des gr. Raths",
+            "language": "de",
+            "type": "TextualBody",
+            "purpose": {
+              "label": {
+                "de": [
+                  "Textbeleg"
+                ],
+                "en": [
+                  "Textual attestation"
+                ],
+                "fr": [
+                  "Attestation textuelle"
+                ]
+              },
+              "id": "ordiiif-vocab:MentionString"
+            }
+          }
+        ],
+        "label": {
+          "de": [
+            "Sinner, Johann Rudolf II. (1730-1787)"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/person/00954/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Erwähnte Person"
+            ],
+            "en": [
+              "Mentioned person"
+            ],
+            "fr": [
+              "Personne mentionnée"
+            ]
+          },
+          "id": "ordiiif-vocab:MentionedPerson"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/soe-001:1766:7::1032/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/soe-001_1766_7__1032-publication_46008-mentioned-person-person_00954"
+    },
+    {
+      "body": {
+        "identifier": "https://d-nb.info/gnd/135064198",
+        "mention": [
+          {
+            "value": "J. Bapt. Tschudi, Grand-Baillif zu Mez",
+            "language": "de",
+            "type": "TextualBody",
+            "purpose": {
+              "label": {
+                "de": [
+                  "Textbeleg"
+                ],
+                "en": [
+                  "Textual attestation"
+                ],
+                "fr": [
+                  "Attestation textuelle"
+                ]
+              },
+              "id": "ordiiif-vocab:MentionString"
+            }
+          }
+        ],
+        "label": {
+          "de": [
+            "Tschudi, Johann Baptist Ludwig Theodor von (1734-1784)"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/person/01058/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Erwähnte Person"
+            ],
+            "en": [
+              "Mentioned person"
+            ],
+            "fr": [
+              "Personne mentionnée"
+            ]
+          },
+          "id": "ordiiif-vocab:MentionedPerson"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/soe-001:1766:7::1032/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/soe-001_1766_7__1032-publication_46008-mentioned-person-person_01058"
+    },
+    {
+      "body": {
+        "identifier": "https://d-nb.info/gnd/129735183",
+        "mention": [
+          {
+            "value": "Griselini, der Akademie von Bologne Mitglied",
+            "language": "de",
+            "type": "TextualBody",
+            "purpose": {
+              "label": {
+                "de": [
+                  "Textbeleg"
+                ],
+                "en": [
+                  "Textual attestation"
+                ],
+                "fr": [
+                  "Attestation textuelle"
+                ]
+              },
+              "id": "ordiiif-vocab:MentionString"
+            }
+          }
+        ],
+        "label": {
+          "de": [
+            "Griselini, Francesco (1717-1783)"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/person/03133/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Erwähnte Person"
+            ],
+            "en": [
+              "Mentioned person"
+            ],
+            "fr": [
+              "Personne mentionnée"
+            ]
+          },
+          "id": "ordiiif-vocab:MentionedPerson"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/soe-001:1766:7::1032/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/soe-001_1766_7__1032-publication_46008-mentioned-person-person_03133"
+    },
+    {
+      "body": {
+        "identifier": "https://d-nb.info/gnd/12477587X",
+        "mention": [
+          {
+            "value": "Abt Rosier, der Akad. zu Lyon zu Bes. der Vieharzney, Direktor",
+            "language": "de",
+            "type": "TextualBody",
+            "purpose": {
+              "label": {
+                "de": [
+                  "Textbeleg"
+                ],
+                "en": [
+                  "Textual attestation"
+                ],
+                "fr": [
+                  "Attestation textuelle"
+                ]
+              },
+              "id": "ordiiif-vocab:MentionString"
+            }
+          }
+        ],
+        "label": {
+          "de": [
+            "Rozier, Jean-François (1734-1793)"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/person/05216/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Erwähnte Person"
+            ],
+            "en": [
+              "Mentioned person"
+            ],
+            "fr": [
+              "Personne mentionnée"
+            ]
+          },
+          "id": "ordiiif-vocab:MentionedPerson"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/soe-001:1766:7::1032/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/soe-001_1766_7__1032-publication_46008-mentioned-person-person_05216"
+    },
+    {
+      "body": {
+        "identifier": "https://d-nb.info/gnd/1255856939",
+        "mention": [
+          {
+            "value": "Carl Lombach von Losanen",
+            "language": "de",
+            "type": "TextualBody",
+            "purpose": {
+              "label": {
+                "de": [
+                  "Textbeleg"
+                ],
+                "en": [
+                  "Textual attestation"
+                ],
+                "fr": [
+                  "Attestation textuelle"
+                ]
+              },
+              "id": "ordiiif-vocab:MentionString"
+            }
+          }
+        ],
+        "label": {
+          "de": [
+            "Lombach, Karl (1740-1811)"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/person/11769/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Erwähnte Person"
+            ],
+            "en": [
+              "Mentioned person"
+            ],
+            "fr": [
+              "Personne mentionnée"
+            ]
+          },
+          "id": "ordiiif-vocab:MentionedPerson"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/soe-001:1766:7::1032/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/soe-001_1766_7__1032-publication_46008-mentioned-person-person_11769"
+    },
+    {
+      "body": {
+        "identifier": "https://d-nb.info/gnd/1096213184",
+        "mention": [
+          {
+            "value": "Thormann von Oron, der ältere",
+            "language": "de",
+            "type": "TextualBody",
+            "purpose": {
+              "label": {
+                "de": [
+                  "Textbeleg"
+                ],
+                "en": [
+                  "Textual attestation"
+                ],
+                "fr": [
+                  "Attestation textuelle"
+                ]
+              },
+              "id": "ordiiif-vocab:MentionString"
+            }
+          }
+        ],
+        "label": {
+          "de": [
+            "Thormann, Alexander Viktor (1741-1800)"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/person/11791/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Erwähnte Person"
+            ],
+            "en": [
+              "Mentioned person"
+            ],
+            "fr": [
+              "Personne mentionnée"
+            ]
+          },
+          "id": "ordiiif-vocab:MentionedPerson"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/soe-001:1766:7::1032/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/soe-001_1766_7__1032-publication_46008-mentioned-person-person_11791"
+    },
+    {
+      "body": {
+        "identifier": "https://d-nb.info/gnd/125676745X",
+        "mention": [
+          {
+            "value": "Thome, der Akad. der Wissenschaften zu Lyon u.[s.w.] Mitglied",
+            "language": "de",
+            "type": "TextualBody",
+            "purpose": {
+              "label": {
+                "de": [
+                  "Textbeleg"
+                ],
+                "en": [
+                  "Textual attestation"
+                ],
+                "fr": [
+                  "Attestation textuelle"
+                ]
+              },
+              "id": "ordiiif-vocab:MentionString"
+            }
+          }
+        ],
+        "label": {
+          "de": [
+            "Thomé, Mathieu (1710-1780)"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/person/11962/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Erwähnte Person"
+            ],
+            "en": [
+              "Mentioned person"
+            ],
+            "fr": [
+              "Personne mentionnée"
+            ]
+          },
+          "id": "ordiiif-vocab:MentionedPerson"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/soe-001:1766:7::1032/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/soe-001_1766_7__1032-publication_46008-mentioned-person-person_11962"
+    },
+    {
+      "body": {
+        "identifier": "https://d-nb.info/gnd/1256771236",
+        "mention": [
+          {
+            "value": "Vavasseur der ältere, der Ges. des Landbaues zu Rouen",
+            "language": "de",
+            "type": "TextualBody",
+            "purpose": {
+              "label": {
+                "de": [
+                  "Textbeleg"
+                ],
+                "en": [
+                  "Textual attestation"
+                ],
+                "fr": [
+                  "Attestation textuelle"
+                ]
+              },
+              "id": "ordiiif-vocab:MentionString"
+            }
+          }
+        ],
+        "label": {
+          "de": [
+            "Levavasseur, Pierre-Jacques-Aimable (1726-1802)"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/person/12275/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Erwähnte Person"
+            ],
+            "en": [
+              "Mentioned person"
+            ],
+            "fr": [
+              "Personne mentionnée"
+            ]
+          },
+          "id": "ordiiif-vocab:MentionedPerson"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/soe-001:1766:7::1032/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/soe-001_1766_7__1032-publication_46008-mentioned-person-person_12275"
+    },
+    {
+      "body": {
+        "identifier": "https://d-nb.info/gnd/1255853743",
+        "mention": [
+          {
+            "value": "Ith, Hauptmann in der Miliz",
+            "language": "de",
+            "type": "TextualBody",
+            "purpose": {
+              "label": {
+                "de": [
+                  "Textbeleg"
+                ],
+                "en": [
+                  "Textual attestation"
+                ],
+                "fr": [
+                  "Attestation textuelle"
+                ]
+              },
+              "id": "ordiiif-vocab:MentionString"
+            }
+          }
+        ],
+        "label": {
+          "de": [
+            "Ith, Gottlieb Friedrich (1739-1797)"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/person/11761/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Erwähnte Person"
+            ],
+            "en": [
+              "Mentioned person"
+            ],
+            "fr": [
+              "Personne mentionnée"
+            ]
+          },
+          "id": "ordiiif-vocab:MentionedPerson"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/soe-001:1766:7::1032/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/soe-001_1766_7__1032-publication_46008-mentioned-person-person_11761"
+    },
+    {
+      "body": {
+        "identifier": "https://d-nb.info/gnd/13594029X",
+        "mention": [
+          {
+            "value": "Graf von Dohna",
+            "language": "de",
+            "type": "TextualBody",
+            "purpose": {
+              "label": {
+                "de": [
+                  "Textbeleg"
+                ],
+                "en": [
+                  "Textual attestation"
+                ],
+                "fr": [
+                  "Attestation textuelle"
+                ]
+              },
+              "id": "ordiiif-vocab:MentionString"
+            }
+          }
+        ],
+        "label": {
+          "de": [
+            "Dohna, Friedrich Alex. von (1741-1810)"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/person/11877/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Erwähnte Person"
+            ],
+            "en": [
+              "Mentioned person"
+            ],
+            "fr": [
+              "Personne mentionnée"
+            ]
+          },
+          "id": "ordiiif-vocab:MentionedPerson"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/soe-001:1766:7::1032/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/soe-001_1766_7__1032-publication_46008-mentioned-person-person_11877"
+    },
+    {
+      "body": {
+        "identifier": "https://d-nb.info/gnd/1080702598",
+        "mention": [
+          {
+            "value": "J. R. Marcuard, berühmter Handelsmann",
+            "language": "de",
+            "type": "TextualBody",
+            "purpose": {
+              "label": {
+                "de": [
+                  "Textbeleg"
+                ],
+                "en": [
+                  "Textual attestation"
+                ],
+                "fr": [
+                  "Attestation textuelle"
+                ]
+              },
+              "id": "ordiiif-vocab:MentionString"
+            }
+          }
+        ],
+        "label": {
+          "de": [
+            "Marcuard, Johann Rudolf (1722-1795)"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/person/11773/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Erwähnte Person"
+            ],
+            "en": [
+              "Mentioned person"
+            ],
+            "fr": [
+              "Personne mentionnée"
+            ]
+          },
+          "id": "ordiiif-vocab:MentionedPerson"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/soe-001:1766:7::1032/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/soe-001_1766_7__1032-publication_46008-mentioned-person-person_11773"
+    },
+    {
+      "body": {
+        "identifier": "https://d-nb.info/gnd/119100673",
+        "mention": [
+          {
+            "value": "Schäffer zu Regensburg",
+            "language": "de",
+            "type": "TextualBody",
+            "purpose": {
+              "label": {
+                "de": [
+                  "Textbeleg"
+                ],
+                "en": [
+                  "Textual attestation"
+                ],
+                "fr": [
+                  "Attestation textuelle"
+                ]
+              },
+              "id": "ordiiif-vocab:MentionString"
+            }
+          }
+        ],
+        "label": {
+          "de": [
+            "Schäffer, Jakob Christian (1718-1790)"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/person/00894/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Erwähnte Person"
+            ],
+            "en": [
+              "Mentioned person"
+            ],
+            "fr": [
+              "Personne mentionnée"
+            ]
+          },
+          "id": "ordiiif-vocab:MentionedPerson"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/soe-001:1766:7::1032/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/soe-001_1766_7__1032-publication_46008-mentioned-person-person_00894"
+    },
+    {
+      "body": {
+        "identifier": "https://d-nb.info/gnd/133216659",
+        "mention": [
+          {
+            "value": "Freyherr Linker von Denster bey Wismar",
+            "language": "de",
+            "type": "TextualBody",
+            "purpose": {
+              "label": {
+                "de": [
+                  "Textbeleg"
+                ],
+                "en": [
+                  "Textual attestation"
+                ],
+                "fr": [
+                  "Attestation textuelle"
+                ]
+              },
+              "id": "ordiiif-vocab:MentionString"
+            }
+          }
+        ],
+        "label": {
+          "de": [
+            "Lynker, Joseph Johann Jakob Freiherr v. Lützenwick (1747-1807)"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/person/11913/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Erwähnte Person"
+            ],
+            "en": [
+              "Mentioned person"
+            ],
+            "fr": [
+              "Personne mentionnée"
+            ]
+          },
+          "id": "ordiiif-vocab:MentionedPerson"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/soe-001:1766:7::1032/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/soe-001_1766_7__1032-publication_46008-mentioned-person-person_11913"
+    },
+    {
+      "body": {
+        "identifier": "https://d-nb.info/gnd/1255856130",
+        "mention": [
+          {
+            "value": "Koch, Theol. Stud.",
+            "language": "de",
+            "type": "TextualBody",
+            "purpose": {
+              "label": {
+                "de": [
+                  "Textbeleg"
+                ],
+                "en": [
+                  "Textual attestation"
+                ],
+                "fr": [
+                  "Attestation textuelle"
+                ]
+              },
+              "id": "ordiiif-vocab:MentionString"
+            }
+          }
+        ],
+        "label": {
+          "de": [
+            "Koch, Friedrich (1742-1801)"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/person/11767/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Erwähnte Person"
+            ],
+            "en": [
+              "Mentioned person"
+            ],
+            "fr": [
+              "Personne mentionnée"
+            ]
+          },
+          "id": "ordiiif-vocab:MentionedPerson"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/soe-001:1766:7::1032/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/soe-001_1766_7__1032-publication_46008-mentioned-person-person_11767"
+    }
+  ]
+}

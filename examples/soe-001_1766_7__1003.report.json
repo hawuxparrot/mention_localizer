@@ -1,0 +1,38 @@
+[
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1766_7__1003-publication_46011-mentioned-person-person_00233",
+    "mention": "Pf. Dik zu Spiez",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1766_7__1003-publication_46011-mentioned-person-person_12369",
+    "mention": "Pf. Mesmer zu Reutigen, Sekretär",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1766_7__1003-publication_46011-mentioned-person-person_12363",
+    "mention": "Pf. Kyburz zu Wimmis, Vice-Präsident",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1766_7__1003-publication_46011-mentioned-person-person_12364",
+    "mention": "Pf. Sprüngli zu Zweysimmen",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  }
+]

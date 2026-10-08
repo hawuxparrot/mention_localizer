@@ -1,0 +1,20 @@
+[
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1765_6__1096-publication_45999-mentioned-person-person_00368",
+    "mention": "Mnhhr. Landvogt von Graffenried",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1765_6__1096-publication_45999-mentioned-person-person_06897",
+    "mention": "Abraham Pagan, Secretär der Gesellschaft",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  }
+]

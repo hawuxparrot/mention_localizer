@@ -1,0 +1,20 @@
+[
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1771_12__369-publication_46092-mentioned-person-person_11786",
+    "mention": "Stettler von Fiez",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1771_12__369-publication_46092-mentioned-person-person_11881",
+    "mention": "Elie de Beaumont, Avocat au Parlement de Paris",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  }
+]

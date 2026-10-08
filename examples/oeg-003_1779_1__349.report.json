@@ -1,0 +1,434 @@
+[
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-003_1779_1__349-publication_46215-mentioned-person-person_00222",
+    "mention": "Decoppet, V. D. M. zu Aehlen",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-003_1779_1__349-publication_46215-mentioned-person-person_00560",
+    "mention": "Graf von Lamberg",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1779_001!oeg-003_1779_001_0006.jpg/183,955,360,60/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-003_1779_1__349-publication_46215-mentioned-person-person_00630",
+    "mention": "Salzcassaverwalter Manuel",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1779_001!oeg-003_1779_001_0004.jpg/249,1736,510,52/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-003_1779_1__349-publication_46215-mentioned-person-person_00682",
+    "mention": "Morand, Med. Dr.",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-003_1779_1__349-publication_46215-mentioned-person-person_00522",
+    "mention": "Ihro Durchlaucht der Herzog von Württemberg",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1779_001!oeg-003_1779_001_0006.jpg/92,1133,901,94/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-003_1779_1__349-publication_46215-mentioned-person-person_00713",
+    "mention": "Professor Murray in Göttingen",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1779_001!oeg-003_1779_001_0005.jpg/270,1052,599,65/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-003_1779_1__349-publication_46215-mentioned-person-person_00892",
+    "mention": "Nik. von Saussure, ancien Auditeur von Genf",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-003_1779_1__349-publication_46215-mentioned-person-person_08014",
+    "mention": "Rathschreiber Kirchberger",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1779_001!oeg-003_1779_001_0004.jpg/248,1165,480,57/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-003_1779_1__349-publication_46215-mentioned-person-person_03245",
+    "mention": "Albr. haller von Roche",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1779_001!oeg-003_1779_001_0005.jpg/278,526,438,57/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-003_1779_1__349-publication_46215-mentioned-person-person_01082",
+    "mention": "Venel, Med. Dr. zu Jverdon",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-003_1779_1__349-publication_46215-mentioned-person-person_02832",
+    "mention": "Freudenreich von Zoffingen, der ältere",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-003_1779_1__349-publication_46215-mentioned-person-person_05262",
+    "mention": "Baron von Salgass",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1779_001!oeg-003_1779_001_0005.jpg/266,1503,368,57/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-003_1779_1__349-publication_46215-mentioned-person-person_05882",
+    "mention": "G. Thormann von Mathod",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1779_001!oeg-003_1779_001_0004.jpg/250,766,515,54/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-003_1779_1__349-publication_46215-mentioned-person-person_05966",
+    "mention": "Beat Tscharner von Schenkenberg, Sohn",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1779_001!oeg-003_1779_001_0004.jpg/246,703,781,65/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-003_1779_1__349-publication_46215-mentioned-person-person_11781",
+    "mention": "Hauptmann Ryhiner",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1779_001!oeg-003_1779_001_0005.jpg/281,341,390,55/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-003_1779_1__349-publication_46215-mentioned-person-person_11951",
+    "mention": "Schärer von Strassburg",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1779_001!oeg-003_1779_001_0006.jpg/180,1258,441,61/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-003_1779_1__349-publication_46215-mentioned-person-person_11946",
+    "mention": "Ihro Excellenz Heinrich, der XLIIte Graf von Reus, u.[s.w.]",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-003_1779_1__349-publication_46215-mentioned-person-person_11766",
+    "mention": "Kirchberger, Freyherr zu Roll",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1779_001!oeg-003_1779_001_0004.jpg/248,1026,584,55/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-003_1779_1__349-publication_46215-mentioned-person-person_11795",
+    "mention": "Hauptmann Tscharner von Seedorf",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1779_001!oeg-003_1779_001_0004.jpg/248,1490,660,63/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-003_1779_1__349-publication_46215-mentioned-person-person_11866",
+    "mention": "Freyherr von Böcklin",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1779_001!oeg-003_1779_001_0006.jpg/184,716,387,54/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-003_1779_1__349-publication_46215-mentioned-person-person_11964",
+    "mention": "Vernede, Pfarrer der Wallonischen Kirche zu Amsterdam",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-003_1779_1__349-publication_46215-mentioned-person-person_11973",
+    "mention": "Artillerie-Obrist Wyss",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-003_1779_1__349-publication_46215-mentioned-person-person_11967",
+    "mention": "Villemet, Doyen des Apothiciaires zu Nancy",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-003_1779_1__349-publication_46215-mentioned-person-person_12372",
+    "mention": "Hofrath Klaiss",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1779_001!oeg-003_1779_001_0006.jpg/177,1371,276,55/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-003_1779_1__349-publication_46215-mentioned-person-person_11908",
+    "mention": "von Kniestedt, Herzogl. Würtenb. Cammer-Präsident",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-003_1779_1__349-publication_46215-mentioned-person-person_11753",
+    "mention": "Landmajor Fischer",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1779_001!oeg-003_1779_001_0004.jpg/248,827,350,50/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-003_1779_1__349-publication_46215-mentioned-person-person_11762",
+    "mention": "Bibliothecarius Ith",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1779_001!oeg-003_1779_001_0004.jpg/249,1677,370,52/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-003_1779_1__349-publication_46215-mentioned-person-person_11916",
+    "mention": "Lueder, Superintendent zu Dannenberg",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1779_001!oeg-003_1779_001_0006.jpg/185,372,735,80/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-003_1779_1__349-publication_46215-mentioned-person-person_11807",
+    "mention": "von Werdt von Toffen, der jüngere",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1779_001!oeg-003_1779_001_0004.jpg/248,1370,669,60/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-003_1779_1__349-publication_46215-mentioned-person-person_11806",
+    "mention": "von Werdt von Toffen, der ältere",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1779_001!oeg-003_1779_001_0004.jpg/248,1616,610,54/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-003_1779_1__349-publication_46215-mentioned-person-person_11868",
+    "mention": "Brunner, Sekretär der ökon. Ges. in Zürich",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1779_001!oeg-003_1779_001_0005.jpg/265,1564,807,70/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-003_1779_1__349-publication_46215-mentioned-person-person_11747",
+    "mention": "von Diesbach von Carouge",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1779_001!oeg-003_1779_001_0005.jpg/282,469,519,59/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-003_1779_1__349-publication_46215-mentioned-person-person_11882",
+    "mention": "Ebt von Rudenz, Artillerie-Hauptmann",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-003_1779_1__349-publication_46215-mentioned-person-person_11880",
+    "mention": "Dupont, Baadendurl. Hofrath",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-003_1779_1__349-publication_46215-mentioned-person-person_11883",
+    "mention": "Echaquet, Dr. med. zu Aubonne",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-003_1779_1__349-publication_46215-mentioned-person-person_11772",
+    "mention": "Manuel von Grandson, der ältere",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1779_001!oeg-003_1779_001_0004.jpg/249,1800,630,58/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-003_1779_1__349-publication_46215-mentioned-person-person_11803",
+    "mention": "von Wattenwyl von Belp, der ältere",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1779_001!oeg-003_1779_001_0005.jpg/282,407,672,60/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-003_1779_1__349-publication_46215-mentioned-person-person_11797",
+    "mention": "B. Tscharner von Aubonne, Sohn",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1779_001!oeg-003_1779_001_0004.jpg/246,965,649,60/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-003_1779_1__349-publication_46215-mentioned-person-person_11801",
+    "mention": "von Wattenwyl, Schultheiss des H. L. A. St.",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1779_001!oeg-003_1779_001_0004.jpg/251,1431,803,58/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-003_1779_1__349-publication_46215-mentioned-person-person_11901",
+    "mention": "Hofrath Hartmann von Stuttgard",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1779_001!oeg-003_1779_001_0006.jpg/178,1658,656,74/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-003_1779_1__349-publication_46215-mentioned-person-person_12015",
+    "mention": "Graf von Albon",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1779_001!oeg-003_1779_001_0006.jpg/186,536,314,51/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-003_1779_1__349-publication_46215-mentioned-person-person_08420",
+    "mention": "Bagard, Präsident des königlich. Colleg. der Aerzte zu Nancy",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1779_001!oeg-003_1779_001_0005.jpg/269,1260,809,107/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-003_1779_1__349-publication_46215-mentioned-person-person_09214",
+    "mention": "Favre, J. U. D. zu Roll",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-003_1779_1__349-publication_46215-mentioned-person-person_01159",
+    "mention": "Arthour Young",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1779_001!oeg-003_1779_001_0005.jpg/271,983,301,54/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-003_1779_1__349-publication_46215-mentioned-person-person_00681",
+    "mention": "von Montaulieu",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1779_001!oeg-003_1779_001_0006.jpg/176,1721,301,48/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-003_1779_1__349-publication_46215-mentioned-person-person_23084",
+    "mention": "Echaquet, Architecte zu Aubonne",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-003_1779_1__349-publication_46215-mentioned-person-person_11787",
+    "mention": "Stettler von Köniz",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1779_001!oeg-003_1779_001_0004.jpg/250,1554,354,52/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-003_1779_1__349-publication_46215-mentioned-person-person_05780",
+    "mention": "Struve, Sohn, Med. Dr. in Losanen",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  }
+]

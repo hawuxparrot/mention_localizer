@@ -1,0 +1,29 @@
+[
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1763_4__1056-publication_46261-mentioned-person-person_00727",
+    "mention": "J. Rud. Neuhaus, Alt-Venner, der Gesellsch. Präsident",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1763_4__1056-publication_46261-mentioned-person-person_11981",
+    "mention": "Alex. Wildermett, Hauptm., des grossen Raths",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1763_4__1056-publication_46261-mentioned-person-person_12307",
+    "mention": "Sigm. Wildermett, Lieutenant",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!soe!1763_004!soe-001_1763_004_0042.jpg/365,1160,625,47/full/0/default.jpg"
+  }
+]

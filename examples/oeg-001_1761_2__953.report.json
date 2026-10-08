@@ -1,0 +1,713 @@
+[
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_00385",
+    "mention": "Gruner, Samuel; des grossen Rathes",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_00368",
+    "mention": "Em. von Graffenried; Herr zu Worb",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_00367",
+    "mention": "Deodat von Gouemoens; von Brestenberg, Obrist über ein Regiment Miliz",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_00412",
+    "mention": "Sam. Haller; Landvogt zu Schenkenberg",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_00112",
+    "mention": "Carl Em. von Bonstetten; des täglichen Rathes, Präsident für das laufende Jahr 1761",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_00445",
+    "mention": "Gabriel Herbort; des täglichen Rathes, war Präsident in 1759",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1761_002!oeg-001_1761_002_0004.jpg/285,1314,825,99/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_00908",
+    "mention": "Schmid; Sachsen-Weymarischer Hofrath, Präsident der mitarbeitenden Gesellschaft, in Aarau",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_00909",
+    "mention": "Sam. Schmid; verschiedener ausländischer Akademien Mitglied, zu Bern",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_00749",
+    "mention": "Joh. Jac. Otth; des grossen Rathes zu Zürich",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_00953",
+    "mention": "Friedrich Sinner, gewesener Landvogt zu Interlachen; Vice-Präsident",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_00936",
+    "mention": "Seigneux von Correvon; des Rathes zu Lausanne",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_06456",
+    "mention": "Abraham Freudenreich, des täglichen Rathes alt Venner, war Präsident in 1760",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_06513",
+    "mention": "Peter Sommer; ein Bauer, aus dem Dorfe Affolteren",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1761_002!oeg-001_1761_002_0006.jpg/145,1039,830,98/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_01112",
+    "mention": "Sieg. von Wattenwyl; des grossen Rathes",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1761_002!oeg-001_1761_002_0009.jpg/225,526,830,97/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_01055",
+    "mention": "*Bernh. Tscharner (*=Mitglied der kleinern arbeitenden Commission)",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1761_002!oeg-001_1761_002_0006.jpg/217,182,385,48/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_01073",
+    "mention": "Vautravers; von Vivis",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1761_002!oeg-001_1761_002_0006.jpg/138,1529,515,50/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_01653",
+    "mention": "Baron von Bernstorf; Chambellan am dänischen Hofe",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1761_002!oeg-001_1761_002_0007.jpg/208,164,831,100/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_01689",
+    "mention": "Joh. Bertrand; Pfarrherr an der Gemeinde zu Orbe",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_01945",
+    "mention": "*Em. von Graffenried; Herr zu Burgistein (*=Mitglied der kleinern arbeitenden Commission)",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_01057",
+    "mention": "*Joh. Rud. Tschiffeli, Sekretär am Ehgericht, Vice-Präsident der arbeitenden Commission, und Stifter der löblichen Gesellschaft (*=Mitglied der kleinern arbeitenden Commission)",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_01165",
+    "mention": "Joh. G. Zimmermann; der Arzneywissenschaft Doctor, verschiedener ausländischer Akademien Mitglied, in Brugg",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_05715",
+    "mention": "Fried. Steiger; Herr zu Montricher, des Löbl. aussern Standes Schultheiss",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1761_002!oeg-001_1761_002_0008.jpg/232,1081,829,98/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_06177",
+    "mention": "Alex. Ludwig von Wattenwyl; gewesener Landvogt zu Nidau",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_03663",
+    "mention": "Jenner von Nidau, Sekretär des Manuals der Löblichen Gesellschaft",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1761_002!oeg-001_1761_002_0006.jpg/161,232,832,103/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_04521",
+    "mention": "Marquis von Mirabeau",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1761_002!oeg-001_1761_002_0006.jpg/132,1793,529,52/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_05145",
+    "mention": "Erasmus Ritter; Baumeister, verschiedener fremder Akademien Mitglied",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_05694",
+    "mention": "Alb. Stapfer; Helfer an der Gemeinde zu Diessbach bey Thun",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1761_002!oeg-001_1761_002_0006.jpg/140,1333,827,98/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_05968",
+    "mention": "Em. Tscharner, gewesener Hofmeister zu Königsfelden",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_11782",
+    "mention": "Joh. Rud. Schmalz; des grossen Rathes, Obrist über ein Regiment Miliz",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_11847",
+    "mention": "Joh. Jac. Wagner; gewesener Schultheiss zu Büren",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_11771",
+    "mention": "Rud. Manuel; gewesener Landvogt zu Milden",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1761_002!oeg-001_1761_002_0008.jpg/226,690,833,96/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_11770",
+    "mention": "*Carl Ludwig Manuel (*=Mitglied der kleinern arbeitenden Commission)",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1761_002!oeg-001_1761_002_0005.jpg/271,1678,487,46/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_11768",
+    "mention": "Joh. Rud. Lienhard; des grossen Rathes, deutsch Seckelschreiber",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_11837",
+    "mention": "Joh. Rud. Stettler; Commissions-Schreiber",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_11842",
+    "mention": "Ludwig Stürler; von Serraux",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1761_002!oeg-001_1761_002_0008.jpg/239,1666,685,51/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_11839",
+    "mention": "Franz Ludwig von Tavel",
+    "match_count": 2,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1761_002!oeg-001_1761_002_0005.jpg/287,898,574,53/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_11838",
+    "mention": "Franz Ludwig Stürler; des täglichen Rathes",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1761_002!oeg-001_1761_002_0008.jpg/238,1471,828,100/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_11790",
+    "mention": "Franz Thormann, Landvogt auf Bonmont",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_11792",
+    "mention": "Joh. Rud. Tillier; gewesener Commandant auf Aarburg",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_11959",
+    "mention": "Joh. Stapfer; der Gottesgelahrtheit Professor in Bern",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1761_002!oeg-001_1761_002_0006.jpg/159,551,830,101/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_11823",
+    "mention": "Kastenhofer; Fürsprech vor dem grossen Rath",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_11818",
+    "mention": "Joh. Rud. Fischer; substituirter Seckelschreiber",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_11819",
+    "mention": "Rud. Fried. Fischer; des täglichen Rathes",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1761_002!oeg-001_1761_002_0007.jpg/204,1234,830,53/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_11816",
+    "mention": "Sam. Fried. Fassnacht; des grossen Rathes",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1761_002!oeg-001_1761_002_0007.jpg/205,1138,832,99/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_11817",
+    "mention": "Beat Rud. Fischer; von St. Blaesi",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_11750",
+    "mention": "Abrah. von Erlach; Freyherr zu Riggisberg, Feldmarschall in Frankreich, Ritter vom grossen Kreuze des militarischen Ordens",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_11756",
+    "mention": "Gab. Frisching; von Wyl",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_11758",
+    "mention": "Sieg. Em. von Graffenried, Herr zu Valleman, des grossen Rathes",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_11760",
+    "mention": "Henchoz; zu Kilchberg bey Burgdorf",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1761_002!oeg-001_1761_002_0008.jpg/226,393,778,53/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_11757",
+    "mention": "Franz Ludwig von Graffenried; Herr zu Carouge, des grossen Rathes",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1761_002!oeg-001_1761_002_0005.jpg/295,511,825,98/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_12151",
+    "mention": "Carl Ludwig Sinner; Landvogt zu Buchsee",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_12152",
+    "mention": "Rud. Frisching; Herr zu Rümlingen",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_11005",
+    "mention": "Carl Stürler, gewesener Schultheiss zu Burgdorf",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1761_002!oeg-001_1761_002_0008.jpg/238,1567,830,101/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_11815",
+    "mention": "Gottlieb Ludwig Effinger; von Wildek",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_11810",
+    "mention": "Alb. von Erlach; Freyherr zu Spiez, gewesener Landvogt zu Gottstatt",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1761_002!oeg-001_1761_002_0007.jpg/205,844,832,101/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_11812",
+    "mention": "Imbert Ludwig Berseth; Landvogt zu Wiflisburg",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_11833",
+    "mention": "Carl Em. Rosselet; Fürsprech vor dem grossen Rath",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_11834",
+    "mention": "Marx Carl Friedr. von Sacconay; Herr zu Buersinelle, des grossen Rathes",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1761_002!oeg-001_1761_002_0008.jpg/234,982,829,100/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_11779",
+    "mention": "Em. Rodt; gwesener Landvogt von Morsee",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1761_002!oeg-001_1761_002_0005.jpg/295,609,825,96/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_11796",
+    "mention": "Beat Rud. Tscharner",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1761_002!oeg-001_1761_002_0009.jpg/231,189,478,46/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_11897",
+    "mention": "Graf Franz Ginannj; Patricier zu Ravenna",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1761_002!oeg-001_1761_002_0007.jpg/208,309,832,94/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_11805",
+    "mention": "Sam. von Werth, Herr zu Toffen, gewesener Landvogt zu Vivis",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_00089",
+    "mention": "*Elias Bertrand; Pfarrherr an der französischen Kirche, verschiedener ausländischer Akademien Mitglied. Sekretär der Löblichen Gesellschaft in der französischen Sprache (*=Mitglied der kleinern arbeitenden Commission)",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_08346",
+    "mention": "Rud. von Wattenwyl; von Montbenay, des aussern Standes Schultheiss",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_08377",
+    "mention": "Vinc. Frisching; von Uttigen",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_08447",
+    "mention": "Gabr. Mutach; gewesener Landvogt zu Sumiswald",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1761_002!oeg-001_1761_002_0008.jpg/231,788,830,96/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_08590",
+    "mention": "*Franz Ludwig von Tavel; von Montbijou (*=Mitglied der kleinern arbeitenden Commission)",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_08591",
+    "mention": "Niclaus von Diesbach; von Sinneringen, des grossen Rathes",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_08594",
+    "mention": "Stürler von Cottens",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1761_002!oeg-001_1761_002_0005.jpg/277,1534,486,48/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_08592",
+    "mention": "*Sieg. Fried. König; Welsch-Weinschenk, der Löblichen Gesellschaft Seckelmeister (*=Mitglied der kleinern arbeitenden Commission)",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_09304",
+    "mention": "Em. Fried. Fischer; von Aubonne",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1761_002!oeg-001_1761_002_0007.jpg/205,1477,731,51/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_09299",
+    "mention": "Em. Hortin; zu Wabern",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1761_002!oeg-001_1761_002_0008.jpg/229,444,537,52/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_09425",
+    "mention": "David. Sal. von Wattenwyl; Herr zu Belp, des täglichen Rathes",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_09642",
+    "mention": "Joh. Fried. Willading; gewesener Landvogt zu Wiflisburg",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_01054",
+    "mention": "*Nicl. Em. Tscharner; Sekretär der Löblichen Gesellschaft, in der deutschen Sprache (*=Mitglied der kleinern arbeitenden Commission)",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1761_002!oeg-001_1761_002_0005.jpg/281,993,829,150/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_11820",
+    "mention": "Franz von Graffenried; Herr zu Gerzensee",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_00384",
+    "mention": "Gottlieb Sieg. Gruner; Fürsprech vor dem grossen Rath",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1761_002!oeg-001_1761_002_0005.jpg/270,1725,827,103/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_00835",
+    "mention": "Reverdil, von Neus; der höhern Messkunst Professor zu Coppenhagen",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-001_1761_2__953-publication_45859-mentioned-person-person_00267",
+    "mention": "*Sam. Engel; Landvogt auf Tscherliz, Präsident der kleinern arbeitenden Commission (*=Mitglied der kleinern arbeitenden Commission)",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  }
+]

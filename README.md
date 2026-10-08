@@ -70,7 +70,7 @@ positional OCR .txt ──────────┼─────────
 6. **Matching.** `strict_match` still finds an exact token sequence. Localization uses `lenient_match`. It first drops editorial markup (`...`, `u.[s.w.]`, parenthetical membership notes), then ignores punctuation stuck to a token, then allows a small per-token edit distance for OCR substitutions. `v.` is not expanded to `von`. `find_image_regions` runs that on every manifest page, in canvas order, and scales each hit into IIIF pixels. The first hit is the earliest page, then the earliest token match on that page. The scaled box is an `ImageRegion`. `ImageRegion.box` is always in the page's IIIF coordinates.
 7. **Target.** `precise_target` writes the fragment selector above from that `ImageRegion`. The pipeline copies the original AnnotationPage and replaces only `target` when there is at least one hit. Zero hits leave the coarse manifest URL in place. More than one hit still writes the first region, and the real match count stays on the per-annotation result. Each written crop URL is requested; a failed image response is recorded and does not stop the next annotation.
 
-`main.py` reads an AnnotationPage JSON, writes the patched page, and prints one diagnostic line per MentionedPerson.
+`main.py` reads one AnnotationPage JSON, writes the patched page, and prints one diagnostic line per MentionedPerson. `scripts/localize_corpus.py` does that for every RdL AnnotationPage whose volume is in the local OCR corpus, and writes `examples/statistics.json`.
 
 ## Current status
 
@@ -88,10 +88,49 @@ positional OCR .txt ──────────┼─────────
 | Build the fragment-selector target   | `eil/targets.py`  | Done        |
 | Patch the page and record each hit   | `eil/pipeline.py` | Done        |
 | Command-line pipeline                | `main.py`         | Done        |
+| Corpus run and dataset statistics    | `scripts/localize_corpus.py` | Done |
 | Group mentions by manifest           | —                 | Not started |
 
 
 The input OCR file starts with `width,height`. Each later line is `text x,y,width,height`. The text is everything before the last space, so a token may contain spaces or commas. Blank lines and `<EOS>` / `<EOP>` are skipped. Confidence and layout ids are not in this format; those fields on `OcrToken` stay `None`.
+
+## Corpus results
+
+`scripts/localize_corpus.py` was run on the OCR in `data/` (15,163 page files) and the RdL annotation pages for those volumes. Published person targets are already precise, so each one was set back to its manifest URL before matching. `lenient_match` then searched every page of that manifest.
+
+560 annotation pages fall in the corpus. 30 of them contain a parseable `MentionedPerson`. The other 530 do not. Another 255 person annotations were skipped because `body.identifier` is missing, which the parser rejects.
+
+| | Persons | Localized | Unmatched | More than one match |
+| --- | ---: | ---: | ---: | ---: |
+| Whole corpus | 842 | 226 (26.8%) | 616 | 5 |
+| German (`oeg`) | 480 | 220 (45.8%) | 260 | 4 |
+| French (`soe`) | 362 | 6 (1.7%) | 356 | 1 |
+
+All 226 crop URLs returned an image. None failed the image check. The French pages stay low because those mentions are not the French text on the scan.
+
+| Volume | Persons | Localized | Unmatched |
+| --- | ---: | ---: | ---: |
+| `oeg-001` 1761/2 | 79 | 32 | 47 |
+| `oeg-002` 1762/3 | 91 | 36 | 55 |
+| `oeg-002` 1763/4 | 3 | 1 | 2 |
+| `oeg-002` 1764/5 | 167 | 80 | 87 |
+| `oeg-002` 1765/6 | 34 | 15 | 19 |
+| `oeg-002` 1766/7 | 21 | 12 | 9 |
+| `oeg-002` 1767/8 | 4 | 2 | 2 |
+| `oeg-002` 1769/10 | 21 | 5 | 16 |
+| `oeg-002` 1770/11 | 10 | 5 | 5 |
+| `oeg-002` 1771/12 | 2 | 0 | 2 |
+| `oeg-003` 1779/1 | 48 | 32 | 16 |
+| `soe-001` 1761/2 | 79 | 1 | 78 |
+| `soe-001` 1762/3 | 33 | 0 | 33 |
+| `soe-001` 1763/4 | 3 | 1 | 2 |
+| `soe-001` 1764/5 | 167 | 3 | 164 |
+| `soe-001` 1765/6 | 34 | 1 | 33 |
+| `soe-001` 1766/7 | 21 | 0 | 21 |
+| `soe-001` 1767/8 | 4 | 0 | 4 |
+| `soe-001` 1769/10 | 21 | 0 | 21 |
+
+Per-page counts, crop URLs, and the patched AnnotationPages are under `examples/`. `examples/statistics.json` is the full aggregate.
 
 ## Layout
 
@@ -100,6 +139,10 @@ mention_localizer/
 ├── pyproject.toml
 ├── README.md
 ├── main.py
+├── scripts/
+│   ├── fetch_ocr.py       # download the OCR corpus into data/
+│   └── localize_corpus.py # every covered AnnotationPage → examples/
+├── examples/              # generated pages, reports, statistics.json
 ├── eil/
 │   ├── models.py      # BoundingBox, OcrToken, PageImage, OcrPage,
 │   │                   # EntityAnnotation, ManifestDocument, ImageRegion

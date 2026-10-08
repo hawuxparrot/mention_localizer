@@ -1,0 +1,155 @@
+[
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1766_7__1043-publication_46008-mentioned-person-person_00120",
+    "mention": "Bourgeois, der Arzney Doktor zu Ifferten",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1766_007!oeg-002_1766_007_00034.jpg/348,651,758,52/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1766_7__1043-publication_46008-mentioned-person-person_00567",
+    "mention": "Langhans, Doktor der Arzneykunst",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1766_007!oeg-002_1766_007_00033.jpg/174,1136,614,46/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1766_7__1043-publication_46008-mentioned-person-person_00704",
+    "mention": "Freyherr von Münchhausen",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1766_007!oeg-002_1766_007_00033.jpg/183,1580,523,46/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1766_7__1043-publication_46008-mentioned-person-person_00954",
+    "mention": "Sinner, von Baleigues, des gr. Raths",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1766_007!oeg-002_1766_007_00033.jpg/177,780,734,45/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1766_7__1043-publication_46008-mentioned-person-person_01058",
+    "mention": "J. Bapt. Tschudi, Grand-Baillif zu Mez",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1766_7__1043-publication_46008-mentioned-person-person_03133",
+    "mention": "Griselini, der Akademie von Bologne Mitglied",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1766_7__1043-publication_46008-mentioned-person-person_05216",
+    "mention": "Abt Rosier, der Akad. zu Lyon zu Bes. der Vieharzney, Direktor",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1766_7__1043-publication_46008-mentioned-person-person_11769",
+    "mention": "Carl Lombach von Losanen",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1766_007!oeg-002_1766_007_00033.jpg/179,1280,480,41/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1766_7__1043-publication_46008-mentioned-person-person_11791",
+    "mention": "Thormann von Oron, der ältere",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1766_007!oeg-002_1766_007_00033.jpg/174,993,585,44/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1766_7__1043-publication_46008-mentioned-person-person_11962",
+    "mention": "Thome, der Akad. der Wissenschaften zu Lyon u.[s.w.] Mitglied",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1766_7__1043-publication_46008-mentioned-person-person_12275",
+    "mention": "Vavasseur der ältere, der Ges. des Landbaues zu Rouen",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1766_7__1043-publication_46008-mentioned-person-person_11761",
+    "mention": "Ith, Hauptmann in der Miliz",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1766_007!oeg-002_1766_007_00033.jpg/174,925,536,42/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1766_7__1043-publication_46008-mentioned-person-person_11877",
+    "mention": "Graf von Dohna",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1766_007!oeg-002_1766_007_00033.jpg/191,1866,334,40/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1766_7__1043-publication_46008-mentioned-person-person_11773",
+    "mention": "J. R. Marcuard, berühmter Handelsmann",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1766_7__1043-publication_46008-mentioned-person-person_00894",
+    "mention": "Schäffer zu Regensburg",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1766_007!oeg-002_1766_007_00033.jpg/186,1650,427,45/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1766_7__1043-publication_46008-mentioned-person-person_11913",
+    "mention": "Freyherr Linker von Denster bey Wismar",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1766_007!oeg-002_1766_007_00033.jpg/189,1720,719,42/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1766_7__1043-publication_46008-mentioned-person-person_11767",
+    "mention": "Koch, Theol. Stud.",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  }
+]

@@ -1,0 +1,1314 @@
+{
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "label": {
+    "de": [
+      "Annotationen zu: OeG Beratschlagungen AB (1771)"
+    ]
+  },
+  "type": "AnnotationPage",
+  "id": "https://manifests.republique-des-lettres.ch/oeg-002_1771_12__369.json",
+  "rights": "https://creativecommons.org/licenses/by/4.0/",
+  "provider": [
+    {
+      "label": {
+        "de": [
+          "République des Lettres"
+        ],
+        "en": [
+          "République des Lettres"
+        ],
+        "fr": [
+          "République des Lettres"
+        ]
+      },
+      "type": "Agent",
+      "id": "https://republique-des-lettres.ch"
+    }
+  ],
+  "created": "2026-10-05T11:23:39",
+  "journal": {
+    "label": {
+      "de": [
+        "Schriften der Ökonomischen Gesellschaft Bern (deutschsprachige Ausgabe)"
+      ],
+      "en": [
+        "Publications of the Economic Society of Bern (German-language edition)"
+      ],
+      "fr": [
+        "Publications de la Société économique de Berne (édition allemande)"
+      ]
+    },
+    "title": {
+      "de": [
+        "Abhandlungen und Beobachtungen durch die Ökonomische Gesellschaft zu Bern gesammelt"
+      ]
+    },
+    "language": "de",
+    "id": "oeg_abhandlungen_de"
+  },
+  "rdlRelationType": "single-publication",
+  "homepageCount": 1,
+  "metadata": [
+    {
+      "value": {
+        "de": [
+          "https://www.e-periodica.ch/iiif/oeg-002:1771:12::369/manifest"
+        ]
+      },
+      "label": {
+        "de": [
+          "Manifest"
+        ],
+        "en": [
+          "Manifest"
+        ],
+        "fr": [
+          "Manifeste"
+        ]
+      }
+    },
+    {
+      "value": {
+        "de": [
+          "Abhandlungen und Beobachtungen durch die Ökonomische Gesellschaft zu Bern gesammelt"
+        ]
+      },
+      "label": {
+        "de": [
+          "Zeitschrift"
+        ],
+        "en": [
+          "Journal"
+        ],
+        "fr": [
+          "Revue"
+        ]
+      }
+    },
+    {
+      "value": {
+        "de": [
+          "1771 (12/1), I-XIII"
+        ]
+      },
+      "label": {
+        "de": [
+          "Kollation"
+        ],
+        "en": [
+          "Collation"
+        ],
+        "fr": [
+          "Collation"
+        ]
+      }
+    },
+    {
+      "value": {
+        "de": [
+          "OeG Beratschlagungen AB (1771)"
+        ]
+      },
+      "label": {
+        "de": [
+          "Kurzform"
+        ],
+        "en": [
+          "Short title"
+        ],
+        "fr": [
+          "Titre court"
+        ]
+      }
+    },
+    {
+      "value": {
+        "de": [
+          "Auszüge einiger Berathschlagungen der ökonomischen Gesellschaft"
+        ]
+      },
+      "label": {
+        "de": [
+          "Artikeltitel"
+        ],
+        "en": [
+          "Article title"
+        ],
+        "fr": [
+          "Titre de l’article"
+        ]
+      }
+    },
+    {
+      "value": {
+        "de": [
+          "Deutsch"
+        ]
+      },
+      "label": {
+        "de": [
+          "Sprache"
+        ],
+        "en": [
+          "Language"
+        ],
+        "fr": [
+          "Langue"
+        ]
+      }
+    },
+    {
+      "value": {
+        "de": [
+          "1"
+        ]
+      },
+      "label": {
+        "de": [
+          "Anzahl verknüpfter RdL-Publikationen"
+        ],
+        "en": [
+          "Number of linked RdL publication records"
+        ],
+        "fr": [
+          "Nombre de notices RdL liées"
+        ]
+      }
+    }
+  ],
+  "parallelVersions": [
+    {
+      "manifestUrl": "https://www.e-periodica.ch/iiif/soe-001:1771:12::428/manifest",
+      "containedTitle": "Abhandlungen/Mémoires (1771, Vol. 12, No. 01)",
+      "collation": "1771 (12/1), I-XIV",
+      "lang": "fr",
+      "journalId": "oeg_memoires_fr",
+      "title": "Extrait des actes et des délibérations de la Société œconomique de Berne, 1770",
+      "annotationPage": "https://manifests.republique-des-lettres.ch/soe-001_1771_12__428.json"
+    }
+  ],
+  "homepage": [
+    {
+      "label": {
+        "de": [
+          "Publikationseintrag auf République des Lettres"
+        ],
+        "en": [
+          "Publication record at République des Lettres"
+        ],
+        "fr": [
+          "Entrée de publication sur République des Lettres"
+        ]
+      },
+      "format": "application/json",
+      "type": "Text",
+      "id": "https://hallernet-backend-proxy.hidora.com/api/data/publication/46092/json"
+    }
+  ],
+  "items": [
+    {
+      "body": {
+        "label": {
+          "de": [
+            "Abhandlungen und Beobachtungen der Ökonomischen Gesellschaft Bern"
+          ],
+          "en": [
+            "Memoirs and observations of the Economic Society of Bern"
+          ],
+          "fr": [
+            "Mémoires et observations de la Société économique de Berne"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://republique-des-lettres.ch/edition/oeg-abhandlungen",
+        "purpose": {
+          "label": {
+            "de": [
+              "Digitale Edition"
+            ],
+            "en": [
+              "Digital Scholarly Edition"
+            ],
+            "fr": [
+              "Édition numérique"
+            ]
+          },
+          "id": "ordiiif-vocab:Edition"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1771:12::369/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1771_12__369-publication_46092-edition"
+    },
+    {
+      "body": {
+        "label": {
+          "de": [
+            "Versammlung der Oekonomischen Gesellschaft Bern, 24. März 1770"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/meeting/00028/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Versammlung"
+            ],
+            "en": [
+              "Meeting"
+            ],
+            "fr": [
+              "Séance"
+            ]
+          },
+          "id": "ordiiif-vocab:Meeting"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1771:12::369/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1771_12__369-publication_46092-meeting-meeting_00028"
+    },
+    {
+      "body": {
+        "label": {
+          "de": [
+            "Versammlung der Oekonomischen Gesellschaft Bern, 6. Januar 1770"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/meeting/00331/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Versammlung"
+            ],
+            "en": [
+              "Meeting"
+            ],
+            "fr": [
+              "Séance"
+            ]
+          },
+          "id": "ordiiif-vocab:Meeting"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1771:12::369/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1771_12__369-publication_46092-meeting-meeting_00331"
+    },
+    {
+      "body": {
+        "label": {
+          "de": [
+            "Versammlung der Oekonomischen Gesellschaft Bern, 8. Januar 1770"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/meeting/00332/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Versammlung"
+            ],
+            "en": [
+              "Meeting"
+            ],
+            "fr": [
+              "Séance"
+            ]
+          },
+          "id": "ordiiif-vocab:Meeting"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1771:12::369/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1771_12__369-publication_46092-meeting-meeting_00332"
+    },
+    {
+      "body": {
+        "label": {
+          "de": [
+            "Versammlung der Oekonomischen Gesellschaft Bern, 15. Januar 1770"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/meeting/00333/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Versammlung"
+            ],
+            "en": [
+              "Meeting"
+            ],
+            "fr": [
+              "Séance"
+            ]
+          },
+          "id": "ordiiif-vocab:Meeting"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1771:12::369/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1771_12__369-publication_46092-meeting-meeting_00333"
+    },
+    {
+      "body": {
+        "label": {
+          "de": [
+            "Versammlung der Oekonomischen Gesellschaft Bern, 22. Januar 1770"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/meeting/00334/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Versammlung"
+            ],
+            "en": [
+              "Meeting"
+            ],
+            "fr": [
+              "Séance"
+            ]
+          },
+          "id": "ordiiif-vocab:Meeting"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1771:12::369/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1771_12__369-publication_46092-meeting-meeting_00334"
+    },
+    {
+      "body": {
+        "label": {
+          "de": [
+            "Versammlung der Oekonomischen Gesellschaft Bern, 3. Februar 1770"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/meeting/00335/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Versammlung"
+            ],
+            "en": [
+              "Meeting"
+            ],
+            "fr": [
+              "Séance"
+            ]
+          },
+          "id": "ordiiif-vocab:Meeting"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1771:12::369/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1771_12__369-publication_46092-meeting-meeting_00335"
+    },
+    {
+      "body": {
+        "label": {
+          "de": [
+            "Versammlung der Oekonomischen Gesellschaft Bern, 5. Februar 1770"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/meeting/00336/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Versammlung"
+            ],
+            "en": [
+              "Meeting"
+            ],
+            "fr": [
+              "Séance"
+            ]
+          },
+          "id": "ordiiif-vocab:Meeting"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1771:12::369/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1771_12__369-publication_46092-meeting-meeting_00336"
+    },
+    {
+      "body": {
+        "label": {
+          "de": [
+            "Versammlung der Oekonomischen Gesellschaft Bern, 12. Februar 1770"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/meeting/00337/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Versammlung"
+            ],
+            "en": [
+              "Meeting"
+            ],
+            "fr": [
+              "Séance"
+            ]
+          },
+          "id": "ordiiif-vocab:Meeting"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1771:12::369/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1771_12__369-publication_46092-meeting-meeting_00337"
+    },
+    {
+      "body": {
+        "label": {
+          "de": [
+            "Versammlung der Oekonomischen Gesellschaft Bern, 19. Februar 1770"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/meeting/00338/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Versammlung"
+            ],
+            "en": [
+              "Meeting"
+            ],
+            "fr": [
+              "Séance"
+            ]
+          },
+          "id": "ordiiif-vocab:Meeting"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1771:12::369/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1771_12__369-publication_46092-meeting-meeting_00338"
+    },
+    {
+      "body": {
+        "label": {
+          "de": [
+            "Versammlung der Oekonomischen Gesellschaft Bern, 26. Februar 1770"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/meeting/00339/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Versammlung"
+            ],
+            "en": [
+              "Meeting"
+            ],
+            "fr": [
+              "Séance"
+            ]
+          },
+          "id": "ordiiif-vocab:Meeting"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1771:12::369/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1771_12__369-publication_46092-meeting-meeting_00339"
+    },
+    {
+      "body": {
+        "label": {
+          "de": [
+            "Versammlung der Oekonomischen Gesellschaft Bern, 5. März 1770"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/meeting/00340/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Versammlung"
+            ],
+            "en": [
+              "Meeting"
+            ],
+            "fr": [
+              "Séance"
+            ]
+          },
+          "id": "ordiiif-vocab:Meeting"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1771:12::369/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1771_12__369-publication_46092-meeting-meeting_00340"
+    },
+    {
+      "body": {
+        "label": {
+          "de": [
+            "Versammlung der Oekonomischen Gesellschaft Bern, 12. März 1770"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/meeting/00341/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Versammlung"
+            ],
+            "en": [
+              "Meeting"
+            ],
+            "fr": [
+              "Séance"
+            ]
+          },
+          "id": "ordiiif-vocab:Meeting"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1771:12::369/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1771_12__369-publication_46092-meeting-meeting_00341"
+    },
+    {
+      "body": {
+        "label": {
+          "de": [
+            "Versammlung der Oekonomischen Gesellschaft Bern, 19. März 1770"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/meeting/00342/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Versammlung"
+            ],
+            "en": [
+              "Meeting"
+            ],
+            "fr": [
+              "Séance"
+            ]
+          },
+          "id": "ordiiif-vocab:Meeting"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1771:12::369/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1771_12__369-publication_46092-meeting-meeting_00342"
+    },
+    {
+      "body": {
+        "label": {
+          "de": [
+            "Versammlung der Oekonomischen Gesellschaft Bern, 26. März 1770"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/meeting/00343/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Versammlung"
+            ],
+            "en": [
+              "Meeting"
+            ],
+            "fr": [
+              "Séance"
+            ]
+          },
+          "id": "ordiiif-vocab:Meeting"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1771:12::369/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1771_12__369-publication_46092-meeting-meeting_00343"
+    },
+    {
+      "body": {
+        "label": {
+          "de": [
+            "Versammlung der Oekonomischen Gesellschaft Bern, 2. April 1770"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/meeting/00344/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Versammlung"
+            ],
+            "en": [
+              "Meeting"
+            ],
+            "fr": [
+              "Séance"
+            ]
+          },
+          "id": "ordiiif-vocab:Meeting"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1771:12::369/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1771_12__369-publication_46092-meeting-meeting_00344"
+    },
+    {
+      "body": {
+        "label": {
+          "de": [
+            "Versammlung der Oekonomischen Gesellschaft Bern, 9. April 1770"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/meeting/00345/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Versammlung"
+            ],
+            "en": [
+              "Meeting"
+            ],
+            "fr": [
+              "Séance"
+            ]
+          },
+          "id": "ordiiif-vocab:Meeting"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1771:12::369/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1771_12__369-publication_46092-meeting-meeting_00345"
+    },
+    {
+      "body": {
+        "label": {
+          "de": [
+            "Versammlung der Oekonomischen Gesellschaft Bern, 16. April 1770"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/meeting/00346/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Versammlung"
+            ],
+            "en": [
+              "Meeting"
+            ],
+            "fr": [
+              "Séance"
+            ]
+          },
+          "id": "ordiiif-vocab:Meeting"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1771:12::369/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1771_12__369-publication_46092-meeting-meeting_00346"
+    },
+    {
+      "body": {
+        "label": {
+          "de": [
+            "Versammlung der Oekonomischen Gesellschaft Bern, 23. April 1770"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/meeting/00347/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Versammlung"
+            ],
+            "en": [
+              "Meeting"
+            ],
+            "fr": [
+              "Séance"
+            ]
+          },
+          "id": "ordiiif-vocab:Meeting"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1771:12::369/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1771_12__369-publication_46092-meeting-meeting_00347"
+    },
+    {
+      "body": {
+        "label": {
+          "de": [
+            "Versammlung der Oekonomischen Gesellschaft Bern, [DATUM BEREINIGEN] 1770-06-31"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/meeting/00348/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Versammlung"
+            ],
+            "en": [
+              "Meeting"
+            ],
+            "fr": [
+              "Séance"
+            ]
+          },
+          "id": "ordiiif-vocab:Meeting"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1771:12::369/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1771_12__369-publication_46092-meeting-meeting_00348"
+    },
+    {
+      "body": {
+        "label": {
+          "de": [
+            "Versammlung der Oekonomischen Gesellschaft Bern, 28. Juli 1770"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/meeting/00349/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Versammlung"
+            ],
+            "en": [
+              "Meeting"
+            ],
+            "fr": [
+              "Séance"
+            ]
+          },
+          "id": "ordiiif-vocab:Meeting"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1771:12::369/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1771_12__369-publication_46092-meeting-meeting_00349"
+    },
+    {
+      "body": {
+        "label": {
+          "de": [
+            "Versammlung der Oekonomischen Gesellschaft Bern, 25. August 1770"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/meeting/00350/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Versammlung"
+            ],
+            "en": [
+              "Meeting"
+            ],
+            "fr": [
+              "Séance"
+            ]
+          },
+          "id": "ordiiif-vocab:Meeting"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1771:12::369/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1771_12__369-publication_46092-meeting-meeting_00350"
+    },
+    {
+      "body": {
+        "label": {
+          "de": [
+            "Versammlung der Oekonomischen Gesellschaft Bern, 29. September 1770"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/meeting/00351/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Versammlung"
+            ],
+            "en": [
+              "Meeting"
+            ],
+            "fr": [
+              "Séance"
+            ]
+          },
+          "id": "ordiiif-vocab:Meeting"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1771:12::369/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1771_12__369-publication_46092-meeting-meeting_00351"
+    },
+    {
+      "body": {
+        "label": {
+          "de": [
+            "Versammlung der Oekonomischen Gesellschaft Bern, 11. November 1770"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/meeting/00352/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Versammlung"
+            ],
+            "en": [
+              "Meeting"
+            ],
+            "fr": [
+              "Séance"
+            ]
+          },
+          "id": "ordiiif-vocab:Meeting"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1771:12::369/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1771_12__369-publication_46092-meeting-meeting_00352"
+    },
+    {
+      "body": {
+        "label": {
+          "de": [
+            "Versammlung der Oekonomischen Gesellschaft Bern, 19. November 1770"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/meeting/00353/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Versammlung"
+            ],
+            "en": [
+              "Meeting"
+            ],
+            "fr": [
+              "Séance"
+            ]
+          },
+          "id": "ordiiif-vocab:Meeting"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1771:12::369/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1771_12__369-publication_46092-meeting-meeting_00353"
+    },
+    {
+      "body": {
+        "label": {
+          "de": [
+            "Versammlung der Oekonomischen Gesellschaft Bern, 26. November 1770"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/meeting/00354/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Versammlung"
+            ],
+            "en": [
+              "Meeting"
+            ],
+            "fr": [
+              "Séance"
+            ]
+          },
+          "id": "ordiiif-vocab:Meeting"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1771:12::369/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1771_12__369-publication_46092-meeting-meeting_00354"
+    },
+    {
+      "body": {
+        "label": {
+          "de": [
+            "Versammlung der Oekonomischen Gesellschaft Bern, 10. Dezember 1770"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/meeting/00355/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Versammlung"
+            ],
+            "en": [
+              "Meeting"
+            ],
+            "fr": [
+              "Séance"
+            ]
+          },
+          "id": "ordiiif-vocab:Meeting"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1771:12::369/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1771_12__369-publication_46092-meeting-meeting_00355"
+    },
+    {
+      "body": {
+        "label": {
+          "de": [
+            "Versammlung der Oekonomischen Gesellschaft Bern, 31. Dezember 1770"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/meeting/00356/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Versammlung"
+            ],
+            "en": [
+              "Meeting"
+            ],
+            "fr": [
+              "Séance"
+            ]
+          },
+          "id": "ordiiif-vocab:Meeting"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1771:12::369/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1771_12__369-publication_46092-meeting-meeting_00356"
+    },
+    {
+      "body": {
+        "label": {
+          "de": [
+            "Versammlung der Oekonomischen Gesellschaft Bern, 3. März 1770"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/meeting/00726/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Versammlung"
+            ],
+            "en": [
+              "Meeting"
+            ],
+            "fr": [
+              "Séance"
+            ]
+          },
+          "id": "ordiiif-vocab:Meeting"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1771:12::369/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1771_12__369-publication_46092-meeting-meeting_00726"
+    },
+    {
+      "body": {
+        "label": {
+          "de": [
+            "Versammlung der Oekonomischen Gesellschaft Bern, 7. April 1770"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/meeting/00727/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Versammlung"
+            ],
+            "en": [
+              "Meeting"
+            ],
+            "fr": [
+              "Séance"
+            ]
+          },
+          "id": "ordiiif-vocab:Meeting"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1771:12::369/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1771_12__369-publication_46092-meeting-meeting_00727"
+    },
+    {
+      "body": {
+        "label": {
+          "de": [
+            "Versammlung der Oekonomischen Gesellschaft Bern, 7. Mai 1770"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/meeting/00728/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Versammlung"
+            ],
+            "en": [
+              "Meeting"
+            ],
+            "fr": [
+              "Séance"
+            ]
+          },
+          "id": "ordiiif-vocab:Meeting"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1771:12::369/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1771_12__369-publication_46092-meeting-meeting_00728"
+    },
+    {
+      "body": {
+        "label": {
+          "de": [
+            "Versammlung der Oekonomischen Gesellschaft Bern, 20. Januar 1770"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/meeting/00731/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Versammlung"
+            ],
+            "en": [
+              "Meeting"
+            ],
+            "fr": [
+              "Séance"
+            ]
+          },
+          "id": "ordiiif-vocab:Meeting"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1771:12::369/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1771_12__369-publication_46092-meeting-meeting_00731"
+    },
+    {
+      "body": {
+        "label": {
+          "de": [
+            "Versammlung der Oekonomischen Gesellschaft Bern, 30. April 1770"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/meeting/00732/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Versammlung"
+            ],
+            "en": [
+              "Meeting"
+            ],
+            "fr": [
+              "Séance"
+            ]
+          },
+          "id": "ordiiif-vocab:Meeting"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1771:12::369/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1771_12__369-publication_46092-meeting-meeting_00732"
+    },
+    {
+      "body": {
+        "label": {
+          "de": [
+            "Versammlung der Oekonomischen Gesellschaft Bern, 17. Dezember 1770"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/meeting/00733/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Versammlung"
+            ],
+            "en": [
+              "Meeting"
+            ],
+            "fr": [
+              "Séance"
+            ]
+          },
+          "id": "ordiiif-vocab:Meeting"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1771:12::369/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1771_12__369-publication_46092-meeting-meeting_00733"
+    },
+    {
+      "body": {
+        "value": "OeG",
+        "type": "TextualBody"
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1771:12::369/manifest",
+      "motivation": "classifying",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1771_12__369-publication_46092-category-oeg-1"
+    },
+    {
+      "body": {
+        "identifier": "https://d-nb.info/gnd/1255864974",
+        "mention": [
+          {
+            "value": "Stettler von Fiez",
+            "language": "de",
+            "type": "TextualBody",
+            "purpose": {
+              "label": {
+                "de": [
+                  "Textbeleg"
+                ],
+                "en": [
+                  "Textual attestation"
+                ],
+                "fr": [
+                  "Attestation textuelle"
+                ]
+              },
+              "id": "ordiiif-vocab:MentionString"
+            }
+          }
+        ],
+        "label": {
+          "de": [
+            "Stettler, Sigmund Albrecht (1748-1778)"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/person/11786/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Erwähnte Person"
+            ],
+            "en": [
+              "Mentioned person"
+            ],
+            "fr": [
+              "Personne mentionnée"
+            ]
+          },
+          "id": "ordiiif-vocab:MentionedPerson"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1771:12::369/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1771_12__369-publication_46092-mentioned-person-person_11786"
+    },
+    {
+      "body": {
+        "identifier": "https://d-nb.info/gnd/1019016248",
+        "mention": [
+          {
+            "value": "Elie de Beaumont, Avocat au Parlement de Paris",
+            "language": "de",
+            "type": "TextualBody",
+            "purpose": {
+              "label": {
+                "de": [
+                  "Textbeleg"
+                ],
+                "en": [
+                  "Textual attestation"
+                ],
+                "fr": [
+                  "Attestation textuelle"
+                ]
+              },
+              "id": "ordiiif-vocab:MentionString"
+            }
+          }
+        ],
+        "label": {
+          "de": [
+            "Elie de Beaumont, Jean-Baptiste-Jacques (1732-1786)"
+          ]
+        },
+        "type": "SpecificResource",
+        "source": "https://hallernet-backend-proxy.hidora.com/api/data/person/11881/json",
+        "purpose": {
+          "label": {
+            "de": [
+              "Erwähnte Person"
+            ],
+            "en": [
+              "Mentioned person"
+            ],
+            "fr": [
+              "Personne mentionnée"
+            ]
+          },
+          "id": "ordiiif-vocab:MentionedPerson"
+        }
+      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1771:12::369/manifest",
+      "motivation": "linking",
+      "type": "Annotation",
+      "id": "https://manifests.republique-des-lettres.ch/oeg-002_1771_12__369-publication_46092-mentioned-person-person_11881"
+    }
+  ]
+}
