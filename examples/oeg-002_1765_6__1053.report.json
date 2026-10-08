@@ -16,5 +16,32 @@
     "crop_validation_succeeded": null,
     "error": null,
     "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1765_6__1053-publication_45999-mentioned-person-person_12352",
+    "mention": "Venner Pagan",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1765_006!oeg-002_1765_006_0053.jpg/349,255,259,42/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1765_6__1053-publication_45999-mentioned-person-person_12331",
+    "mention": "Pf. Ryz von Suz",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1765_006!oeg-002_1765_006_0052.jpg/206,1828,315,58/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1765_6__1053-publication_45999-mentioned-person-person_12300",
+    "mention": "Gleitsherr Heuer",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1765_006!oeg-002_1765_006_0053.jpg/351,321,290,41/full/0/default.jpg"
   }
 ]

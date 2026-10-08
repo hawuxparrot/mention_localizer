@@ -52,6 +52,10 @@ def parse_annotation_page(raw: dict[str, Any]) -> tuple[EntityAnnotation, ...]:
 def parse_entity_annotation(raw: dict[str, Any]) -> EntityAnnotation | None:
     """Parse one annotation object. Returns None if it is not a MentionedPerson.
 
+    ``body.identifier`` is a GND URI when RdL has one. People with only a
+    Haller record omit it. Localization uses the mention, so a missing
+    identifier is left as ``None`` and the annotation is still returned.
+
     Raises:
         AnnotationParseError: If a required field is missing or malformed.
     """
@@ -66,10 +70,16 @@ def parse_entity_annotation(raw: dict[str, Any]) -> EntityAnnotation | None:
     annotation_id = raw.get("id")
     if not isinstance(annotation_id, str):
         raise AnnotationParseError("Missing or invalid annotation id")
-    
-    entity_id = body.get("identifier")
-    if not isinstance(entity_id, str):
-        raise AnnotationParseError(f"{entity_id}: missing or invalid body.identifier")
+
+    identifier = body.get("identifier")
+    if identifier is None:
+        entity_id = None
+    elif isinstance(identifier, str) and identifier.strip():
+        entity_id = identifier.strip()
+    else:
+        raise AnnotationParseError(
+            f"{annotation_id}: body.identifier must be a non-empty string when present"
+        )
 
     target_manifest = raw.get("target")
     if not isinstance(target_manifest, str):

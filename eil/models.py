@@ -85,11 +85,13 @@ class OcrPage:
 class EntityAnnotation:
     """Entity mention plus the coarse IIIF manifest it targets.
 
+    ``entity_id`` is the GND URI when the annotation has ``body.identifier``.
+    It is ``None`` when RdL has only a Haller person record.
     ``mention_language`` is the language of the mention string, when the
     annotation records one. It is not the language of the journal.
     """
     annotation_id: str
-    entity_id: str
+    entity_id: str | None
     mention: str
     target_manifest: str
     mention_language: str | None = None

@@ -18,8 +18,53 @@
     "crop_url": null
   },
   {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1767_8__39-publication_46039-mentioned-person-person_12357",
+    "mention": "Ab. Reynier, welcher vormals der Gesellschaft zwo Abhandlungen von dem Anbau der weissen Maulbeerbäume, und von dem Bau der Schwellen an Wassern, eingegeben",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1767_8__39-publication_46039-mentioned-person-person_12358",
+    "mention": "Samuel Spengler, Schultheissen zu Lenzburg",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1767_008!oeg-002_1767_008_0043.jpg/397,699,797,60/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1767_8__39-publication_46039-mentioned-person-person_12359",
+    "mention": "Schmalz, Herrschaftsvewaltern zu Rued",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1767_8__39-publication_46039-mentioned-person-person_12362",
     "mention": "Mingard, Pfarrherr zu Granson",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1767_8__39-publication_46039-mentioned-person-person_12360",
+    "mention": "Jakob Bär, Mechanicum",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1767_8__39-publication_46039-mentioned-person-person_12361",
+    "mention": "Beat Graaf, V. D. M. Vicarius zu Lüzelflüh",
     "match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,

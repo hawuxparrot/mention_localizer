@@ -108,6 +108,24 @@
     "crop_url": null
   },
   {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1769_10__536-publication_46079-mentioned-person-person_11966",
+    "mention": "Wiesolowski, ein polnischer Edelmann",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1769_010!oeg-002_1769_010_0034.jpg/100,1128,704,61/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1769_10__536-publication_46079-mentioned-person-person_11968",
+    "mention": "Graf Wodzicki, der Abtei Mogil Comendatarius",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
+  },
+  {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1769_10__536-publication_46079-mentioned-person-person_11910",
     "mention": "von Lannoy, Hauptmann in dem Garde-Regiment der Dragoner, in Dienst der Herren General-Staaten",
     "match_count": 0,

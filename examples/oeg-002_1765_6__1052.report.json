@@ -45,6 +45,42 @@
     "crop_url": null
   },
   {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1765_6__1052-publication_46000-mentioned-person-person_12347",
+    "mention": "Rahtsherr Curtas",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1765_006!oeg-002_1765_006_0045.jpg/360,1241,308,34/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1765_6__1052-publication_46000-mentioned-person-person_12348",
+    "mention": "Rathsherr Secretan",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1765_006!oeg-002_1765_006_0045.jpg/364,1299,349,40/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1765_6__1052-publication_46000-mentioned-person-person_12350",
+    "mention": "Major Cuenos, von Corsier",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1765_006!oeg-002_1765_006_0048.jpg/160,727,476,39/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1765_6__1052-publication_46000-mentioned-person-person_12227",
+    "mention": "Thomasset, Decan zu Orbe",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1765_006!oeg-002_1765_006_0050.jpg/371,561,509,42/full/0/default.jpg"
+  },
+  {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1765_6__1052-publication_46000-mentioned-person-person_00089",
     "mention": "E. Bertrand, ersten französischen Pf. zu Bern",
     "match_count": 0,

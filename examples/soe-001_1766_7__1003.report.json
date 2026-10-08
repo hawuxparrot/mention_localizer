@@ -9,6 +9,15 @@
     "crop_url": null
   },
   {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1766_7__1003-publication_46011-mentioned-person-person_12368",
+    "mention": "Pf. Gerwer zu Sanen",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1766_007!oeg-002_1766_007_00048.jpg/273,1802,405,51/full/0/default.jpg"
+  },
+  {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1766_7__1003-publication_46011-mentioned-person-person_12369",
     "mention": "Pf. Mesmer zu Reutigen, Sekretär",
     "match_count": 0,
@@ -34,5 +43,41 @@
     "crop_validation_succeeded": true,
     "error": null,
     "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1766_007!oeg-002_1766_007_00048.jpg/271,1508,536,50/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1766_7__1003-publication_46011-mentioned-person-person_12367",
+    "mention": "Pf. Sprüngli zu Diemtigen",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1766_007!oeg-002_1766_007_00048.jpg/275,1744,492,51/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1766_7__1003-publication_46011-mentioned-person-person_12366",
+    "mention": "Pf. Dünz zu Frutigen",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1766_007!oeg-002_1766_007_00048.jpg/271,1684,394,50/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1766_7__1003-publication_46011-mentioned-person-person_12365",
+    "mention": "Pf. Mathys zu Oberwyl",
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
+    "error": null,
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1766_007!oeg-002_1766_007_00048.jpg/271,1568,444,51/full/0/default.jpg"
+  },
+  {
+    "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1766_7__1003-publication_46011-mentioned-person-person_12033",
+    "mention": "Pf. Dulliker zu Lauenen",
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
+    "error": null,
+    "crop_url": null
   }
 ]

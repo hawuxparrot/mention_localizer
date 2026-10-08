@@ -40,6 +40,22 @@ def test_parse_entity_annotation_keeps_mention_language() -> None:
     assert annotation.mention_language == "de"
 
 
+def test_parse_entity_annotation_allows_missing_identifier() -> None:
+    raw = person_annotation(mention="Hunziger, Pfarrhr. zu Beltheim")
+    del raw["body"]["identifier"]
+    annotation = parse_entity_annotation(raw)
+    assert annotation is not None
+    assert annotation.entity_id is None
+    assert annotation.mention == "Hunziger, Pfarrhr. zu Beltheim"
+
+
+def test_parse_entity_annotation_rejects_blank_identifier() -> None:
+    raw = person_annotation()
+    raw["body"]["identifier"] = "  "
+    with pytest.raises(AnnotationParseError, match="body.identifier"):
+        parse_entity_annotation(raw)
+
+
 def test_parse_entity_annotation_ignores_non_person() -> None:
     raw = person_annotation()
     raw["body"]["purpose"] = {"id": "ordiiif-vocab:MentionedPlace"}
