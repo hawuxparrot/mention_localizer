@@ -1,15 +1,16 @@
 """Download the OCR corpus zip from Polybox and extract it to data/."""
 
 import os
+import shutil
 import sys
 import tempfile
 import urllib.request
 import zipfile
-from pathlib import Path
+from pathlib import Path, PurePosixPath
 
 URL = os.environ.get(
     "MENTION_LOCALIZER_OCR_URL",
-    "https://polybox.ethz.ch/index.php/s/i7QxDaEQ698BbiB",
+    "https://polybox.ethz.ch/index.php/s/i7QxDaEQ698BbiB/download",
 )
 ROOT = Path(__file__).resolve().parents[1]
 DEST = ROOT / "data"
@@ -40,12 +41,30 @@ def main() -> None:
 
 
 def _extract(archive: zipfile.ZipFile, dest: Path) -> None:
+    infos = [info for info in archive.infolist() if _is_ocr_member(info)]
+    prefix = "data/" if _tops(infos) == {"data"} else ""
     root = dest.resolve()
-    for info in archive.infolist():
-        target = (dest / info.filename).resolve()
+    for info in infos:
+        relative = info.filename.removeprefix(prefix)
+        target = (dest / relative).resolve()
         if target != root and root not in target.parents:
             sys.exit(f"Refusing to extract unsafe path: {info.filename}")
-    archive.extractall(dest)
+        target.parent.mkdir(parents=True, exist_ok=True)
+        with archive.open(info) as src, target.open("wb") as out:
+            shutil.copyfileobj(src, out)
+
+
+def _is_ocr_member(info: zipfile.ZipInfo) -> bool:
+    if info.is_dir():
+        return False
+    parts = PurePosixPath(info.filename).parts
+    if not parts or "__MACOSX" in parts:
+        return False
+    return not any(part.startswith("._") for part in parts)
+
+
+def _tops(infos: list[zipfile.ZipInfo]) -> set[str]:
+    return {PurePosixPath(info.filename).parts[0] for info in infos}
 
 
 if __name__ == "__main__":
