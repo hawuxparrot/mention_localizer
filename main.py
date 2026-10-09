@@ -94,6 +94,11 @@ def _write_report(run: LocalizationRun, path: Path | None) -> None:
             if result.lenient_match_count is None
             else str(result.lenient_match_count)
         )
+        fuzzy = (
+            "n/a"
+            if result.fuzzy_match_count is None
+            else str(result.fuzzy_match_count)
+        )
         if result.crop_validation_succeeded is None:
             crop = "n/a"
         else:
@@ -101,7 +106,7 @@ def _write_report(run: LocalizationRun, path: Path | None) -> None:
         error = f" error={result.error}" if result.error else ""
         print(
             f"{result.annotation_id} mention={result.mention!r} "
-            f"strict={strict} lenient={lenient} "
+            f"strict={strict} lenient={lenient} fuzzy={fuzzy} "
             f"precise={str(result.precise_target_written).lower()} "
             f"crop_ok={crop}{error}",
             file=sys.stderr,

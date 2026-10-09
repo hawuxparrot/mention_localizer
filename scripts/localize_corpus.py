@@ -97,12 +97,15 @@ def main(argv: list[str] | None = None) -> int:
     _update_readme_statistics(readme_path, statistics)
     strict = statistics["matching"]["strict"]
     lenient = statistics["matching"]["lenient"]
+    fuzzy = statistics["matching"]["fuzzy"]
     print(
         f"persons={statistics['persons']} precise={statistics['precise_targets']} "
         f"strict=0:{strict['zero_matches']}/1:{strict['exactly_one_match']}"
         f"/multi:{strict['multiple_matches']} "
         f"lenient=0:{lenient['zero_matches']}/1:{lenient['exactly_one_match']}"
         f"/multi:{lenient['multiple_matches']} "
+        f"fuzzy=0:{fuzzy['zero_matches']}/1:{fuzzy['exactly_one_match']}"
+        f"/multi:{fuzzy['multiple_matches']} "
         f"crop_ok={statistics['crop_validated']} crop_failed={statistics['crop_failed']} "
         f"errors={statistics['annotation_errors']}",
         file=sys.stderr,
@@ -225,10 +228,15 @@ def _localize_element(
             stats["matching"]["lenient"],
             result.lenient_match_count,
         )
+        _record_match(
+            stats["matching"]["fuzzy"],
+            result.fuzzy_match_count,
+        )
         _record_comparison(
             stats["matching"],
             result.strict_match_count,
             result.lenient_match_count,
+            result.fuzzy_match_count,
         )
         if result.crop_validation_succeeded is True:
             stats["crop_validated"] += 1
@@ -336,9 +344,13 @@ def _empty_matching_counts() -> dict[str, Any]:
     return {
         "strict": _empty_match_counts(),
         "lenient": _empty_match_counts(),
+        "fuzzy": _empty_match_counts(),
         "strict_zero_lenient_one": 0,
         "strict_zero_lenient_multiple": 0,
         "strict_multiple_lenient_multiple": 0,
+        "lenient_zero_fuzzy_one": 0,
+        "lenient_zero_fuzzy_multiple": 0,
+        "lenient_multiple_fuzzy_multiple": 0,
     }
 
 
@@ -372,6 +384,7 @@ def _record_comparison(
     counts: dict[str, Any],
     strict_count: int | None,
     lenient_count: int | None,
+    fuzzy_count: int | None,
 ) -> None:
     if strict_count == 0 and lenient_count == 1:
         counts["strict_zero_lenient_one"] += 1
@@ -379,6 +392,12 @@ def _record_comparison(
         counts["strict_zero_lenient_multiple"] += 1
     elif (strict_count or 0) > 1 and (lenient_count or 0) > 1:
         counts["strict_multiple_lenient_multiple"] += 1
+    if lenient_count == 0 and fuzzy_count == 1:
+        counts["lenient_zero_fuzzy_one"] += 1
+    elif lenient_count == 0 and (fuzzy_count or 0) > 1:
+        counts["lenient_zero_fuzzy_multiple"] += 1
+    elif (lenient_count or 0) > 1 and (fuzzy_count or 0) > 1:
+        counts["lenient_multiple_fuzzy_multiple"] += 1
 
 
 def _add_counts(total: dict[str, Any], page: dict[str, Any]) -> None:
@@ -394,13 +413,16 @@ def _add_counts(total: dict[str, Any], page: dict[str, Any]) -> None:
         "unreadable_items",
     ):
         total[key] += page[key]
-    for matcher in ("strict", "lenient"):
+    for matcher in ("strict", "lenient", "fuzzy"):
         for key, value in page["matching"][matcher].items():
             total["matching"][matcher][key] += value
     for key in (
         "strict_zero_lenient_one",
         "strict_zero_lenient_multiple",
         "strict_multiple_lenient_multiple",
+        "lenient_zero_fuzzy_one",
+        "lenient_zero_fuzzy_multiple",
+        "lenient_multiple_fuzzy_multiple",
     ):
         total["matching"][key] += page["matching"][key]
 
@@ -441,10 +463,16 @@ def _matching_statistics(counts: dict[str, Any]) -> dict[str, Any]:
     return {
         "strict": _match_statistics(counts["strict"]),
         "lenient": _match_statistics(counts["lenient"]),
+        "fuzzy": _match_statistics(counts["fuzzy"]),
         "strict_zero_lenient_one": counts["strict_zero_lenient_one"],
         "strict_zero_lenient_multiple": counts["strict_zero_lenient_multiple"],
         "strict_multiple_lenient_multiple": counts[
             "strict_multiple_lenient_multiple"
+        ],
+        "lenient_zero_fuzzy_one": counts["lenient_zero_fuzzy_one"],
+        "lenient_zero_fuzzy_multiple": counts["lenient_zero_fuzzy_multiple"],
+        "lenient_multiple_fuzzy_multiple": counts[
+            "lenient_multiple_fuzzy_multiple"
         ],
     }
 
@@ -495,6 +523,7 @@ def _format_readme_statistics(statistics: dict[str, Any]) -> str:
     matching = statistics["matching"]
     strict = matching["strict"]
     lenient = matching["lenient"]
+    fuzzy = matching["fuzzy"]
     unreadable = statistics["unreadable_items"]
     lines = [
         (
@@ -506,9 +535,10 @@ def _format_readme_statistics(statistics: dict[str, Any]) -> str:
             f"(`oeg-*`) and French (`soe-*`) editions are counted separately "
             f"even when a French mention is redirected to the German "
             f"manifest. In that case the hit is on the German image, not the "
-            f"French scan. Both matchers search the same parsed OCR pages; "
-            f"only `lenient_match` writes the production target. `strict_match` "
-            f"is recorded for comparison. There is no ground-truth set; the "
+            f"French scan. All three matchers search the same parsed OCR pages; "
+            f"only `fuzzy_match` writes the production target. `strict_match` "
+            f"and `lenient_match` are recorded for comparison. There is no "
+            f"ground-truth set; the "
             f"rates below are matcher outcome rates, not retrieval recall "
             f"against published boxes."
         ),
@@ -532,6 +562,7 @@ def _format_readme_statistics(statistics: dict[str, Any]) -> str:
         "| --- | ---: | ---: | ---: | ---: | ---: | ---: |",
         _match_summary_row("Strict", strict),
         _match_summary_row("Lenient", lenient),
+        _match_summary_row("Fuzzy", fuzzy),
         "",
         (
             f"Lenient matching turned "
@@ -544,13 +575,23 @@ def _format_readme_statistics(statistics: dict[str, Any]) -> str:
         ),
         "",
         (
-            f"The production lenient matcher wrote "
+            f"Fuzzy matching turned "
+            f"{matching['lenient_zero_fuzzy_one']} lenient misses into "
+            f"exactly one hit. "
+            f"{matching['lenient_zero_fuzzy_multiple']} lenient misses became "
+            f"multiple fuzzy matches; "
+            f"{matching['lenient_multiple_fuzzy_multiple']} queries were "
+            f"multiple under both matchers."
+        ),
+        "",
+        (
+            f"The production fuzzy matcher wrote "
             f"{statistics['precise_targets']} precise targets "
             f"(exactly one plus multiple). All "
             f"{statistics['crop_validated']} crop URLs returned an image."
             if statistics["crop_failed"] == 0
             else (
-                f"The production lenient matcher wrote "
+                f"The production fuzzy matcher wrote "
                 f"{statistics['precise_targets']} precise targets "
                 f"(exactly one plus multiple). "
                 f"{statistics['crop_validated']} crop URLs returned an image; "
@@ -558,18 +599,20 @@ def _format_readme_statistics(statistics: dict[str, Any]) -> str:
             )
         ),
         "",
-        "| Volume | Queries | Strict one | Lenient one | Lenient zero | Lenient multiple |",
-        "| --- | ---: | ---: | ---: | ---: | ---: |",
+        "| Volume | Queries | Strict one | Lenient one | Fuzzy one | Fuzzy zero | Fuzzy multiple |",
+        "| --- | ---: | ---: | ---: | ---: | ---: | ---: |",
     ]
     for volume, counts in statistics["by_volume"].items():
         if counts["persons"] == 0:
             continue
         strict = counts["matching"]["strict"]
         lenient = counts["matching"]["lenient"]
+        fuzzy = counts["matching"]["fuzzy"]
         lines.append(
-            f"| {_volume_label(volume)} | {lenient['total_queries']} | "
+            f"| {_volume_label(volume)} | {fuzzy['total_queries']} | "
             f"{strict['exactly_one_match']} | {lenient['exactly_one_match']} | "
-            f"{lenient['zero_matches']} | {lenient['multiple_matches']} |"
+            f"{fuzzy['exactly_one_match']} | {fuzzy['zero_matches']} | "
+            f"{fuzzy['multiple_matches']} |"
         )
     lines.extend(
         [

@@ -196,6 +196,41 @@ def test_strict_miss_rescued_by_lenient_matching(tmp_path) -> None:
     result = run.results[0]
     assert result.strict_match_count == 0
     assert result.lenient_match_count == 1
+    assert result.fuzzy_match_count == 1
+    assert result.precise_target_written is True
+
+
+def test_lenient_miss_is_rescued_by_fuzzy_matching(tmp_path) -> None:
+    _write_ocr(
+        tmp_path,
+        "page-a",
+        100,
+        50,
+        [
+            "Pfarrer 10,4,8,6",
+            "Mesmer 20,4,8,6",
+            "zu 30,4,8,6",
+            "Reutigen 40,4,8,6",
+        ],
+    )
+    raw = {
+        "items": [
+            _person(
+                "https://example.org/ann/1",
+                "Pf. Mesmer zu Reutigen, Sekretär",
+            )
+        ]
+    }
+    run, _calls = _run(
+        raw,
+        tmp_path,
+        {MANIFEST: _manifest(MANIFEST, [("page-a", 100, 50)])},
+        validate=lambda url: True,
+    )
+
+    result = run.results[0]
+    assert result.lenient_match_count == 0
+    assert result.fuzzy_match_count == 1
     assert result.precise_target_written is True
 
 

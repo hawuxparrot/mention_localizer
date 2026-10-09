@@ -10,7 +10,7 @@ from typing import Any, Callable, Mapping
 from .fetch import crop_url_is_image, fetch_json
 from .iiif import parse_manifest
 from .localize import find_image_regions
-from .matching import strict_match
+from .matching import lenient_match, strict_match
 from .models import EntityAnnotation, ManifestDocument, OcrPage
 from .ocr import parse_ocr_text
 from .ocr_index import resolve_ocr_path
@@ -34,6 +34,7 @@ class AnnotationResult:
     mention: str
     strict_match_count: int | None
     lenient_match_count: int | None
+    fuzzy_match_count: int | None
     precise_target_written: bool
     crop_validation_succeeded: bool | None
     error: str | None
@@ -107,6 +108,10 @@ def _localize_one(
             len(strict_match(annotation.mention, page))
             for page in ocr_pages
         )
+        lenient_count = sum(
+            len(lenient_match(annotation.mention, page))
+            for page in ocr_pages
+        )
         regions = find_image_regions(annotation.mention, ocr_pages)
     except Exception as exc:
         return _result(annotation, error=_error_text(exc))
@@ -117,7 +122,8 @@ def _localize_one(
         return _result(
             annotation,
             strict_match_count=strict_count,
-            lenient_match_count=0,
+            lenient_match_count=lenient_count,
+            fuzzy_match_count=0,
         )
 
     target = precise_target(regions[0])
@@ -126,7 +132,8 @@ def _localize_one(
     return _result(
         annotation,
         strict_match_count=strict_count,
-        lenient_match_count=len(regions),
+        lenient_match_count=lenient_count,
+        fuzzy_match_count=len(regions),
         precise_target_written=True,
         crop_validation_succeeded=_crop_ok(crop, validate_crop),
         crop_url=crop,
@@ -204,6 +211,7 @@ def _result(
     *,
     strict_match_count: int | None = None,
     lenient_match_count: int | None = None,
+    fuzzy_match_count: int | None = None,
     precise_target_written: bool = False,
     crop_validation_succeeded: bool | None = None,
     error: str | None = None,
@@ -214,6 +222,7 @@ def _result(
         mention=annotation.mention,
         strict_match_count=strict_match_count,
         lenient_match_count=lenient_match_count,
+        fuzzy_match_count=fuzzy_match_count,
         precise_target_written=precise_target_written,
         crop_validation_succeeded=crop_validation_succeeded,
         error=error,

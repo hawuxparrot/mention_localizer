@@ -1,6 +1,12 @@
 import pytest
 
-from eil.matching import lenient_match, normalize_text, prepare_mention, strict_match
+from eil.matching import (
+    fuzzy_match,
+    lenient_match,
+    normalize_text,
+    prepare_mention,
+    strict_match,
+)
 from eil.models import BoundingBox, OcrPage, OcrToken
 from tests.helpers import make_page
 
@@ -131,3 +137,72 @@ def test_lenient_match_rejects_a_large_edit() -> None:
 def test_lenient_match_empty_after_markup_raises() -> None:
     with pytest.raises(ValueError, match="Query must contain text"):
         lenient_match("... (*=Mitglied der engern Gesellschaft)", ocr_page("Haller"))
+
+
+def test_fuzzy_match_preserves_an_existing_lenient_hit() -> None:
+    page = ocr_page("Em.", "von", "Grassenried,", "zu", "Word.")
+    assert fuzzy_match("Em. von Graffenried, zu Worb", page) == lenient_match(
+        "Em. von Graffenried, zu Worb",
+        page,
+    )
+
+
+def test_fuzzy_match_aligns_abbreviation_with_full_title() -> None:
+    page = ocr_page("Herr", "Gerwer", "zu", "Sanen")
+    assert fuzzy_match("Hr. Gerwer zu Sanen", page) == (
+        BoundingBox.enclosing(tuple(token.box for token in page.tokens)),
+    )
+
+
+def test_fuzzy_match_allows_a_missing_descriptive_suffix() -> None:
+    page = ocr_page("Pfarrer", "Mesmer", "zu", "Reutigen")
+    assert fuzzy_match("Pf. Mesmer zu Reutigen, Sekretär", page) == (
+        BoundingBox.enclosing(tuple(token.box for token in page.tokens)),
+    )
+
+
+def test_fuzzy_match_accepts_a_dotted_initial_for_a_given_name() -> None:
+    page = ocr_page("Johann", "Tschudi", "zu", "Mez")
+    assert fuzzy_match("J. Tschudi zu Mez", page) != ()
+
+
+def test_fuzzy_match_does_not_match_only_titles_and_function_words() -> None:
+    assert fuzzy_match(
+        "Pf. Mesmer zu Reutigen",
+        ocr_page("Pfarrer", "Muster", "zu", "Reutigen"),
+    ) == ()
+
+
+def test_fuzzy_match_anchors_after_an_unabbreviated_title() -> None:
+    assert fuzzy_match(
+        "Baron Lentulus, General-Lieutenant",
+        ocr_page("Baron", "Lindner", "General-Lieutenant"),
+    ) == ()
+
+
+def test_fuzzy_match_uses_semicolon_clause_and_returns_its_full_box() -> None:
+    page = ocr_page(
+        "Schmid;",
+        "Sachfeil",
+        "Weymarifcher",
+        "Hofrath",
+        "Präsident",
+        "der",
+        "mitarbeitenden",
+        "Gesellschaft",
+        "in",
+        "Arau.",
+        "Sam.",
+        "Schmid;",
+        "verschiedener",
+        "Akademien",
+        "Mitglied",
+    )
+    matches = fuzzy_match(
+        "Schmid; Sachsen-Weymarischer Hofrath, Präsident der "
+        "mitarbeitenden Gesellschaft, in Aarau",
+        page,
+    )
+    assert matches == (
+        BoundingBox.enclosing(tuple(token.box for token in page.tokens[:10])),
+    )

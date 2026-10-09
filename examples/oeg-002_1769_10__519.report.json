@@ -4,6 +4,7 @@
     "mention": "Hilfer, der Arzney Dr. in Bern",
     "strict_match_count": 0,
     "lenient_match_count": 1,
+    "fuzzy_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -14,6 +15,7 @@
     "mention": "Dr. Mattani, öffentlicher Lehrer auf der hohen Schule zu Pisa, verschiedener Akademien Mitglied",
     "strict_match_count": 0,
     "lenient_match_count": 1,
+    "fuzzy_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -24,16 +26,18 @@
     "mention": "Muret, Oberpfr. zu Vivis, Sekretär der Gesellschaft selbiger Stadt",
     "strict_match_count": 0,
     "lenient_match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "fuzzy_match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1769_010!oeg-002_1769_010_0034.jpg/116,317,842,94/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1769_10__519-publication_46079-mentioned-person-person_00580",
     "mention": "Hr. le Trosne, Avocat du Roi au Siege d'Orleans",
     "strict_match_count": 0,
     "lenient_match_count": 0,
+    "fuzzy_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -44,26 +48,29 @@
     "mention": "Baron Lentulus, General-Lieutenant in Diensten Sr. K. Preus. Maj. und der Respublik Bern",
     "strict_match_count": 0,
     "lenient_match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "fuzzy_match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1769_010!oeg-002_1769_010_0033.jpg/396,280,841,93/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1769_10__519-publication_46079-mentioned-person-person_02092",
     "mention": "Catt, geheimer Cabinets-Sekretär und Leeteur S. K. Preussischen Maj.",
     "strict_match_count": 0,
     "lenient_match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "fuzzy_match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1769_010!oeg-002_1769_010_0033.jpg/384,394,848,92/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1769_10__519-publication_46079-mentioned-person-person_05984",
     "mention": "Tschiffeli, älterer Sohn des Vicepräsidenten der Gesellschaft",
     "strict_match_count": 0,
     "lenient_match_count": 1,
+    "fuzzy_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -74,16 +81,18 @@
     "mention": "Monod de Froidewille, Dragoner-Obrist, der bernischen Cavallerie General-Inspector",
     "strict_match_count": 0,
     "lenient_match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "fuzzy_match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1769_010!oeg-002_1769_010_0034.jpg/100,722,850,109/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1769_10__519-publication_46079-mentioned-person-person_11939",
     "mention": "Panchaud, Altvenner der Stadt Milden",
     "strict_match_count": 0,
     "lenient_match_count": 1,
+    "fuzzy_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -94,6 +103,7 @@
     "mention": "Asquino, der Landwirthschaftlichen Gesellschaft zu Udine, in dem Freystaat Venedig, beständiger Sekretär",
     "strict_match_count": 0,
     "lenient_match_count": 1,
+    "fuzzy_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -104,6 +114,7 @@
     "mention": "von Avelines, der Akademie der Wissenschaften und schönen Künste in Angers beständiger Sekretär, und der Landbaues-Gesellschat Mitglied",
     "strict_match_count": 0,
     "lenient_match_count": 1,
+    "fuzzy_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -114,16 +125,18 @@
     "mention": "Tachselt, beständiger Sekretär der ökonom. Gesellschaft in Leipzig",
     "strict_match_count": 0,
     "lenient_match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "fuzzy_match_count": 2,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1769_010!oeg-002_1769_010_0031.jpg/345,825,684,51/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1769_10__519-publication_46079-mentioned-person-person_11966",
     "mention": "Wiesolowski, ein polnischer Edelmann",
     "strict_match_count": 0,
     "lenient_match_count": 1,
+    "fuzzy_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -134,99 +147,109 @@
     "mention": "Graf Wodzicki, der Abtei Mogil Comendatarius",
     "strict_match_count": 0,
     "lenient_match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "fuzzy_match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1769_010!oeg-002_1769_010_0034.jpg/32,651,914,71/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1769_10__519-publication_46079-mentioned-person-person_11910",
     "mention": "von Lannoy, Hauptmann in dem Garde-Regiment der Dragoner, in Dienst der Herren General-Staaten",
     "strict_match_count": 0,
     "lenient_match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "fuzzy_match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1769_010!oeg-002_1769_010_0033.jpg/386,1705,838,135/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1769_10__519-publication_46079-mentioned-person-person_11914",
     "mention": "Fürst Xavier Lubomirski, ältester Sohn des Fürsten Palatins zu Braclaw",
     "strict_match_count": 0,
     "lenient_match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "fuzzy_match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1769_010!oeg-002_1769_010_0034.jpg/114,538,844,104/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1769_10__519-publication_46079-mentioned-person-person_11915",
     "mention": "Phil. e. Lüders, Probst zu Glüksburg, Stifter der K. Dän. Aker-Gesellschaft",
     "strict_match_count": 0,
     "lenient_match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "fuzzy_match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1769_010!oeg-002_1769_010_0033.jpg/382,621,856,93/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1769_10__519-publication_46079-mentioned-person-person_11918",
     "mention": "Marcandier, der K. Aker-Gesellschaft in Burges Mitglied",
     "strict_match_count": 0,
     "lenient_match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "fuzzy_match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1769_010!oeg-002_1769_010_0032.jpg/114,1327,823,87/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1769_10__519-publication_46079-mentioned-person-person_11802",
     "mention": "J.D. von Wattenwyl von Malessert",
     "strict_match_count": 0,
     "lenient_match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "fuzzy_match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1769_010!oeg-002_1769_010_0033.jpg/529,1345,554,42/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1769_10__519-publication_46079-mentioned-person-person_11898",
     "mention": "Marchese Dominico Grimaldi, Mitherr zu Messimeri in Genua",
     "strict_match_count": 0,
     "lenient_match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "fuzzy_match_count": 2,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1769_010!oeg-002_1769_010_0031.jpg/340,707,831,98/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1769_10__519-publication_46079-mentioned-person-person_11902",
     "mention": "Hell, Grossvogt, der Graffschaft Frohberg im Ober-Elsass",
     "strict_match_count": 0,
     "lenient_match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "fuzzy_match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1769_010!oeg-002_1769_010_0024.jpg/265,1830,714,86/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1769_10__519-publication_46079-mentioned-person-person_08675",
     "mention": "Mayer, evangelischer Pfarrer zu Kupferzell, in dem Fürstentum Hohenlohe",
     "strict_match_count": 0,
     "lenient_match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "fuzzy_match_count": 2,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1769_010!oeg-002_1769_010_0026.jpg/163,1389,839,107/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1769_10__519-publication_46079-mentioned-person-person_00320",
     "mention": "Gagnebin, älter, Botanicus zu Ferrieres im Bischthum Basel",
     "strict_match_count": 0,
     "lenient_match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "fuzzy_match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1769_010!oeg-002_1769_010_0033.jpg/388,1473,838,90/full/0/default.jpg"
   }
 ]

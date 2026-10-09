@@ -4,7 +4,9 @@ version = "0.1.0"
 description = "Locate a known text mention on a scanned page and return its IIIF region."
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "rapidfuzz>=3.14",
+]
 
 [project.optional-dependencies]
 dev = ["pytest>=8"]
