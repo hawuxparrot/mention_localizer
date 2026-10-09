@@ -60,7 +60,9 @@ IIIF Manifest ──► ManifestDocument ──► PageImage (service URL, IIIF 
                                                  ▼
                                        OcrPage (tokens, OCR size)
                               │                    │
-                              └──── lenient_match/strict_match ─┘
+                              ├── strict_match ───────────► diagnostic count only
+                              │
+                              └──── lenient_match ─┘
                                         │
                                         ▼
                               scale OCR box into IIIF pixels
@@ -72,7 +74,7 @@ IIIF Manifest ──► ManifestDocument ──► PageImage (service URL, IIIF 
                               IIIF FragmentSelector target
 ```
 
-1. **Annotations.** `parse_annotation_page` keeps `ordiiif-vocab:MentionedPerson` items and drops every other purpose. Each kept item becomes an `EntityAnnotation`: annotation id, person id, one mention string, and the manifest URL.
+1. **Annotations.** `parse_annotation_page` keeps `ordiiif-vocab:MentionedPerson` items and drops every other purpose. Each kept item becomes an `EntityAnnotation`: annotation id, optional person id (`body.identifier`, often a GND URI; many local persons have only a Haller record), one mention string, optional mention language, and the manifest URL.
 2. **Manifest.** `parse_manifest` reads a IIIF Presentation 3 manifest into a `ManifestDocument`. Canvas order is the page order. Each page is a `PageImage`: image-service URL, width, and height in IIIF pixels.
 3. **Grouping.** Annotations that share a manifest should be collected before any OCR file is read, so each page is parsed once and then queried many times. This stage is not written yet.
 4. **OCR files.** `index_ocr_directory` maps a page-image filename to one positional `.txt` under `data/`. The filename is the last `!`-separated segment of the IIIF service URL. A missing file is an error. Two files with the same stem are an error; neither is chosen.
@@ -85,65 +87,71 @@ IIIF Manifest ──► ManifestDocument ──► PageImage (service URL, IIIF 
 ## Current status
 
 
-| Piece                                | Module            | State       |
-| ------------------------------------ | ----------------- | ----------- |
-| Person annotations to mentions       | `eil/parsing.py`  | Done        |
-| IIIF manifest to ordered page images | `eil/iiif.py`     | Done        |
-| Positional OCR to tokens             | `eil/ocr.py`      | Done        |
-| Exact and lenient mention matching   | `eil/matching.py` | Done        |
-| Shared types                         | `eil/models.py`   | Done        |
-| Attach an OCR file to a page image   | `eil/ocr_index.py` | Done        |
-| Scale OCR boxes into IIIF pixels     | `eil/geometry.py` | Done        |
-| Mention matches across one manifest  | `eil/localize.py` | Done        |
-| Build the fragment-selector target   | `eil/targets.py`  | Done        |
-| Patch the page and record each hit   | `eil/pipeline.py` | Done        |
-| Command-line pipeline                | `main.py`         | Done        |
-| Corpus run and dataset statistics    | `scripts/localize_corpus.py` | Done |
-| Group mentions by manifest           | —                 | Not started |
+| Piece                                | Module                       | State       |
+| ------------------------------------ | ---------------------------- | ----------- |
+| Person annotations to mentions       | `eil/parsing.py`             | Done        |
+| IIIF manifest to ordered page images | `eil/iiif.py`                | Done        |
+| Positional OCR to tokens             | `eil/ocr.py`                 | Done        |
+| Exact and lenient mention matching   | `eil/matching.py`            | Done        |
+| Shared types                         | `eil/models.py`              | Done        |
+| Attach an OCR file to a page image   | `eil/ocr_index.py`           | Done        |
+| Scale OCR boxes into IIIF pixels     | `eil/geometry.py`            | Done        |
+| Mention matches across one manifest  | `eil/localize.py`            | Done        |
+| Build the fragment-selector target   | `eil/targets.py`             | Done        |
+| Patch the page and record each hit   | `eil/pipeline.py`            | Done        |
+| Command-line pipeline                | `main.py`                    | Done        |
+| Corpus run and dataset statistics    | `scripts/localize_corpus.py` | Done        |
+| Group mentions by manifest ???       | —                            | Not started |
 
 
 The input OCR file starts with `width,height`. Each later line is `text x,y,width,height`. The text is everything before the last space, so a token may contain spaces or commas. Blank lines and `<EOS>` / `<EOP>` are skipped. Confidence and layout ids are not in this format; those fields on `OcrToken` stay `None`.
 
 ## Corpus results
 
-<!-- corpus-statistics:start -->
-`scripts/localize_corpus.py` was run on the OCR in `data/` (15,163 page files) and the RdL annotation pages for those volumes. Published person targets are already precise, so each one was set back to a manifest URL before matching. A mention whose language differs from the journal is searched on the parallel edition of that language: a German mention on a French page is matched against the German manifest, and the box is on the German image. Both matchers search the same parsed OCR pages; `lenient_match` supplies the production target.
 
-560 annotation pages fall in the corpus. 30 of them contain a `MentionedPerson`. The other 530 do not. A missing `body.identifier` is allowed: that field is a GND URI, and many local persons have only a Haller record. 5 annotations are still unreadable for another reason.
 
-| Matcher | Queries | Zero | Exactly one | Multiple | Unique recall | Found rate |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: |
-| Strict | 1092 | 1084 | 8 | 0 | 0.7% | 0.7% |
-| Lenient | 1092 | 507 | 577 | 8 | 52.8% | 53.6% |
+`scripts/localize_corpus.py` was run on the OCR in `data/` (15,163 page files) and the RdL annotation pages for those volumes. Published person targets are already precise, so each one was set back to a manifest URL before matching. Each AnnotationPage is one statistics unit: German (`oeg-*`) and French (`soe-*`) editions are counted separately even when a French mention is redirected to the German manifest. In that case the hit is on the German image, not the French scan. Both matchers search the same parsed OCR pages; only `lenient_match` writes the production target. `strict_match` is recorded for comparison. There is no ground-truth set; the rates below are matcher outcome rates, not retrieval recall against published boxes.
 
-Lenient matching uniquely rescued 569 strict misses. 8 strict misses became multiple lenient matches; 0 queries were multiple under both matchers.
+560 annotation pages fall in the corpus. 30 of them contain at least one `MentionedPerson` (1092 person queries in total). The other 530 do not. A missing `body.identifier` is allowed and is not counted as an error. 5 annotations are unreadable for another reason and are dropped before matching.
 
-The production lenient matcher wrote 585 precise targets. All 585 crop URLs returned an image. The French-page hits are the same kind of result as the German edition they were redirected to, not boxes on the French scan. The published French boxes were not used as ground truth.
 
-| Volume | Queries | Strict one | Lenient one | Lenient zero | Lenient multiple |
-| --- | ---: | ---: | ---: | ---: | ---: |
-| `oeg-001` 1761/2 | 79 | 0 | 49 | 29 | 1 |
-| `oeg-002` 1762/3 | 163 | 1 | 74 | 89 | 0 |
-| `oeg-002` 1763/4 | 19 | 0 | 17 | 2 | 0 |
-| `oeg-002` 1764/5 | 184 | 3 | 93 | 89 | 2 |
-| `oeg-002` 1765/6 | 41 | 0 | 23 | 18 | 0 |
-| `oeg-002` 1766/7 | 27 | 0 | 16 | 11 | 0 |
-| `oeg-002` 1767/8 | 9 | 0 | 3 | 6 | 0 |
-| `oeg-002` 1769/10 | 23 | 0 | 7 | 16 | 0 |
-| `oeg-002` 1770/11 | 10 | 0 | 3 | 5 | 2 |
-| `oeg-002` 1771/12 | 2 | 0 | 0 | 2 | 0 |
-| `oeg-003` 1779/1 | 48 | 0 | 31 | 17 | 0 |
-| `soe-001` 1761/2 | 79 | 0 | 49 | 29 | 1 |
-| `soe-001` 1762/3 | 105 | 1 | 53 | 52 | 0 |
-| `soe-001` 1763/4 | 19 | 0 | 17 | 2 | 0 |
-| `soe-001` 1764/5 | 184 | 3 | 93 | 89 | 2 |
-| `soe-001` 1765/6 | 41 | 0 | 23 | 18 | 0 |
-| `soe-001` 1766/7 | 27 | 0 | 16 | 11 | 0 |
-| `soe-001` 1767/8 | 9 | 0 | 3 | 6 | 0 |
-| `soe-001` 1769/10 | 23 | 0 | 7 | 16 | 0 |
+| Matcher | Queries | Zero | Exactly one | Multiple | Unique hit rate | Any-hit rate |
+| ------- | ------- | ---- | ----------- | -------- | --------------- | ------------ |
+| Strict  | 1092    | 1084 | 8           | 0        | 0.7%            | 0.7%         |
+| Lenient | 1092    | 507  | 577         | 8        | 52.8%           | 53.6%        |
+
+
+Lenient matching turned 569 strict misses into exactly one hit. 8 strict misses became multiple lenient matches; 0 queries were multiple under both matchers.
+
+The production lenient matcher wrote 585 precise targets (exactly one plus multiple). All 585 crop URLs returned an image.
+
+
+| Volume            | Queries | Strict one | Lenient one | Lenient zero | Lenient multiple |
+| ----------------- | ------- | ---------- | ----------- | ------------ | ---------------- |
+| `oeg-001` 1761/2  | 79      | 0          | 49          | 29           | 1                |
+| `oeg-002` 1762/3  | 163     | 1          | 74          | 89           | 0                |
+| `oeg-002` 1763/4  | 19      | 0          | 17          | 2            | 0                |
+| `oeg-002` 1764/5  | 184     | 3          | 93          | 89           | 2                |
+| `oeg-002` 1765/6  | 41      | 0          | 23          | 18           | 0                |
+| `oeg-002` 1766/7  | 27      | 0          | 16          | 11           | 0                |
+| `oeg-002` 1767/8  | 9       | 0          | 3           | 6            | 0                |
+| `oeg-002` 1769/10 | 23      | 0          | 7           | 16           | 0                |
+| `oeg-002` 1770/11 | 10      | 0          | 3           | 5            | 2                |
+| `oeg-002` 1771/12 | 2       | 0          | 0           | 2            | 0                |
+| `oeg-003` 1779/1  | 48      | 0          | 31          | 17           | 0                |
+| `soe-001` 1761/2  | 79      | 0          | 49          | 29           | 1                |
+| `soe-001` 1762/3  | 105     | 1          | 53          | 52           | 0                |
+| `soe-001` 1763/4  | 19      | 0          | 17          | 2            | 0                |
+| `soe-001` 1764/5  | 184     | 3          | 93          | 89           | 2                |
+| `soe-001` 1765/6  | 41      | 0          | 23          | 18           | 0                |
+| `soe-001` 1766/7  | 27      | 0          | 16          | 11           | 0                |
+| `soe-001` 1767/8  | 9       | 0          | 3           | 6            | 0                |
+| `soe-001` 1769/10 | 23      | 0          | 7           | 16           | 0                |
+
 
 Per-page counts, crop URLs, and the patched AnnotationPages are under `examples/`. `examples/statistics.json` is the full aggregate.
-<!-- corpus-statistics:end -->
+
+
 
 ## Layout
 
@@ -183,16 +191,21 @@ mention_localizer/
     ├── test_localize.py
     ├── test_targets.py
     ├── test_fetch.py
-    └── test_pipeline.py
+    ├── test_pipeline.py
+    └── test_corpus_statistics.py
 ```
+
+
 
 ## Data
 
 The positional OCR corpus is too large for GitHub, so it is not in the clone. `data/` is gitignored.
 From the repository root:
+
 ```bash
 make setup
 ```
+
 `make setup` installs the project, then `scripts/fetch_ocr.py` downloads the corpus from Polybox and extracts it to `data/`.
 
 ## Tests
@@ -201,4 +214,4 @@ make setup
 uv run pytest
 ```
 
-Run `make setup` once before this. Unit tests build their own pages. Corpus tests read `data/` and skip when it is absent. They check that real pages parse, that punctuation and apostrophes stay inside tokens, and that `strict_match` returns the expected boxes for a few known strings.
+Run `make setup` once before this. Unit tests build their own pages. Corpus tests read `data/` and skip when it is absent. They check that real pages parse, that punctuation and apostrophes stay inside tokens, and that both `strict_match` and `lenient_match` return the expected boxes for a few known strings. `tests/test_corpus_statistics.py` checks the aggregate counters behind `examples/statistics.json` and the Corpus results block above.

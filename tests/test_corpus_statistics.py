@@ -37,5 +37,8 @@ def test_corpus_statistics_separate_strict_and_lenient_matches() -> None:
     assert statistics["matching"]["strict_zero_lenient_one"] == 1
     assert statistics["matching"]["strict_multiple_lenient_multiple"] == 1
     readme = _format_readme_statistics(statistics)
+    assert "| Unique hit rate | Any-hit rate |" in readme
     assert "| Strict | 3 | 2 | 0 | 1 | 0.0% | 33.3% |" in readme
     assert "| Lenient | 3 | 1 | 1 | 1 | 33.3% | 66.7% |" in readme
+    assert "not retrieval recall" in readme
+    assert "counted separately" in readme

@@ -502,32 +502,41 @@ def _format_readme_statistics(statistics: dict[str, Any]) -> str:
             f"({statistics['ocr_files']:,} page files) and the RdL annotation "
             f"pages for those volumes. Published person targets are already "
             f"precise, so each one was set back to a manifest URL before "
-            f"matching. A mention whose language differs from the journal is "
-            f"searched on the parallel edition of that language: a German "
-            f"mention on a French page is matched against the German manifest, "
-            f"and the box is on the German image. Both matchers search the same "
-            f"parsed OCR pages; `lenient_match` supplies the production target."
+            f"matching. Each AnnotationPage is one statistics unit: German "
+            f"(`oeg-*`) and French (`soe-*`) editions are counted separately "
+            f"even when a French mention is redirected to the German "
+            f"manifest. In that case the hit is on the German image, not the "
+            f"French scan. Both matchers search the same parsed OCR pages; "
+            f"only `lenient_match` writes the production target. `strict_match` "
+            f"is recorded for comparison. There is no ground-truth set; the "
+            f"rates below are matcher outcome rates, not retrieval recall "
+            f"against published boxes."
         ),
         "",
         (
             f"{statistics['annotation_pages']} annotation pages fall in the "
-            f"corpus. {statistics['pages_with_persons']} of them contain a "
-            f"`MentionedPerson`. The other {statistics['pages_without_persons']} "
-            f"do not. A missing `body.identifier` is allowed: that field is a "
-            f"GND URI, and many local persons have only a Haller record. "
+            f"corpus. {statistics['pages_with_persons']} of them contain at "
+            f"least one `MentionedPerson` ({statistics['persons']} person "
+            f"queries in total). The other "
+            f"{statistics['pages_without_persons']} do not. A missing "
+            f"`body.identifier` is allowed and is not counted as an error. "
             f"{unreadable} "
             f"{'annotation is' if unreadable == 1 else 'annotations are'} "
-            f"still unreadable for another reason."
+            f"unreadable for another reason and are dropped before matching."
         ),
         "",
-        "| Matcher | Queries | Zero | Exactly one | Multiple | Unique recall | Found rate |",
+        (
+            "| Matcher | Queries | Zero | Exactly one | Multiple | "
+            "Unique hit rate | Any-hit rate |"
+        ),
         "| --- | ---: | ---: | ---: | ---: | ---: | ---: |",
         _match_summary_row("Strict", strict),
         _match_summary_row("Lenient", lenient),
         "",
         (
-            f"Lenient matching uniquely rescued "
-            f"{matching['strict_zero_lenient_one']} strict misses. "
+            f"Lenient matching turned "
+            f"{matching['strict_zero_lenient_one']} strict misses into "
+            f"exactly one hit. "
             f"{matching['strict_zero_lenient_multiple']} strict misses became "
             f"multiple lenient matches; "
             f"{matching['strict_multiple_lenient_multiple']} queries were "
@@ -536,20 +545,17 @@ def _format_readme_statistics(statistics: dict[str, Any]) -> str:
         "",
         (
             f"The production lenient matcher wrote "
-            f"{statistics['precise_targets']} precise targets. All "
+            f"{statistics['precise_targets']} precise targets "
+            f"(exactly one plus multiple). All "
             f"{statistics['crop_validated']} crop URLs returned an image."
             if statistics["crop_failed"] == 0
             else (
                 f"The production lenient matcher wrote "
-                f"{statistics['precise_targets']} precise targets. "
+                f"{statistics['precise_targets']} precise targets "
+                f"(exactly one plus multiple). "
                 f"{statistics['crop_validated']} crop URLs returned an image; "
                 f"{statistics['crop_failed']} failed."
             )
-        )
-        + (
-            " The French-page hits are the same kind of result as the German "
-            "edition they were redirected to, not boxes on the French scan. "
-            "The published French boxes were not used as ground truth."
         ),
         "",
         "| Volume | Queries | Strict one | Lenient one | Lenient zero | Lenient multiple |",
