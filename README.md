@@ -96,43 +96,43 @@ The input OCR file starts with `width,height`. Each later line is `text x,y,widt
 
 ## Corpus results
 
+<!-- corpus-statistics:start -->
 `scripts/localize_corpus.py` was run on the OCR in `data/` (15,163 page files) and the RdL annotation pages for those volumes. Published person targets are already precise, so each one was set back to a manifest URL before matching. A mention whose language differs from the journal is searched on the parallel edition of that language: a German mention on a French page is matched against the German manifest, and the box is on the German image. `lenient_match` then searches every page of the chosen manifest.
 
 560 annotation pages fall in the corpus. 30 of them contain a `MentionedPerson`. The other 530 do not. A missing `body.identifier` is allowed: that field is a GND URI, and many local persons have only a Haller record. Five annotations are still unreadable for another reason.
 
 | | Persons | Localized | Unmatched | More than one match |
 | --- | ---: | ---: | ---: | ---: |
-| Whole corpus | 1092 | 542 (49.6%) | 550 | 8 |
-| German (`oeg`) | 605 | 300 (49.6%) | 305 | 5 |
-| French (`soe`) | 487 | 242 (49.7%) | 245 | 3 |
+| Whole corpus | 1092 | 582 (53.3%) | 510 | 8 |
+| German (`oeg`) | 605 | 319 (52.7%) | 286 | 5 |
+| French (`soe`) | 487 | 263 (54.0%) | 224 | 3 |
 
-All 542 crop URLs returned an image. The French-page hits are the same kind of result as the German edition they were redirected to, not boxes on the French scan. The published French boxes were not used as ground truth.
+All 582 crop URLs returned an image. The French-page hits are the same kind of result as the German edition they were redirected to, not boxes on the French scan. The published French boxes were not used as ground truth.
 
 | Volume | Persons | Localized | Unmatched |
 | --- | ---: | ---: | ---: |
-| `oeg-001` 1761/2 | 79 | 32 | 47 |
-| `oeg-002` 1762/3 | 163 | 72 | 91 |
+| `oeg-001` 1761/2 | 79 | 50 | 29 |
+| `oeg-002` 1762/3 | 163 | 71 | 92 |
 | `oeg-002` 1763/4 | 19 | 17 | 2 |
-| `oeg-002` 1764/5 | 184 | 95 | 89 |
-| `oeg-002` 1765/6 | 41 | 22 | 19 |
-| `oeg-002` 1766/7 | 27 | 16 | 11 |
+| `oeg-002` 1764/5 | 184 | 97 | 87 |
+| `oeg-002` 1765/6 | 41 | 23 | 18 |
+| `oeg-002` 1766/7 | 27 | 15 | 12 |
 | `oeg-002` 1767/8 | 9 | 3 | 6 |
-| `oeg-002` 1769/10 | 23 | 6 | 17 |
+| `oeg-002` 1769/10 | 23 | 7 | 16 |
 | `oeg-002` 1770/11 | 10 | 5 | 5 |
 | `oeg-002` 1771/12 | 2 | 0 | 2 |
-| `oeg-003` 1779/1 | 48 | 32 | 16 |
-| `soe-001` 1761/2 | 79 | 32 | 47 |
+| `oeg-003` 1779/1 | 48 | 31 | 17 |
+| `soe-001` 1761/2 | 79 | 50 | 29 |
 | `soe-001` 1762/3 | 105 | 51 | 54 |
 | `soe-001` 1763/4 | 19 | 17 | 2 |
-| `soe-001` 1764/5 | 184 | 95 | 89 |
-| `soe-001` 1765/6 | 41 | 22 | 19 |
-| `soe-001` 1766/7 | 27 | 16 | 11 |
+| `soe-001` 1764/5 | 184 | 97 | 87 |
+| `soe-001` 1765/6 | 41 | 23 | 18 |
+| `soe-001` 1766/7 | 27 | 15 | 12 |
 | `soe-001` 1767/8 | 9 | 3 | 6 |
-| `soe-001` 1769/10 | 23 | 6 | 17 |
+| `soe-001` 1769/10 | 23 | 7 | 16 |
 
 Per-page counts, crop URLs, and the patched AnnotationPages are under `examples/`. `examples/statistics.json` is the full aggregate.
-
-Per-page counts, crop URLs, and the patched AnnotationPages are under `examples/`. `examples/statistics.json` is the full aggregate.
+<!-- corpus-statistics:end -->
 
 ## Layout
 

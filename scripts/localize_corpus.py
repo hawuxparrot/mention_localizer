@@ -93,6 +93,8 @@ def main(argv: list[str] | None = None) -> int:
     statistics = _statistics(len(ocr_index), len(elements), pages, volume_totals)
     stats_path = output_dir / "statistics.json"
     _write_json(statistics, stats_path)
+    readme_path = ROOT / "README.md"
+    _update_readme_statistics(readme_path, statistics)
     print(
         f"persons={statistics['persons']} precise={statistics['precise_targets']} "
         f"unmatched={statistics['unmatched']} multi={statistics['multiple_matches']} "
@@ -101,6 +103,7 @@ def main(argv: list[str] | None = None) -> int:
         file=sys.stderr,
     )
     print(stats_path)
+    print(readme_path)
     return 0
 
 
@@ -377,6 +380,176 @@ def _write_json(payload: object, path: Path) -> None:
         json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
+
+
+_README_STATS_START = "<!-- corpus-statistics:start -->"
+_README_STATS_END = "<!-- corpus-statistics:end -->"
+
+
+def _update_readme_statistics(readme_path: Path, statistics: dict[str, Any]) -> None:
+    """Replace the marked Corpus results block in README.md."""
+    text = readme_path.read_text(encoding="utf-8")
+    start = text.find(_README_STATS_START)
+    end = text.find(_README_STATS_END)
+    if start < 0 or end < 0 or end < start:
+        raise ValueError(
+            f"{readme_path} is missing {_README_STATS_START!r} / {_README_STATS_END!r}"
+        )
+    block = (
+        f"{_README_STATS_START}\n"
+        f"{_format_readme_statistics(statistics).rstrip()}\n"
+        f"{_README_STATS_END}"
+    )
+    readme_path.write_text(
+        text[:start] + block + text[end + len(_README_STATS_END) :],
+        encoding="utf-8",
+    )
+
+
+def _format_readme_statistics(statistics: dict[str, Any]) -> str:
+    persons = statistics["persons"]
+    precise = statistics["precise_targets"]
+    unmatched = statistics["unmatched"]
+    multi = statistics["multiple_matches"]
+    by_lang = _language_totals(statistics["by_volume"])
+    unreadable = statistics["unreadable_items"]
+    lines = [
+        (
+            f"`scripts/localize_corpus.py` was run on the OCR in `data/` "
+            f"({statistics['ocr_files']:,} page files) and the RdL annotation "
+            f"pages for those volumes. Published person targets are already "
+            f"precise, so each one was set back to a manifest URL before "
+            f"matching. A mention whose language differs from the journal is "
+            f"searched on the parallel edition of that language: a German "
+            f"mention on a French page is matched against the German manifest, "
+            f"and the box is on the German image. `lenient_match` then searches "
+            f"every page of the chosen manifest."
+        ),
+        "",
+        (
+            f"{statistics['annotation_pages']} annotation pages fall in the "
+            f"corpus. {statistics['pages_with_persons']} of them contain a "
+            f"`MentionedPerson`. The other {statistics['pages_without_persons']} "
+            f"do not. A missing `body.identifier` is allowed: that field is a "
+            f"GND URI, and many local persons have only a Haller record. "
+            f"{_count_words(unreadable)} "
+            f"{'annotation is' if unreadable == 1 else 'annotations are'} "
+            f"still unreadable for another reason."
+        ),
+        "",
+        "| | Persons | Localized | Unmatched | More than one match |",
+        "| --- | ---: | ---: | ---: | ---: |",
+        _summary_row("Whole corpus", persons, precise, unmatched, multi),
+        _summary_row(
+            "German (`oeg`)",
+            by_lang["oeg"]["persons"],
+            by_lang["oeg"]["precise_targets"],
+            by_lang["oeg"]["unmatched"],
+            by_lang["oeg"]["multiple_matches"],
+        ),
+        _summary_row(
+            "French (`soe`)",
+            by_lang["soe"]["persons"],
+            by_lang["soe"]["precise_targets"],
+            by_lang["soe"]["unmatched"],
+            by_lang["soe"]["multiple_matches"],
+        ),
+        "",
+        (
+            f"All {statistics['crop_validated']} crop URLs returned an image."
+            if statistics["crop_failed"] == 0
+            else (
+                f"{statistics['crop_validated']} crop URLs returned an image; "
+                f"{statistics['crop_failed']} failed."
+            )
+        )
+        + (
+            " The French-page hits are the same kind of result as the German "
+            "edition they were redirected to, not boxes on the French scan. "
+            "The published French boxes were not used as ground truth."
+        ),
+        "",
+        "| Volume | Persons | Localized | Unmatched |",
+        "| --- | ---: | ---: | ---: |",
+    ]
+    for volume, counts in statistics["by_volume"].items():
+        if counts["persons"] == 0:
+            continue
+        lines.append(
+            f"| {_volume_label(volume)} | {counts['persons']} | "
+            f"{counts['precise_targets']} | {counts['unmatched']} |"
+        )
+    lines.extend(
+        [
+            "",
+            (
+                "Per-page counts, crop URLs, and the patched AnnotationPages "
+                "are under `examples/`. `examples/statistics.json` is the full "
+                "aggregate."
+            ),
+            "",
+        ]
+    )
+    return "\n".join(lines)
+
+
+def _language_totals(by_volume: dict[str, dict[str, int]]) -> dict[str, dict[str, int]]:
+    totals = {
+        "oeg": {
+            "persons": 0,
+            "precise_targets": 0,
+            "unmatched": 0,
+            "multiple_matches": 0,
+        },
+        "soe": {
+            "persons": 0,
+            "precise_targets": 0,
+            "unmatched": 0,
+            "multiple_matches": 0,
+        },
+    }
+    for volume, counts in by_volume.items():
+        key = volume.split("-", 1)[0]
+        if key not in totals:
+            continue
+        for field in totals[key]:
+            totals[key][field] += counts[field]
+    return totals
+
+
+def _summary_row(
+    label: str,
+    persons: int,
+    precise: int,
+    unmatched: int,
+    multi: int,
+) -> str:
+    pct = f"{100 * precise / persons:.1f}%" if persons else "—"
+    return (
+        f"| {label} | {persons} | {precise} ({pct}) | {unmatched} | {multi} |"
+    )
+
+
+def _volume_label(volume: str) -> str:
+    journal, year, piece = volume.split("_", 2)
+    return f"`{journal}` {year}/{piece}"
+
+
+def _count_words(n: int) -> str:
+    words = {
+        0: "Zero",
+        1: "One",
+        2: "Two",
+        3: "Three",
+        4: "Four",
+        5: "Five",
+        6: "Six",
+        7: "Seven",
+        8: "Eight",
+        9: "Nine",
+        10: "Ten",
+    }
+    return words.get(n, str(n))
 
 
 if __name__ == "__main__":
