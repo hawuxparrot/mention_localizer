@@ -25,7 +25,7 @@
       "id": "https://republique-des-lettres.ch"
     }
   ],
-  "created": "2026-10-05T11:23:39",
+  "created": "2026-10-08T14:52:14",
   "journal": {
     "label": {
       "de": [
@@ -1090,22 +1090,7 @@
           "id": "ordiiif-vocab:MentionedPerson"
         }
       },
-      "target": {
-        "rendering": [
-          {
-            "format": "image/jpeg",
-            "type": "Image",
-            "id": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1766_007!oeg-002_1766_007_00033.jpg/191,1866,334,40/full/0/default.jpg"
-          }
-        ],
-        "rdlRegion": "main",
-        "source": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1766_007!oeg-002_1766_007_00033.jpg",
-        "selector": {
-          "conformsTo": "http://www.w3.org/TR/media-frags/",
-          "value": "xywh=191,1866,334,40",
-          "type": "FragmentSelector"
-        }
-      },
+      "target": "https://www.e-periodica.ch/iiif/oeg-002:1766:7::1043/manifest",
       "motivation": "linking",
       "type": "Annotation",
       "id": "https://manifests.republique-des-lettres.ch/soe-001_1766_7__1032-publication_46008-mentioned-person-person_11877"

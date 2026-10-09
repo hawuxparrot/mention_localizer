@@ -25,7 +25,7 @@
       "id": "https://republique-des-lettres.ch"
     }
   ],
-  "created": "2026-10-05T11:23:39",
+  "created": "2026-10-08T14:52:14",
   "journal": {
     "label": {
       "de": [
@@ -1432,14 +1432,14 @@
           {
             "format": "image/jpeg",
             "type": "Image",
-            "id": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1762_003!oeg-002_1762_003_0084.jpg/101,1061,521,40/full/0/default.jpg"
+            "id": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1762_003!oeg-002_1762_003_0084.jpg/31,1061,592,40/full/0/default.jpg"
           }
         ],
         "rdlRegion": "main",
         "source": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1762_003!oeg-002_1762_003_0084.jpg",
         "selector": {
           "conformsTo": "http://www.w3.org/TR/media-frags/",
-          "value": "xywh=101,1061,521,40",
+          "value": "xywh=31,1061,592,40",
           "type": "FragmentSelector"
         }
       },
@@ -4599,14 +4599,14 @@
           {
             "format": "image/jpeg",
             "type": "Image",
-            "id": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1762_003!oeg-002_1762_003_0080.jpg/120,1189,257,35/full/0/default.jpg"
+            "id": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1762_003!oeg-002_1762_003_0080.jpg/44,1189,334,35/full/0/default.jpg"
           }
         ],
         "rdlRegion": "main",
         "source": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1762_003!oeg-002_1762_003_0080.jpg",
         "selector": {
           "conformsTo": "http://www.w3.org/TR/media-frags/",
-          "value": "xywh=120,1189,257,35",
+          "value": "xywh=44,1189,334,35",
           "type": "FragmentSelector"
         }
       },
@@ -5455,14 +5455,14 @@
           {
             "format": "image/jpeg",
             "type": "Image",
-            "id": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1762_003!oeg-002_1762_003_0081.jpg/389,1058,480,39/full/0/default.jpg"
+            "id": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1762_003!oeg-002_1762_003_0081.jpg/309,1058,560,39/full/0/default.jpg"
           }
         ],
         "rdlRegion": "main",
         "source": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1762_003!oeg-002_1762_003_0081.jpg",
         "selector": {
           "conformsTo": "http://www.w3.org/TR/media-frags/",
-          "value": "xywh=389,1058,480,39",
+          "value": "xywh=309,1058,560,39",
           "type": "FragmentSelector"
         }
       },

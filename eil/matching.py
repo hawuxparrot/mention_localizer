@@ -81,6 +81,9 @@ def strict_match(
     return tuple(matches)
 
 
+_HYPHENATION_END = re.compile(r"[-‐‑‒–—―\u00ad¬]+$")
+
+
 def lenient_match(
     query: str,
     ocr_page: OcrPage,
@@ -89,10 +92,12 @@ def lenient_match(
 
     The query is the mention after ``prepare_mention``. Clinging
     punctuation is ignored, and punctuation-only OCR tokens are skipped,
-    so ``1761`` matches ``1761.`` Tokens of one or two characters, and
-    ``v.`` against ``von``, must still match exactly. A longer token may
-    differ by one edit when it has at most five characters, or by two
-    edits when it is longer, and the lengths may differ by at most one.
+    so ``1761`` matches ``1761.`` A token that ends in a line-break
+    hyphen is rejoined with the next token before comparison. Tokens of
+    one or two characters, and ``v.`` against ``von``, must still match
+    exactly. A longer token may differ by one edit when it has at most
+    five characters, or by two edits when it is longer, and the lengths
+    may differ by at most one.
     """
     query_keys = tuple(
         key
@@ -107,7 +112,8 @@ def lenient_match(
         for token in ocr_page.tokens
         if _comparison_key(token.text)
     )
-    ocr_keys = tuple(_comparison_key(token.text) for token in ocr_tokens)
+    ocr_groups = _rejoin_hyphenated(ocr_tokens)
+    ocr_keys = tuple(_group_key(group) for group in ocr_groups)
 
     window_size = len(query_keys)
     matches: list[BoundingBox] = []
@@ -115,8 +121,36 @@ def lenient_match(
         end = start + window_size
         if not _window_matches(query_keys, ocr_keys[start:end]):
             continue
-        matches.append(_enclose(ocr_tokens[start:end]))
+        matched = tuple(
+            token
+            for group in ocr_groups[start:end]
+            for token in group
+        )
+        matches.append(_enclose(matched))
     return tuple(matches)
+
+
+def _rejoin_hyphenated(
+    tokens: tuple[OcrToken, ...],
+) -> tuple[tuple[OcrToken, ...], ...]:
+    """Join an end-of-line hyphen token with the token that continues it."""
+    groups: list[tuple[OcrToken, ...]] = []
+    index = 0
+    while index < len(tokens):
+        if index + 1 < len(tokens) and _HYPHENATION_END.search(tokens[index].text):
+            groups.append((tokens[index], tokens[index + 1]))
+            index += 2
+        else:
+            groups.append((tokens[index],))
+            index += 1
+    return tuple(groups)
+
+
+def _group_key(group: tuple[OcrToken, ...]) -> str:
+    if len(group) == 1:
+        return _comparison_key(group[0].text)
+    first, second = group
+    return _comparison_key(_HYPHENATION_END.sub("", first.text) + second.text)
 
 
 def _window_matches(query_keys: tuple[str, ...], ocr_keys: tuple[str, ...]) -> bool:

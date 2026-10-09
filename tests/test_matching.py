@@ -81,6 +81,16 @@ def test_lenient_match_skips_punctuation_only_tokens() -> None:
     )
 
 
+def test_lenient_match_rejoins_a_line_break_hyphen() -> None:
+    page = ocr_page("des", "tägli¬", "chen", "Rathes")
+    matches = lenient_match("des täglichen Rathes", page)
+    assert matches == (
+        BoundingBox.enclosing(tuple(token.box for token in page.tokens)),
+    )
+    page = ocr_page("Herr", "zu", "Ger-", "zenfee.")
+    assert lenient_match("Herr zu Gerzensee", page) != ()
+
+
 def test_lenient_match_allows_a_small_ocr_substitution() -> None:
     page = ocr_page("Dan.", "Bernoulli,", "zu", "Bafel.")
     assert lenient_match("Dan. Bernoulli, zu Basel", page) != ()

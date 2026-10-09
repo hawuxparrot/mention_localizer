@@ -11,11 +11,11 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1027-publication_45971-mentioned-person-person_00407",
     "mention": "Gottl. Em. Haller, der Roche Salzdirektion Sekretär",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0036.jpg/103,1123,847,83/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1027-publication_45971-mentioned-person-person_00047",
@@ -267,7 +267,7 @@
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0041.jpg/258,793,252,34/full/0/default.jpg"
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0041.jpg/184,793,327,34/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1027-publication_45971-mentioned-person-person_01223",
@@ -425,11 +425,11 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1027-publication_45971-mentioned-person-person_05992",
     "mention": "Marquis von Turbilli, der königl. Ges. des Feldbaues zu Paris mitglied",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0039.jpg/287,728,841,101/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1027-publication_45971-mentioned-person-person_11782",
@@ -623,11 +623,11 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1027-publication_45971-mentioned-person-person_11757",
     "mention": "F. L. von Graffenried, Hr. zu Carouge, des ge R. Landv. zu Wangen",
-    "match_count": 1,
-    "precise_target_written": true,
-    "crop_validation_succeeded": true,
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
     "error": null,
-    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0036.jpg/104,412,847,88/full/0/default.jpg"
+    "crop_url": null
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1027-publication_45971-mentioned-person-person_11920",
@@ -947,11 +947,11 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1027-publication_45971-mentioned-person-person_00835",
     "mention": ".. Reverdil v. Neus, der Math. Prof. zu Kopenhagen",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0038.jpg/166,322,784,93/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1027-publication_45971-mentioned-person-person_07870",

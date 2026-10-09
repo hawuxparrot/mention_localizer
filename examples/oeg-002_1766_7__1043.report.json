@@ -119,11 +119,11 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1766_7__1043-publication_46008-mentioned-person-person_11877",
     "mention": "Graf von Dohna",
-    "match_count": 1,
-    "precise_target_written": true,
-    "crop_validation_succeeded": true,
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
     "error": null,
-    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1766_007!oeg-002_1766_007_00033.jpg/191,1866,334,40/full/0/default.jpg"
+    "crop_url": null
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1766_7__1043-publication_46008-mentioned-person-person_11773",

@@ -177,7 +177,7 @@
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1762_003!oeg-002_1762_003_0084.jpg/101,1061,521,40/full/0/default.jpg"
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1762_003!oeg-002_1762_003_0084.jpg/31,1061,592,40/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1762_3__1080-publication_45890-mentioned-person-person_12162",
@@ -672,7 +672,7 @@
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1762_003!oeg-002_1762_003_0080.jpg/120,1189,257,35/full/0/default.jpg"
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1762_003!oeg-002_1762_003_0080.jpg/44,1189,334,35/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1762_3__1080-publication_45890-mentioned-person-person_12169",
@@ -807,7 +807,7 @@
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1762_003!oeg-002_1762_003_0081.jpg/389,1058,480,39/full/0/default.jpg"
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1762_003!oeg-002_1762_003_0081.jpg/309,1058,560,39/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1762_3__1080-publication_45890-mentioned-person-person_12092",

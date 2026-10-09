@@ -209,11 +209,11 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1765_6__1051-publication_46003-mentioned-person-person_09438",
     "mention": "Seine Ex. Graf Carl von Zinzendorf und Pottendorf",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1765_006!oeg-002_1765_006_0038.jpg/94,1620,914,93/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1765_6__1051-publication_46003-mentioned-person-person_11888",

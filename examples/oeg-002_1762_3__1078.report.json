@@ -150,7 +150,7 @@
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1762_003!oeg-002_1762_003_0073.jpg/367,1574,846,87/full/0/default.jpg"
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1762_003!oeg-002_1762_003_0073.jpg/303,1574,909,87/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1762_3__1078-publication_45888-mentioned-person-person_06513",
@@ -317,11 +317,11 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1762_3__1078-publication_45888-mentioned-person-person_11942",
     "mention": "S. Excell. Hr. Graf von Podewills, preussischer Staats- und Kriegsminister",
-    "match_count": 1,
-    "precise_target_written": true,
-    "crop_validation_succeeded": true,
+    "match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
     "error": null,
-    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1762_003!oeg-002_1762_003_0074.jpg/42,357,919,80/full/0/default.jpg"
+    "crop_url": null
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1762_3__1078-publication_45888-mentioned-person-person_11790",
