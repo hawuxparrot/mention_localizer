@@ -11,9 +11,10 @@ import unicodedata
 from .models import BoundingBox, OcrPage, OcrToken
 
 _ETC = re.compile(r"u\s*\.\s*\[\s*s\s*\.\s*w\s*\.\s*\]", re.IGNORECASE)
-_BRACKETS = re.compile(r"\[[^\]]*\]")
-_PARENTHESES = re.compile(r"\([^)]*\)")
-_LEADING_MARKUP = re.compile(r"^[\s*.…]+")
+_MEMBERSHIP_NOTE = re.compile(
+    r"\s+\((?:\*=?[^)]*Mitglied[^)]*|=Mitglied der engern Gesellschaft)\)$",
+    re.IGNORECASE,
+)
 
 
 def normalize_text(text: str) -> str:
@@ -24,20 +25,14 @@ def normalize_text(text: str) -> str:
 
 
 def prepare_mention(mention: str) -> str:
-    """Drop editorial markup that is not printed on the page.
+    """Drop known RdL editorial additions that are not printed on the page.
 
-    Removes a leading ``*``, ``...``, or ``..``, bracketed notes such as
-    ``[frz.: ...]``, ``[?]``, and ``u.[s.w.]``, and parenthetical notes
-    such as ``(*=Mitglied der engern Gesellschaft)``. Printed
-    abbreviations such as ``v.`` are left as written.
+    Removes ``u.[s.w.]`` and terminal membership notes such as
+    ``(*=Mitglied der engern Gesellschaft)``. Other bracketed and
+    parenthesized text is preserved.
     """
     text = _ETC.sub(" ", mention)
-    text = _BRACKETS.sub(" ", text)
-    text = _PARENTHESES.sub(" ", text)
-    previous = None
-    while previous != text:
-        previous = text
-        text = _LEADING_MARKUP.sub("", text)
+    text = _MEMBERSHIP_NOTE.sub("", text)
     return " ".join(text.split())
 
 
@@ -81,9 +76,6 @@ def strict_match(
     return tuple(matches)
 
 
-_HYPHENATION_END = re.compile(r"[-‐‑‒–—―\u00ad¬]+$")
-
-
 def lenient_match(
     query: str,
     ocr_page: OcrPage,
@@ -92,8 +84,9 @@ def lenient_match(
 
     The query is the mention after ``prepare_mention``. Clinging
     punctuation is ignored, and punctuation-only OCR tokens are skipped,
-    so ``1761`` matches ``1761.`` A token that ends in a line-break
-    hyphen is rejoined with the next token before comparison. Tokens of
+    so ``1761`` matches ``1761.`` The OCR line-break marker ``¬`` is
+    rejoined; ordinary ``-`` is rejoined only when coordinates show that
+    the next token starts leftward on a lower line. Tokens of
     one or two characters, and ``v.`` against ``von``, must still match
     exactly. A longer token may differ by one edit when it has at most
     five characters, or by two edits when it is longer, and the lengths
@@ -133,11 +126,14 @@ def lenient_match(
 def _rejoin_hyphenated(
     tokens: tuple[OcrToken, ...],
 ) -> tuple[tuple[OcrToken, ...], ...]:
-    """Join an end-of-line hyphen token with the token that continues it."""
+    """Join OCR tokens that continue on the next line."""
     groups: list[tuple[OcrToken, ...]] = []
     index = 0
     while index < len(tokens):
-        if index + 1 < len(tokens) and _HYPHENATION_END.search(tokens[index].text):
+        if index + 1 < len(tokens) and _continues_on_next_line(
+            tokens[index],
+            tokens[index + 1],
+        ):
             groups.append((tokens[index], tokens[index + 1]))
             index += 2
         else:
@@ -146,11 +142,21 @@ def _rejoin_hyphenated(
     return tuple(groups)
 
 
+def _continues_on_next_line(first: OcrToken, second: OcrToken) -> bool:
+    if first.text.endswith("¬"):
+        return True
+    return (
+        first.text.endswith("-")
+        and second.box.x < first.box.x
+        and second.box.y > first.box.y
+    )
+
+
 def _group_key(group: tuple[OcrToken, ...]) -> str:
     if len(group) == 1:
         return _comparison_key(group[0].text)
     first, second = group
-    return _comparison_key(_HYPHENATION_END.sub("", first.text) + second.text)
+    return _comparison_key(first.text.rstrip("-¬") + second.text)
 
 
 def _window_matches(query_keys: tuple[str, ...], ocr_keys: tuple[str, ...]) -> bool:

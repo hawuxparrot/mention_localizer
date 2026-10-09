@@ -2,7 +2,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1765_6__1051-publication_46003-mentioned-person-person_00317",
     "mention": "Frey, Hauptmann in Königl. franz. Diensten; aus Basel",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -11,7 +12,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1765_6__1051-publication_46003-mentioned-person-person_00309",
     "mention": "von Forster, Chur-Maynzischer Regierungsrath von Diessenhofen",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -20,7 +22,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1765_6__1051-publication_46003-mentioned-person-person_00293",
     "mention": "Dan. Fellenberg, Prof. der Rechten",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -29,7 +32,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1765_6__1051-publication_46003-mentioned-person-person_00509",
     "mention": "F. L. Jenner, alt Landvogt von Nydau",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -38,7 +42,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1765_6__1051-publication_46003-mentioned-person-person_00614",
     "mention": "Seine Durchlaucht Herzog Ludwig Eugen von Würtenberg",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -47,7 +52,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1765_6__1051-publication_46003-mentioned-person-person_06281",
     "mention": "Sam. Ant. Wilhelmi, Profess. der griechischen Sprache und der Sittenlehre",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -56,7 +62,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1765_6__1051-publication_46003-mentioned-person-person_06583",
     "mention": "de Valmont de Bomare Professeur en histoire naturelle à Paris, membre de plusieurs Académies",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -65,7 +72,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1765_6__1051-publication_46003-mentioned-person-person_06897",
     "mention": "Abr. Pagan, der öconom. Gesellschaft in Nydau Secretär",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -74,7 +82,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1765_6__1051-publication_46003-mentioned-person-person_01088",
     "mention": "Frau Vicat, eine gebohrne Curtas, aus Losane",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -83,7 +92,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1765_6__1051-publication_46003-mentioned-person-person_11771",
     "mention": "Mnhghr. Rathsherr Manuel, zum Präsidenten erwählt in 1765",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -92,7 +102,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1765_6__1051-publication_46003-mentioned-person-person_11932",
     "mention": "Mörikofer von Frauenfeld",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -101,7 +112,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1765_6__1051-publication_46003-mentioned-person-person_11965",
     "mention": "Fried. Walther in Bern",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -110,7 +122,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1765_6__1051-publication_46003-mentioned-person-person_11973",
     "mention": "Wyss, Artillerie-Hauptmann in Bern",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -119,7 +132,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1765_6__1051-publication_46003-mentioned-person-person_11909",
     "mention": "Frau Küpferin, gebohrne Clerc; in Bern",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -128,7 +142,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1765_6__1051-publication_46003-mentioned-person-person_11927",
     "mention": "Moschard, Pf. zu Bevillard im Münsterthal",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -137,7 +152,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1765_6__1051-publication_46003-mentioned-person-person_11919",
     "mention": "Mariz von Burgdorf, Aufseher der Stukgiesserey",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -146,7 +162,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1765_6__1051-publication_46003-mentioned-person-person_11808",
     "mention": "*Joh. Wyss, Theologiae Studiosus (*Mitglied der der engern Commission)",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -155,7 +172,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1765_6__1051-publication_46003-mentioned-person-person_11873",
     "mention": "Christ, Landvogt zu Mönchenstein, aus Basel",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -164,7 +182,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1765_6__1051-publication_46003-mentioned-person-person_11869",
     "mention": "Hans Bürki, ein Landmann von Worb",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -173,7 +192,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1765_6__1051-publication_46003-mentioned-person-person_11780",
     "mention": "*Rud. Roseng, Theologiae Studiosus (*=Mitglied der engern Commission)",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -182,7 +202,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1765_6__1051-publication_46003-mentioned-person-person_09574",
     "mention": "Vasserot von Dardagny aus Genf",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -191,7 +212,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1765_6__1051-publication_46003-mentioned-person-person_00316",
     "mention": "Freudenreich, alt Stiftschafner von Zofingen",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -200,7 +222,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1765_6__1051-publication_46003-mentioned-person-person_08587",
     "mention": "d'Ambournay, der Gesellschaften des Landbaues in Rouen, Lyon und Bauvais Mitglied",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -209,7 +232,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1765_6__1051-publication_46003-mentioned-person-person_09438",
     "mention": "Seine Ex. Graf Carl von Zinzendorf und Pottendorf",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -218,7 +242,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1765_6__1051-publication_46003-mentioned-person-person_11888",
     "mention": "Felice, aus Murten",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -227,7 +252,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1765_6__1051-publication_46003-mentioned-person-person_00968",
     "mention": "Sprenger, Prof. und Prediger des Klosters Maulbronn",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,

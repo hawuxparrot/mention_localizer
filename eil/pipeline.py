@@ -10,6 +10,7 @@ from typing import Any, Callable, Mapping
 from .fetch import crop_url_is_image, fetch_json
 from .iiif import parse_manifest
 from .localize import find_image_regions
+from .matching import strict_match
 from .models import EntityAnnotation, ManifestDocument, OcrPage
 from .ocr import parse_ocr_text
 from .ocr_index import resolve_ocr_path
@@ -24,15 +25,15 @@ CropValidator = Callable[[str], bool]
 class AnnotationResult:
     """Diagnostics for one processed MentionedPerson annotation.
 
-    ``match_count`` is the number of strict hits across the manifest.
-    It is ``None`` when localization stopped before matching finished.
+    Match counts are ``None`` when localization stopped before matching.
     ``crop_validation_succeeded`` is ``None`` when no precise target was
     written, and otherwise whether that target's crop URL returned an image.
     ``crop_url`` is the URL that was validated, when one was written.
     """
     annotation_id: str
     mention: str
-    match_count: int | None
+    strict_match_count: int | None
+    lenient_match_count: int | None
     precise_target_written: bool
     crop_validation_succeeded: bool | None
     error: str | None
@@ -102,6 +103,10 @@ def _localize_one(
     try:
         manifest = parse_manifest(fetch_manifest(search_manifest))
         ocr_pages = _load_ocr_pages(manifest, ocr_index)
+        strict_count = sum(
+            len(strict_match(annotation.mention, page))
+            for page in ocr_pages
+        )
         regions = find_image_regions(annotation.mention, ocr_pages)
     except Exception as exc:
         return _result(annotation, error=_error_text(exc))
@@ -109,14 +114,19 @@ def _localize_one(
     if not regions:
         if isinstance(item.get("target"), str):
             item["target"] = search_manifest
-        return _result(annotation, match_count=0)
+        return _result(
+            annotation,
+            strict_match_count=strict_count,
+            lenient_match_count=0,
+        )
 
     target = precise_target(regions[0])
     item["target"] = target
     crop = target["rendering"][0]["id"]
     return _result(
         annotation,
-        match_count=len(regions),
+        strict_match_count=strict_count,
+        lenient_match_count=len(regions),
         precise_target_written=True,
         crop_validation_succeeded=_crop_ok(crop, validate_crop),
         crop_url=crop,
@@ -192,7 +202,8 @@ def _crop_ok(url: str, validate_crop: CropValidator) -> bool:
 def _result(
     annotation: EntityAnnotation,
     *,
-    match_count: int | None = None,
+    strict_match_count: int | None = None,
+    lenient_match_count: int | None = None,
     precise_target_written: bool = False,
     crop_validation_succeeded: bool | None = None,
     error: str | None = None,
@@ -201,7 +212,8 @@ def _result(
     return AnnotationResult(
         annotation_id=annotation.annotation_id,
         mention=annotation.mention,
-        match_count=match_count,
+        strict_match_count=strict_match_count,
+        lenient_match_count=lenient_match_count,
         precise_target_written=precise_target_written,
         crop_validation_succeeded=crop_validation_succeeded,
         error=error,

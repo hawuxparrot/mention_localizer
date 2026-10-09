@@ -2,7 +2,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1763_4__1056-publication_46261-mentioned-person-person_00727",
     "mention": "J. Rud. Neuhaus, Alt-Venner, der Gesellsch. Präsident",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -11,7 +12,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1763_4__1056-publication_46261-mentioned-person-person_12304",
     "mention": "Vautier, Kastlan zu Chatelard",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -20,7 +22,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1763_4__1056-publication_46261-mentioned-person-person_12303",
     "mention": "Vautier, Statthalter zu Chillon",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -29,7 +32,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1763_4__1056-publication_46261-mentioned-person-person_12301",
     "mention": "Canac, Baron von St. Legier",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -38,7 +42,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1763_4__1056-publication_46261-mentioned-person-person_12305",
     "mention": "Dubochet, Spithalmeister zu Montreux",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -47,7 +52,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1763_4__1056-publication_46261-mentioned-person-person_11981",
     "mention": "Alex. Wildermett, Hauptm., des grossen Raths",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -56,7 +62,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1763_4__1056-publication_46261-mentioned-person-person_12307",
     "mention": "Sigm. Wildermett, Lieutenant",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -65,7 +72,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1763_4__1056-publication_46261-mentioned-person-person_12310",
     "mention": "Pfarrherr Rengger, zu Pieterlen",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -74,7 +82,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1763_4__1056-publication_46261-mentioned-person-person_12313",
     "mention": "Jac. Hunziker, Pfarrherr zu Mett",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -83,7 +92,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1763_4__1056-publication_46261-mentioned-person-person_12308",
     "mention": "Pfarrherr Eschaquet, zu Court",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -92,7 +102,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1763_4__1056-publication_46261-mentioned-person-person_12309",
     "mention": "Pfarrherr Himli, zu Tremblingen",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -101,7 +112,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1763_4__1056-publication_46261-mentioned-person-person_12312",
     "mention": "Hauptmann Morell von Pargemond",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -110,7 +122,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1763_4__1056-publication_46261-mentioned-person-person_12311",
     "mention": "Commissarius Laubscher",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -119,7 +132,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1763_4__1056-publication_46261-mentioned-person-person_12319",
     "mention": "Bendicht Weber Kirchmeyer zu Inns",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -128,7 +142,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1763_4__1056-publication_46261-mentioned-person-person_12314",
     "mention": "D. Dupan, Bürgermeister zu Nydau",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -137,7 +152,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1763_4__1056-publication_46261-mentioned-person-person_12316",
     "mention": "Joh. Schmalz, des Raths",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -146,7 +162,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1763_4__1056-publication_46261-mentioned-person-person_12317",
     "mention": "D. Schmalz, des Raths",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -155,7 +172,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1763_4__1056-publication_46261-mentioned-person-person_12318",
     "mention": "Ab. Irrlet, Schafner des hauses Buchsee zu Twann",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -164,7 +182,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1763_4__1056-publication_46261-mentioned-person-person_12315",
     "mention": "Ab. Huser, des Raths",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,

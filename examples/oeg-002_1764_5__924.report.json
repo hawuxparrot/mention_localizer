@@ -2,7 +2,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__924-publication_45937-mentioned-person-person_00367",
     "mention": "von Goumoens, Oberist-Lieutenant",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -11,7 +12,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__924-publication_45937-mentioned-person-person_00412",
     "mention": "Haller, Obervogt zu Wildenstein",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -20,7 +22,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__924-publication_45937-mentioned-person-person_00351",
     "mention": "von Gingins, Herr zu Chivili",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -29,7 +32,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__924-publication_45937-mentioned-person-person_00978",
     "mention": "Stek, General-Commissarius",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -38,7 +42,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__924-publication_45937-mentioned-person-person_00955",
     "mention": "Sinner, Landv. von Saanen",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -47,7 +52,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__924-publication_45937-mentioned-person-person_00954",
     "mention": "Sinner, Herr zu Baleigue",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -56,7 +62,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__924-publication_45937-mentioned-person-person_00646",
     "mention": "May von Rued",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -65,7 +72,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__924-publication_45937-mentioned-person-person_01112",
     "mention": "von Wattenwyl, Hauptmann, von Neus",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -74,16 +82,18 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__924-publication_45937-mentioned-person-person_02444",
     "mention": "von Diesbach, (Bernhard) von Liebegg",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0446.jpg/133,933,697,41/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__924-publication_45937-mentioned-person-person_03098",
     "mention": "von Graffenried, zu Blonay",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -92,7 +102,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__924-publication_45937-mentioned-person-person_03779",
     "mention": "Kirchberger von Gottstatt, der Sohn",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -101,7 +112,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__924-publication_45937-mentioned-person-person_05715",
     "mention": "Steiger, Herr zu Montricher",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -110,7 +122,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__924-publication_45937-mentioned-person-person_04499",
     "mention": "Micheli Ducrest",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -119,7 +132,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__924-publication_45937-mentioned-person-person_05968",
     "mention": "Tscharner, Hofmeister zu Königsfelden",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -128,7 +142,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__924-publication_45937-mentioned-person-person_11844",
     "mention": "Tscharner, Hauptmann, von Losanne",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -137,7 +152,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__924-publication_45937-mentioned-person-person_11845",
     "mention": "Tscharner, Landv. von Interlaken",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -146,7 +162,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__924-publication_45937-mentioned-person-person_11854",
     "mention": "Zehender, (Franz. Em.) von Laupen",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -155,7 +172,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__924-publication_45937-mentioned-person-person_12245",
     "mention": "Perinnet de Faugnes",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -164,7 +182,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__924-publication_45937-mentioned-person-person_11771",
     "mention": "Manuel, MnhHr. Heimlicher",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -173,7 +192,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__924-publication_45937-mentioned-person-person_11764",
     "mention": "Jenner, substit. Sekelschreiber",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -182,7 +202,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__924-publication_45937-mentioned-person-person_11836",
     "mention": "Sinner, W. Sekelschreiber",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -191,7 +212,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__924-publication_45937-mentioned-person-person_11837",
     "mention": "Stettler, Raths-Exspektant",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -200,7 +222,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__924-publication_45937-mentioned-person-person_11841",
     "mention": "Stürler, von Landshut",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -209,7 +232,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__924-publication_45937-mentioned-person-person_11842",
     "mention": "Stürler, von Serraux",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -218,16 +242,18 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__924-publication_45937-mentioned-person-person_11843",
     "mention": "Tillier, (Em.) Hauptmann",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0448.jpg/111,247,463,47/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__924-publication_45937-mentioned-person-person_11839",
     "mention": "von Tavel von Königsfelden",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -236,7 +262,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__924-publication_45937-mentioned-person-person_11838",
     "mention": "Stürler, Mnhhr. Rathsh.",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -245,7 +272,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__924-publication_45937-mentioned-person-person_11823",
     "mention": "Castenhofer, Fürsprech",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -254,7 +282,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__924-publication_45937-mentioned-person-person_11821",
     "mention": "von Graffenried, zu Vilard",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -263,7 +292,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__924-publication_45937-mentioned-person-person_11818",
     "mention": "Fischer, T. Sekelschreiber",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -272,7 +302,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__924-publication_45937-mentioned-person-person_11819",
     "mention": "Fischer, Mnhhr. Rathsherr",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -281,7 +312,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__924-publication_45937-mentioned-person-person_11816",
     "mention": "Fassnacht, Landv. von Morsee",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -290,7 +322,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__924-publication_45937-mentioned-person-person_11817",
     "mention": "Fischer von St. Blaise",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -299,7 +332,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__924-publication_45937-mentioned-person-person_12151",
     "mention": "Sinner, alt Landv. von Buchsee",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -308,7 +342,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__924-publication_45937-mentioned-person-person_12152",
     "mention": "Frisching, Landv. von Buchsee",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -317,7 +352,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__924-publication_45937-mentioned-person-person_11005",
     "mention": "Stürler, Schultheiss von Burgdorff",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -326,7 +362,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__924-publication_45937-mentioned-person-person_11815",
     "mention": "Effinger von Wildegg, der älteste",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -335,7 +372,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__924-publication_45937-mentioned-person-person_11810",
     "mention": "von Erlach, Freyherr von Spiez",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -344,7 +382,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__924-publication_45937-mentioned-person-person_11812",
     "mention": "Berseth, Landv. zu Wiflispurg",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -353,7 +392,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__924-publication_45937-mentioned-person-person_11870",
     "mention": "Calendrini, Major d'Artillerie",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -362,7 +402,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__924-publication_45937-mentioned-person-person_11867",
     "mention": "Boute de Verdun, Seig. de Champent",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -371,7 +412,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__924-publication_45937-mentioned-person-person_12341",
     "mention": "Fischer, Landvogt von Fraubrunnen",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -380,7 +422,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__924-publication_45937-mentioned-person-person_11830",
     "mention": "Mutach, Raths-Exspektant",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -389,7 +432,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__924-publication_45937-mentioned-person-person_11833",
     "mention": "Rosselet, Fürsprech",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -398,7 +442,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__924-publication_45937-mentioned-person-person_08377",
     "mention": "Frisching, von Uttingen",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -407,7 +452,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__924-publication_45937-mentioned-person-person_09304",
     "mention": "Fischer, von Aubonne, der älteste",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -416,7 +462,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__924-publication_45937-mentioned-person-person_09299",
     "mention": "Hortin von Waberen",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -425,7 +472,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__924-publication_45937-mentioned-person-person_09425",
     "mention": "von Wattenwyl, Mnhhr. Rathsherr",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -434,7 +482,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__924-publication_45937-mentioned-person-person_09642",
     "mention": "Willading, Landv. von Wiflisburg",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -443,7 +492,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__924-publication_45937-mentioned-person-person_11820",
     "mention": "von Graffenried, zu Gerzensee",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -452,7 +502,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__924-publication_45937-mentioned-person-person_00672",
     "mention": "Mniszech, Graff",
-    "match_count": 1,
+    "strict_match_count": 1,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -461,7 +512,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1764_5__924-publication_45937-mentioned-person-person_04524",
     "mention": "Mniszech, Graff Starost von Sanoke",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,

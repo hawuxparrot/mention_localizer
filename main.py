@@ -84,7 +84,16 @@ def _write_report(run: LocalizationRun, path: Path | None) -> None:
         _write_json(rows, path)
         return
     for result in run.results:
-        count = "n/a" if result.match_count is None else str(result.match_count)
+        strict = (
+            "n/a"
+            if result.strict_match_count is None
+            else str(result.strict_match_count)
+        )
+        lenient = (
+            "n/a"
+            if result.lenient_match_count is None
+            else str(result.lenient_match_count)
+        )
         if result.crop_validation_succeeded is None:
             crop = "n/a"
         else:
@@ -92,7 +101,8 @@ def _write_report(run: LocalizationRun, path: Path | None) -> None:
         error = f" error={result.error}" if result.error else ""
         print(
             f"{result.annotation_id} mention={result.mention!r} "
-            f"matches={count} precise={str(result.precise_target_written).lower()} "
+            f"strict={strict} lenient={lenient} "
+            f"precise={str(result.precise_target_written).lower()} "
             f"crop_ok={crop}{error}",
             file=sys.stderr,
         )

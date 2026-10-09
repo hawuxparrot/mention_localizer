@@ -2,7 +2,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1765_6__1053-publication_45999-mentioned-person-person_00368",
     "mention": "Mnhhr. Landvogt von Graffenried",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -11,7 +12,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1765_6__1053-publication_45999-mentioned-person-person_06897",
     "mention": "Abraham Pagan, Secretär der Gesellschaft",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -20,7 +22,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1765_6__1053-publication_45999-mentioned-person-person_12352",
     "mention": "Venner Pagan",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -29,7 +32,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1765_6__1053-publication_45999-mentioned-person-person_12331",
     "mention": "Pf. Ryz von Suz",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -38,7 +42,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1765_6__1053-publication_45999-mentioned-person-person_12300",
     "mention": "Gleitsherr Heuer",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,

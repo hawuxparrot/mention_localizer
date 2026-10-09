@@ -120,7 +120,8 @@ def test_zero_matches_preserve_the_coarse_target_and_record_count(tmp_path) -> N
     )
 
     assert run.annotation_page["items"][0]["target"] == MANIFEST
-    assert run.results[0].match_count == 0
+    assert run.results[0].strict_match_count == 0
+    assert run.results[0].lenient_match_count == 0
     assert run.results[0].precise_target_written is False
     assert run.results[0].crop_validation_succeeded is None
     assert run.results[0].error is None
@@ -171,7 +172,8 @@ def test_one_match_writes_a_scaled_precise_target(tmp_path) -> None:
     result = run.results[0]
     assert result.annotation_id == "https://example.org/ann/1"
     assert result.mention == "Haller"
-    assert result.match_count == 1
+    assert result.strict_match_count == 1
+    assert result.lenient_match_count == 1
     assert result.precise_target_written is True
     assert result.crop_validation_succeeded is True
     assert result.crop_url == crop
@@ -179,6 +181,43 @@ def test_one_match_writes_a_scaled_precise_target(tmp_path) -> None:
     assert calls["crops"] == [crop]
     assert run.annotation_page["items"][0] == place
     assert raw["items"][1]["target"] == MANIFEST
+
+
+def test_strict_miss_rescued_by_lenient_matching(tmp_path) -> None:
+    _write_ocr(tmp_path, "page-a", 100, 50, ["Bafel 10,4,8,6"])
+    raw = {"items": [_person("https://example.org/ann/1", "Basel")]}
+    run, _calls = _run(
+        raw,
+        tmp_path,
+        {MANIFEST: _manifest(MANIFEST, [("page-a", 100, 50)])},
+        validate=lambda url: True,
+    )
+
+    result = run.results[0]
+    assert result.strict_match_count == 0
+    assert result.lenient_match_count == 1
+    assert result.precise_target_written is True
+
+
+def test_matcher_multiple_counts_are_recorded_independently(tmp_path) -> None:
+    _write_ocr(
+        tmp_path,
+        "page-a",
+        100,
+        50,
+        ["Haller 10,1,5,5", "Hallcr 30,1,5,5"],
+    )
+    raw = {"items": [_person("https://example.org/ann/1", "Haller")]}
+    run, _calls = _run(
+        raw,
+        tmp_path,
+        {MANIFEST: _manifest(MANIFEST, [("page-a", 100, 50)])},
+        validate=lambda url: True,
+    )
+
+    result = run.results[0]
+    assert result.strict_match_count == 1
+    assert result.lenient_match_count == 2
 
 
 def test_multiple_matches_use_the_earliest_page_and_keep_the_count(tmp_path) -> None:
@@ -206,7 +245,8 @@ def test_multiple_matches_use_the_earliest_page_and_keep_the_count(tmp_path) -> 
     target = run.annotation_page["items"][0]["target"]
     assert target["source"] == _service("early")
     assert target["selector"]["value"] == "xywh=10,1,5,5"
-    assert run.results[0].match_count == 3
+    assert run.results[0].strict_match_count == 3
+    assert run.results[0].lenient_match_count == 3
     assert run.results[0].precise_target_written is True
     assert "late" not in target["rendering"][0]["id"]
 
@@ -237,12 +277,12 @@ def test_crop_validation_failure_does_not_abort_later_annotations(tmp_path) -> N
     )
 
     first, second = run.results
-    assert first.match_count == 1
+    assert first.lenient_match_count == 1
     assert first.precise_target_written is True
     assert first.crop_validation_succeeded is False
     assert first.error is None
     assert isinstance(run.annotation_page["items"][0]["target"], dict)
-    assert second.match_count == 1
+    assert second.lenient_match_count == 1
     assert second.precise_target_written is True
     assert second.crop_validation_succeeded is True
     assert second.error is None
@@ -315,13 +355,14 @@ def test_missing_ocr_is_reported_and_later_annotations_continue(tmp_path) -> Non
     )
 
     failed, found = run.results
-    assert failed.match_count is None
+    assert failed.strict_match_count is None
+    assert failed.lenient_match_count is None
     assert failed.precise_target_written is False
     assert failed.crop_validation_succeeded is None
     assert failed.error is not None
     assert "absent" in failed.error
     assert run.annotation_page["items"][0]["target"] == MANIFEST
-    assert found.match_count == 1
+    assert found.lenient_match_count == 1
     assert found.precise_target_written is True
     assert found.error is None
     assert calls["manifests"] == [MANIFEST, OTHER_MANIFEST]
@@ -345,7 +386,7 @@ def test_manifest_fetch_error_does_not_abort_later_annotations(tmp_path) -> None
     assert run.results[0].error is not None
     assert run.results[0].precise_target_written is False
     assert run.annotation_page["items"][0]["target"] == MANIFEST
-    assert run.results[1].match_count == 1
+    assert run.results[1].lenient_match_count == 1
     assert run.results[1].precise_target_written is True
 
 
@@ -373,7 +414,7 @@ def test_german_mention_on_french_page_searches_the_parallel_edition(tmp_path) -
     target = run.annotation_page["items"][0]["target"]
     assert target["source"] == _service("german-page")
     assert target["selector"]["value"] == "xywh=10,4,8,6"
-    assert run.results[0].match_count == 1
+    assert run.results[0].lenient_match_count == 1
 
 
 def test_german_mention_miss_records_the_parallel_manifest(tmp_path) -> None:
@@ -393,7 +434,7 @@ def test_german_mention_miss_records_the_parallel_manifest(tmp_path) -> None:
     )
     assert calls["manifests"] == [german]
     assert run.annotation_page["items"][0]["target"] == german
-    assert run.results[0].match_count == 0
+    assert run.results[0].lenient_match_count == 0
     assert run.results[0].precise_target_written is False
 
 
@@ -413,5 +454,5 @@ def test_matching_mention_language_keeps_the_annotation_manifest(tmp_path) -> No
         validate=lambda url: True,
     )
     assert calls["manifests"] == [german]
-    assert run.results[0].match_count == 1
+    assert run.results[0].lenient_match_count == 1
     assert run.annotation_page["items"][0]["target"]["source"] == _service("german-page")

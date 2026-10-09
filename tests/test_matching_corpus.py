@@ -1,4 +1,4 @@
-from eil.matching import strict_match
+from eil.matching import lenient_match, strict_match
 from eil.models import BoundingBox
 from tests.helpers import parse_corpus_file
 
@@ -38,3 +38,18 @@ def test_french_page_matches_apostrophe_token() -> None:
 
     assert len(matches) >= 1
     assert all(box.width > 0 and box.height > 0 for box in matches)
+
+
+def test_real_ocr_line_break_marker_is_rejoined() -> None:
+    page = parse_corpus_file("1761_002", "oeg-001_1761_002_0004.txt")
+    assert lenient_match("des täglichen Rathes", page) != ()
+
+
+def test_real_ordinary_hyphen_is_not_rejoined() -> None:
+    page = parse_corpus_file("1763_004 2", "soe-001_1763_004_0549.txt")
+    assert lenient_match("c'eft à", page) != ()
+
+
+def test_real_ordinary_line_break_hyphen_is_rejoined() -> None:
+    page = parse_corpus_file("1761_002", "oeg-001_1761_002_0008.txt")
+    assert lenient_match("Franz von Graffenried; Herr zu Gerzensee", page) != ()

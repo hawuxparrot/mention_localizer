@@ -2,7 +2,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_00224",
     "mention": "Pfarrhr. Deleuze; einer der zwei Sekretäre",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -11,7 +12,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_00376",
     "mention": "Gressier, von Latour",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -20,7 +22,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_00436",
     "mention": "Henchoz, der Arz. D. des Raths zu Vivis",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -29,7 +32,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_00120",
     "mention": "N. M. Bourgeois, der A. Dr. der Gesellschaft der Naturkunde und der Arzneykunst zu Basel mitglied",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -38,7 +42,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_00182",
     "mention": "Clavel, Herr zu Brenles; einer der zwei Sekretäre",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -47,7 +52,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_00350",
     "mention": "Präsident, Herr Viktor von Gingins, Herr zu Moiry; Landvogt zu Ifferten",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -56,7 +62,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_01044",
     "mention": "von Traitorens, Prof. in der Philosophie",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -65,7 +72,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_00710",
     "mention": "*Muret, Oberstpfarrhr. zu Vivis, der Gesellschaft Sekretär (*=Mitglied der engeren Gesellschaft)",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -74,7 +82,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_00790",
     "mention": "Polier, Herr von S. Germain, des Raths",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -83,7 +92,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_00789",
     "mention": "Polier, von Bottens; Pfarrherr",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -92,7 +102,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_00999",
     "mention": "Struve, der Chimie gelahrter",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -101,7 +112,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_01032",
     "mention": "Tissot, der A. Dr.; der ökon. Ges. zu Bern, und verschied. ausländischer Akad. mitglied",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -110,7 +122,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_00579",
     "mention": "Leresche, Dechan, Pfarrhr. zu Chebres",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -119,7 +132,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_00775",
     "mention": "*Perret, Castlan und des Raths zu Vivis",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -128,7 +142,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_00868",
     "mention": "Rosset, Professor",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -137,7 +152,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_00609",
     "mention": "von Loys, Herr von Chesaux, der ökon. Ges. zu Bern mitglied",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -146,7 +162,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_00936",
     "mention": "Seigneux, Herr zu Correvon; der ökon. Ges. zu Bern, und verschied. ausländ. Akad. mitglied; einer der zwei abwechselnden Präsidenten",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -155,7 +172,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_02266",
     "mention": "Court, Pfr",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -164,7 +182,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_05101",
     "mention": "*Reynier, Apotheker zu Vivis (*=Mitglied der engeren Gesellschaft)",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -173,25 +192,28 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_11944",
     "mention": "Rafinesque, Pfarrhr. zu Begnin",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1762_003!oeg-002_1762_003_0084.jpg/31,1061,592,40/full/0/default.jpg"
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1762_003!oeg-002_1762_003_0084.jpg/101,1061,521,40/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12162",
     "mention": "Constant (Just.) Hauptmann",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1762_003!oeg-002_1762_003_0080.jpg/113,703,458,38/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12163",
     "mention": "Crousaz, Major",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -200,7 +222,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12158",
     "mention": "Forneret, des Raths",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -209,7 +232,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12165",
     "mention": "von Brussens, des Raths",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -218,7 +242,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12159",
     "mention": "Polier, Herr zu Vernand; einer der beiden Sekretäre",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -227,7 +252,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12164",
     "mention": "Baron von Berchier, Venner",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -236,7 +262,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12245",
     "mention": "Perrinet de Faugnes, Herr von Tovenay; der ök. Ges. zu Bern mitglied",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -245,16 +272,18 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12246",
     "mention": "Präsident, (tit.) Herr Wurstemberger, Landvogt zu Neus",
-    "match_count": 0,
-    "precise_target_written": false,
-    "crop_validation_succeeded": null,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
+    "precise_target_written": true,
+    "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": null
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1762_003!oeg-002_1762_003_0084.jpg/34,385,873,46/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12244",
     "mention": "J. D. Bourgeois, des Grichts, der Ges. Sekretär",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -263,7 +292,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12243",
     "mention": "T. Doxat, Mitherr zu Demoret, Hauptmann",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -272,7 +302,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12242",
     "mention": "J. P. Jeanneret, Statthalter zu Bonvillard",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -281,7 +312,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12247",
     "mention": "von la Flechere, Herr zu Gran",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -290,7 +322,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12248",
     "mention": "von Ribaupierre, der R. Dr.",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -299,7 +332,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12250",
     "mention": "Ducheri, Hauptmann",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -308,7 +342,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12249",
     "mention": "Cornillat, Hauptmann",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -317,7 +352,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12233",
     "mention": "J. F. Jeanneret, Statthalter zu Provence",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -326,7 +362,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12231",
     "mention": "Berdes, des Ehgerichts zu Vivis",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -335,7 +372,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12228",
     "mention": "Duchet, Castlan zu Remaussens im kanton Friburg",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -344,7 +382,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12232",
     "mention": "L. Em. Bourgeois, des landvögtl. Oberamtes, und des Raths zu Ifferten, Castlan zu Clees, der Ges. Statthalter oder Direktor",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -353,7 +392,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12224",
     "mention": "Utin, zu Vivis",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -362,7 +402,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12188",
     "mention": "Dufour, Venner; der Ges. Präsident",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -371,7 +412,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12196",
     "mention": "*Dufresne, Landschreiber zu Vivis (*=Mitglied der engeren Gesellschaft)",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -380,7 +422,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12191",
     "mention": "*Couvreur von Dekersberg, des landvögtl. Oberamtes und des Rahts zu Vivis (*=Mitglied der engeren Gesellschaft)",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -389,7 +432,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12189",
     "mention": "von Cerjat, Herr zu Denezy",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -398,7 +442,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12192",
     "mention": "*Cuenod, Hauptmann, Statthalter am gericht zu Corsier (*=Mitglied der engeren Gesellschaft)",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -407,7 +452,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12193",
     "mention": "Delavaux, Dechan, Oberstpfarrhr. zu Cully",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -416,7 +462,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12190",
     "mention": "Steff. Sim. Chiron, von Vivis",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -425,7 +472,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12195",
     "mention": "Dufour, Curial zu Lausanne",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -434,7 +482,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12194",
     "mention": "*Dubosson, des landvögtl. Oberamtes und des Raths zu Corsier (*=Mitglied der engeren Gesellschaft)",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -443,7 +492,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_11991",
     "mention": "*Perdonet, Leut. der miliz zu Vivis (*=Mitglied der engeren Gesellschaft)",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -452,7 +502,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12146",
     "mention": "J. G. Pillichody, der R. Dr. Castlan zu Baulmes, der Ges. Vice-Direktor",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -461,7 +512,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12215",
     "mention": "*Maroger, Pfarrhr. zu Vivis (*=Mitglied der engeren Gesellschaft)",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -470,7 +522,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12220",
     "mention": "Dan. Tavel, der Stift Statthalter, der Ges. Sekretär",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -479,7 +532,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12216",
     "mention": "*Mestrezat, Major; von Vivis (*=Mitglied der engeren Gesellschaft)",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -488,7 +542,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12223",
     "mention": "von Wattenwyl, zu Chardonne",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -497,7 +552,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12221",
     "mention": "Richardet, alt Spithalmeister zu Vivis",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -506,7 +562,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12217",
     "mention": "Morier, des Ehgerichts und des Raths zu Vivis",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -515,7 +572,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12222",
     "mention": "von Tavel, Herr zu Villars",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -524,7 +582,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12150",
     "mention": "Sekretärs: Hr. Stürler von Cottens, und Hr. Puthod, Fürsprech und des Raths zu Neus",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -533,7 +592,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12154",
     "mention": "Crousaz, des Raths",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -542,7 +602,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12155",
     "mention": "R. von Crousaz",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -551,7 +612,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12156",
     "mention": "von Illens, des Raths",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -560,7 +622,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12240",
     "mention": "G. N. Duplessis von Bussy, Herr zu Ependes",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -569,7 +632,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12238",
     "mention": "J. F. Burnand, der R. Dr. des Raths",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -578,7 +642,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12237",
     "mention": "M. Favre, von Vallorbe",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -587,7 +652,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12241",
     "mention": "L. A. Portefaix, der A. Dr.",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -596,7 +662,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12239",
     "mention": "J. Rud. von Traitorens, Hauptmann",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -605,7 +672,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12236",
     "mention": "D. Verdelhan, der R. Dr.",
-    "match_count": 1,
+    "strict_match_count": 1,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -614,7 +682,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12235",
     "mention": "G. Doxat, des Raths, Statthalter zu Ivonand",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -623,7 +692,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12454",
     "mention": "Dupret, Oberstpfarrhr. zu Montreux",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -632,7 +702,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_11867",
     "mention": "M. von Boutes, Herr zu Champvent",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -641,7 +712,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12166",
     "mention": "von Chandieu, Obrist",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -650,7 +722,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12168",
     "mention": "von Meseri, Rittmeister",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -659,7 +732,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12167",
     "mention": "Marquis von Gentil",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -668,16 +742,18 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12170",
     "mention": "von Villarding",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1762_003!oeg-002_1762_003_0080.jpg/44,1189,334,35/full/0/default.jpg"
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1762_003!oeg-002_1762_003_0080.jpg/120,1189,257,35/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12169",
     "mention": "von Middes, Hauptmann",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -686,7 +762,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12252",
     "mention": "Dupraz, Pfarrhr. zu S. Cergue",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -695,7 +772,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12251",
     "mention": "Lud. Frid. von la Flechere",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -704,7 +782,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12254",
     "mention": "Dav. Jos. von Dompierre, alt Schultheiss",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -713,7 +792,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12253",
     "mention": "Genevois, Pfarrhr. zu Burtigny, der königl. Gesells. der Ges. zur aufnahm der künste, der manufakture [?] und der Ges. der kenner der alterthümer zu Londen, mitglied",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -722,7 +802,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12258",
     "mention": "Jac. Jomini, Rathsherr",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -731,7 +812,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12259",
     "mention": "Carl von Treytorens, Rathsherr",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -740,7 +822,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12256",
     "mention": "Franz Comte, des Schultheissen Statthalter und Rathschreiber",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -749,7 +832,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12257",
     "mention": "Isaac Detrey, Rathsherr",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -758,7 +842,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_15457",
     "mention": "Basin, Herr zu Duillier",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -767,7 +852,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12110",
     "mention": "Franz Marcuard; jeziger Schultheiss",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -776,7 +862,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12214",
     "mention": "Marindin, Dechan, Pfarrhr. zu S. Saphorin",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -785,7 +872,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12209",
     "mention": "Carl Grenier, von Vivis",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -794,7 +882,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12213",
     "mention": "Frau von Loys, von Orsens; geb. von Cerjat",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -803,16 +892,18 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12008",
     "mention": "Gabriel Anet, von Montreux",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
-    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1762_003!oeg-002_1762_003_0081.jpg/309,1058,560,39/full/0/default.jpg"
+    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1762_003!oeg-002_1762_003_0081.jpg/389,1058,480,39/full/0/default.jpg"
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12092",
     "mention": "de l'Harpe, Pfarrhr., Vicarius zu Bursin",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -821,7 +912,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12206",
     "mention": "Forestier, von Orges; Venner zu Cully",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -830,7 +922,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12178",
     "mention": "Rivalier, Pfarrhr. zu Puilly",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -839,7 +932,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12177",
     "mention": "F. Portaz, Castlan zu Dommartin",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -848,7 +942,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12180",
     "mention": "Rosset, des Raths",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -857,7 +952,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12176",
     "mention": "C. Portaz",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -866,7 +962,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12181",
     "mention": "P. Seigneux, des Raths",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -875,7 +972,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12179",
     "mention": "L. C. Rogguin",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -884,7 +982,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12260",
     "mention": "Beat Tavel, Rathsherr",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -893,7 +992,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12261",
     "mention": "Daniel Givel, Rathsherr",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -902,7 +1002,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12262",
     "mention": "Heinrich von Dompierre, Castlan von Marnand",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -911,7 +1012,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_08594",
     "mention": "Sekretärs: Hr. Stürler von Cottens, und Hr. Puthod, Fürsprech und des Raths zu Neus",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -920,7 +1022,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12038",
     "mention": "F. L. Haldimand, Amtsschreiber zu Iferten; der Ges. Sekelmeister",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -929,7 +1032,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12090",
     "mention": "von la Flechere, des landvögtl. Oberamtes",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -938,7 +1042,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1762_3__1027-publication_45890-mentioned-person-person_12172",
     "mention": "Polier, des Raths",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,

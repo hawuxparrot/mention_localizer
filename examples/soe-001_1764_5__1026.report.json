@@ -2,7 +2,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1026-publication_45973-mentioned-person-person_01165",
     "mention": "J. G. Zimmermann, der Arz. Dr. u.[s.w.] u.[s.w.] zu Brugg",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -11,7 +12,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1026-publication_45973-mentioned-person-person_12329",
     "mention": "Hunziger, Pfarrhr. zu Beltheim",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -20,7 +22,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1026-publication_45973-mentioned-person-person_12330",
     "mention": "Schuh, Pfarrhr. zu Bargen",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -29,7 +32,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1026-publication_45973-mentioned-person-person_12328",
     "mention": "Sprüngli, Pfarrhr. zu Birrwyl",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -38,7 +42,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1026-publication_45973-mentioned-person-person_12325",
     "mention": "von Waldner, v. Sierenz",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -47,7 +52,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1026-publication_45973-mentioned-person-person_12331",
     "mention": "Ryz, Pfarrhr. zu Suz",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -56,7 +62,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1026-publication_45973-mentioned-person-person_12326",
     "mention": "Bruetel, von Schaffisheim",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -65,7 +72,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1026-publication_45973-mentioned-person-person_12324",
     "mention": "von Bonstetten, Landvogt zu Biberstein",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -74,7 +82,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1026-publication_45973-mentioned-person-person_12332",
     "mention": "Wizig, Meyer zu Ligerz",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -83,7 +92,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1026-publication_45973-mentioned-person-person_12039",
     "mention": "Froelich, Pfarrhr. zu Rued",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -92,7 +102,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1026-publication_45973-mentioned-person-person_11815",
     "mention": "Gottl. Effinger, v. Wildek",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -101,7 +112,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1026-publication_45973-mentioned-person-person_12340",
     "mention": "Bend. Straucher, von Bühl",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -110,7 +122,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1026-publication_45973-mentioned-person-person_12334",
     "mention": "Alb. Perro, beide Kirchmeyer zu Twann",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -119,7 +132,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1026-publication_45973-mentioned-person-person_12338",
     "mention": "J. R. Hoffmann, Ammann zu Latrigen",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -128,7 +142,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1026-publication_45973-mentioned-person-person_12339",
     "mention": "Bend. Batselet, Ammann zu Epsach",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -137,25 +152,28 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1026-publication_45973-mentioned-person-person_12337",
     "mention": "Sig. Irolet, ebend. [Twann]",
-    "match_count": 1,
-    "precise_target_written": true,
-    "crop_validation_succeeded": true,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
     "error": null,
-    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0045.jpg/315,1189,341,52/full/0/default.jpg"
+    "crop_url": null
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1026-publication_45973-mentioned-person-person_12336",
     "mention": "Engel, Grichtschreiber, ebend. [Twann]",
-    "match_count": 1,
-    "precise_target_written": true,
-    "crop_validation_succeeded": true,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
     "error": null,
-    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0045.jpg/315,1117,509,54/full/0/default.jpg"
+    "crop_url": null
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1026-publication_45973-mentioned-person-person_12333",
     "mention": "Engel",
-    "match_count": 4,
+    "strict_match_count": 0,
+    "lenient_match_count": 4,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -164,16 +182,18 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1026-publication_45973-mentioned-person-person_12335",
     "mention": "Wilh. Engel, Fraubrunnen-Schafffner, ebendas. [Twann]",
-    "match_count": 1,
-    "precise_target_written": true,
-    "crop_validation_succeeded": true,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
+    "precise_target_written": false,
+    "crop_validation_succeeded": null,
     "error": null,
-    "crop_url": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1764_005!oeg-002_1764_005_0045.jpg/312,1052,784,48/full/0/default.jpg"
+    "crop_url": null
   },
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1026-publication_45973-mentioned-person-person_12323",
     "mention": "Wagner, Landvogt zu Castelen",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -182,7 +202,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1026-publication_45973-mentioned-person-person_11997",
     "mention": "von Waldner von Berwille, Brigad. in diensten der K. Frankreich",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -191,7 +212,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/soe-001_1764_5__1026-publication_45973-mentioned-person-person_12327",
     "mention": "Wyss, Pfarrhr. zu Sengen",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,

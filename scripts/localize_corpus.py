@@ -67,7 +67,7 @@ def main(argv: list[str] | None = None) -> int:
         return manifest_cache[url]
 
     pages: list[dict[str, Any]] = []
-    volume_totals: dict[str, dict[str, int]] = defaultdict(_empty_counts)
+    volume_totals: dict[str, dict[str, Any]] = defaultdict(_empty_counts)
     for number, element in enumerate(elements, start=1):
         page_stats = _localize_element(
             element,
@@ -95,9 +95,14 @@ def main(argv: list[str] | None = None) -> int:
     _write_json(statistics, stats_path)
     readme_path = ROOT / "README.md"
     _update_readme_statistics(readme_path, statistics)
+    strict = statistics["matching"]["strict"]
+    lenient = statistics["matching"]["lenient"]
     print(
         f"persons={statistics['persons']} precise={statistics['precise_targets']} "
-        f"unmatched={statistics['unmatched']} multi={statistics['multiple_matches']} "
+        f"strict=0:{strict['zero_matches']}/1:{strict['exactly_one_match']}"
+        f"/multi:{strict['multiple_matches']} "
+        f"lenient=0:{lenient['zero_matches']}/1:{lenient['exactly_one_match']}"
+        f"/multi:{lenient['multiple_matches']} "
         f"crop_ok={statistics['crop_validated']} crop_failed={statistics['crop_failed']} "
         f"errors={statistics['annotation_errors']}",
         file=sys.stderr,
@@ -169,8 +174,7 @@ def _localize_element(
         "manifest": element.get("manifest"),
         "persons": 0,
         "precise_targets": 0,
-        "unmatched": 0,
-        "multiple_matches": 0,
+        "matching": _empty_matching_counts(),
         "crop_validated": 0,
         "crop_failed": 0,
         "annotation_errors": 0,
@@ -213,10 +217,19 @@ def _localize_element(
             continue
         if result.precise_target_written:
             stats["precise_targets"] += 1
-        if result.match_count == 0:
-            stats["unmatched"] += 1
-        if (result.match_count or 0) > 1:
-            stats["multiple_matches"] += 1
+        _record_match(
+            stats["matching"]["strict"],
+            result.strict_match_count,
+        )
+        _record_match(
+            stats["matching"]["lenient"],
+            result.lenient_match_count,
+        )
+        _record_comparison(
+            stats["matching"],
+            result.strict_match_count,
+            result.lenient_match_count,
+        )
         if result.crop_validation_succeeded is True:
             stats["crop_validated"] += 1
         elif result.crop_validation_succeeded is False:
@@ -310,14 +323,32 @@ def _has_person(page: dict[str, Any]) -> bool:
     return False
 
 
-def _empty_counts() -> dict[str, int]:
+def _empty_match_counts() -> dict[str, int]:
+    return {
+        "total_queries": 0,
+        "zero_matches": 0,
+        "exactly_one_match": 0,
+        "multiple_matches": 0,
+    }
+
+
+def _empty_matching_counts() -> dict[str, Any]:
+    return {
+        "strict": _empty_match_counts(),
+        "lenient": _empty_match_counts(),
+        "strict_zero_lenient_one": 0,
+        "strict_zero_lenient_multiple": 0,
+        "strict_multiple_lenient_multiple": 0,
+    }
+
+
+def _empty_counts() -> dict[str, Any]:
     return {
         "pages": 0,
         "pages_with_persons": 0,
         "persons": 0,
         "precise_targets": 0,
-        "unmatched": 0,
-        "multiple_matches": 0,
+        "matching": _empty_matching_counts(),
         "crop_validated": 0,
         "crop_failed": 0,
         "annotation_errors": 0,
@@ -325,53 +356,107 @@ def _empty_counts() -> dict[str, int]:
     }
 
 
-def _add_counts(total: dict[str, int], page: dict[str, Any]) -> None:
+def _record_match(counts: dict[str, int], match_count: int | None) -> None:
+    if match_count is None:
+        return
+    counts["total_queries"] += 1
+    if match_count == 0:
+        counts["zero_matches"] += 1
+    elif match_count == 1:
+        counts["exactly_one_match"] += 1
+    else:
+        counts["multiple_matches"] += 1
+
+
+def _record_comparison(
+    counts: dict[str, Any],
+    strict_count: int | None,
+    lenient_count: int | None,
+) -> None:
+    if strict_count == 0 and lenient_count == 1:
+        counts["strict_zero_lenient_one"] += 1
+    elif strict_count == 0 and (lenient_count or 0) > 1:
+        counts["strict_zero_lenient_multiple"] += 1
+    elif (strict_count or 0) > 1 and (lenient_count or 0) > 1:
+        counts["strict_multiple_lenient_multiple"] += 1
+
+
+def _add_counts(total: dict[str, Any], page: dict[str, Any]) -> None:
     total["pages"] += 1
     if page["persons"]:
         total["pages_with_persons"] += 1
     for key in (
         "persons",
         "precise_targets",
-        "unmatched",
-        "multiple_matches",
         "crop_validated",
         "crop_failed",
         "annotation_errors",
         "unreadable_items",
     ):
         total[key] += page[key]
+    for matcher in ("strict", "lenient"):
+        for key, value in page["matching"][matcher].items():
+            total["matching"][matcher][key] += value
+    for key in (
+        "strict_zero_lenient_one",
+        "strict_zero_lenient_multiple",
+        "strict_multiple_lenient_multiple",
+    ):
+        total["matching"][key] += page["matching"][key]
 
 
 def _statistics(
     ocr_files: int,
     annotation_pages: int,
     pages: list[dict[str, Any]],
-    volume_totals: dict[str, dict[str, int]],
+    volume_totals: dict[str, dict[str, Any]],
 ) -> dict[str, Any]:
     totals = _empty_counts()
     for page in pages:
         _add_counts(totals, page)
-    persons = totals["persons"]
-    precise = totals["precise_targets"]
     return {
         "ocr_files": ocr_files,
         "annotation_pages": annotation_pages,
         "pages_with_persons": totals["pages_with_persons"],
         "pages_without_persons": annotation_pages - totals["pages_with_persons"],
-        "persons": persons,
-        "precise_targets": precise,
-        "unmatched": totals["unmatched"],
-        "multiple_matches": totals["multiple_matches"],
+        "persons": totals["persons"],
+        "precise_targets": totals["precise_targets"],
+        "matching": _matching_statistics(totals["matching"]),
         "crop_validated": totals["crop_validated"],
         "crop_failed": totals["crop_failed"],
         "annotation_errors": totals["annotation_errors"],
         "unreadable_items": totals["unreadable_items"],
-        "recall": (precise / persons) if persons else None,
         "by_volume": {
-            volume: counts
+            volume: {
+                **counts,
+                "matching": _matching_statistics(counts["matching"]),
+            }
             for volume, counts in sorted(volume_totals.items())
         },
         "pages": pages,
+    }
+
+
+def _matching_statistics(counts: dict[str, Any]) -> dict[str, Any]:
+    return {
+        "strict": _match_statistics(counts["strict"]),
+        "lenient": _match_statistics(counts["lenient"]),
+        "strict_zero_lenient_one": counts["strict_zero_lenient_one"],
+        "strict_zero_lenient_multiple": counts["strict_zero_lenient_multiple"],
+        "strict_multiple_lenient_multiple": counts[
+            "strict_multiple_lenient_multiple"
+        ],
+    }
+
+
+def _match_statistics(counts: dict[str, int]) -> dict[str, int | float | None]:
+    total = counts["total_queries"]
+    unique = counts["exactly_one_match"]
+    found = unique + counts["multiple_matches"]
+    return {
+        **counts,
+        "unique_recall": unique / total if total else None,
+        "found_rate": found / total if total else None,
     }
 
 
@@ -407,11 +492,9 @@ def _update_readme_statistics(readme_path: Path, statistics: dict[str, Any]) -> 
 
 
 def _format_readme_statistics(statistics: dict[str, Any]) -> str:
-    persons = statistics["persons"]
-    precise = statistics["precise_targets"]
-    unmatched = statistics["unmatched"]
-    multi = statistics["multiple_matches"]
-    by_lang = _language_totals(statistics["by_volume"])
+    matching = statistics["matching"]
+    strict = matching["strict"]
+    lenient = matching["lenient"]
     unreadable = statistics["unreadable_items"]
     lines = [
         (
@@ -422,8 +505,8 @@ def _format_readme_statistics(statistics: dict[str, Any]) -> str:
             f"matching. A mention whose language differs from the journal is "
             f"searched on the parallel edition of that language: a German "
             f"mention on a French page is matched against the German manifest, "
-            f"and the box is on the German image. `lenient_match` then searches "
-            f"every page of the chosen manifest."
+            f"and the box is on the German image. Both matchers search the same "
+            f"parsed OCR pages; `lenient_match` supplies the production target."
         ),
         "",
         (
@@ -432,33 +515,33 @@ def _format_readme_statistics(statistics: dict[str, Any]) -> str:
             f"`MentionedPerson`. The other {statistics['pages_without_persons']} "
             f"do not. A missing `body.identifier` is allowed: that field is a "
             f"GND URI, and many local persons have only a Haller record. "
-            f"{_count_words(unreadable)} "
+            f"{unreadable} "
             f"{'annotation is' if unreadable == 1 else 'annotations are'} "
             f"still unreadable for another reason."
         ),
         "",
-        "| | Persons | Localized | Unmatched | More than one match |",
-        "| --- | ---: | ---: | ---: | ---: |",
-        _summary_row("Whole corpus", persons, precise, unmatched, multi),
-        _summary_row(
-            "German (`oeg`)",
-            by_lang["oeg"]["persons"],
-            by_lang["oeg"]["precise_targets"],
-            by_lang["oeg"]["unmatched"],
-            by_lang["oeg"]["multiple_matches"],
-        ),
-        _summary_row(
-            "French (`soe`)",
-            by_lang["soe"]["persons"],
-            by_lang["soe"]["precise_targets"],
-            by_lang["soe"]["unmatched"],
-            by_lang["soe"]["multiple_matches"],
+        "| Matcher | Queries | Zero | Exactly one | Multiple | Unique recall | Found rate |",
+        "| --- | ---: | ---: | ---: | ---: | ---: | ---: |",
+        _match_summary_row("Strict", strict),
+        _match_summary_row("Lenient", lenient),
+        "",
+        (
+            f"Lenient matching uniquely rescued "
+            f"{matching['strict_zero_lenient_one']} strict misses. "
+            f"{matching['strict_zero_lenient_multiple']} strict misses became "
+            f"multiple lenient matches; "
+            f"{matching['strict_multiple_lenient_multiple']} queries were "
+            f"multiple under both matchers."
         ),
         "",
         (
-            f"All {statistics['crop_validated']} crop URLs returned an image."
+            f"The production lenient matcher wrote "
+            f"{statistics['precise_targets']} precise targets. All "
+            f"{statistics['crop_validated']} crop URLs returned an image."
             if statistics["crop_failed"] == 0
             else (
+                f"The production lenient matcher wrote "
+                f"{statistics['precise_targets']} precise targets. "
                 f"{statistics['crop_validated']} crop URLs returned an image; "
                 f"{statistics['crop_failed']} failed."
             )
@@ -469,15 +552,18 @@ def _format_readme_statistics(statistics: dict[str, Any]) -> str:
             "The published French boxes were not used as ground truth."
         ),
         "",
-        "| Volume | Persons | Localized | Unmatched |",
-        "| --- | ---: | ---: | ---: |",
+        "| Volume | Queries | Strict one | Lenient one | Lenient zero | Lenient multiple |",
+        "| --- | ---: | ---: | ---: | ---: | ---: |",
     ]
     for volume, counts in statistics["by_volume"].items():
         if counts["persons"] == 0:
             continue
+        strict = counts["matching"]["strict"]
+        lenient = counts["matching"]["lenient"]
         lines.append(
-            f"| {_volume_label(volume)} | {counts['persons']} | "
-            f"{counts['precise_targets']} | {counts['unmatched']} |"
+            f"| {_volume_label(volume)} | {lenient['total_queries']} | "
+            f"{strict['exactly_one_match']} | {lenient['exactly_one_match']} | "
+            f"{lenient['zero_matches']} | {lenient['multiple_matches']} |"
         )
     lines.extend(
         [
@@ -493,63 +579,20 @@ def _format_readme_statistics(statistics: dict[str, Any]) -> str:
     return "\n".join(lines)
 
 
-def _language_totals(by_volume: dict[str, dict[str, int]]) -> dict[str, dict[str, int]]:
-    totals = {
-        "oeg": {
-            "persons": 0,
-            "precise_targets": 0,
-            "unmatched": 0,
-            "multiple_matches": 0,
-        },
-        "soe": {
-            "persons": 0,
-            "precise_targets": 0,
-            "unmatched": 0,
-            "multiple_matches": 0,
-        },
-    }
-    for volume, counts in by_volume.items():
-        key = volume.split("-", 1)[0]
-        if key not in totals:
-            continue
-        for field in totals[key]:
-            totals[key][field] += counts[field]
-    return totals
-
-
-def _summary_row(
+def _match_summary_row(
     label: str,
-    persons: int,
-    precise: int,
-    unmatched: int,
-    multi: int,
+    counts: dict[str, int | float | None],
 ) -> str:
-    pct = f"{100 * precise / persons:.1f}%" if persons else "—"
     return (
-        f"| {label} | {persons} | {precise} ({pct}) | {unmatched} | {multi} |"
+        f"| {label} | {counts['total_queries']} | {counts['zero_matches']} | "
+        f"{counts['exactly_one_match']} | {counts['multiple_matches']} | "
+        f"{counts['unique_recall']:.1%} | {counts['found_rate']:.1%} |"
     )
 
 
 def _volume_label(volume: str) -> str:
     journal, year, piece = volume.split("_", 2)
     return f"`{journal}` {year}/{piece}"
-
-
-def _count_words(n: int) -> str:
-    words = {
-        0: "Zero",
-        1: "One",
-        2: "Two",
-        3: "Three",
-        4: "Four",
-        5: "Five",
-        6: "Six",
-        7: "Seven",
-        8: "Eight",
-        9: "Nine",
-        10: "Ten",
-    }
-    return words.get(n, str(n))
 
 
 if __name__ == "__main__":

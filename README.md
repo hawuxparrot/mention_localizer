@@ -67,7 +67,7 @@ positional OCR .txt ──────────┼─────────
 3. **Grouping.** Annotations that share a manifest should be collected before any OCR file is read, so each page is parsed once and then queried many times. This stage is not written yet.
 4. **OCR files.** `index_ocr_directory` maps a page-image filename to one positional `.txt` under `data/`. The filename is the last `!`-separated segment of the IIIF service URL. A missing file is an error. Two files with the same stem are an error; neither is chosen.
 5. **OCR.** `parse_ocr_text` reads one positional text file onto a `PageImage` and returns an `OcrPage`: the page, the token sequence, and the width and height of the OCR coordinate space.
-6. **Matching.** `strict_match` still finds an exact token sequence. Localization uses `lenient_match`. It first drops editorial markup (`...`, `u.[s.w.]`, parenthetical membership notes), then ignores punctuation stuck to a token, then allows a small per-token edit distance for OCR substitutions. `v.` is not expanded to `von`. `find_image_regions` runs that on every manifest page, in canvas order, and scales each hit into IIIF pixels. The first hit is the earliest page, then the earliest token match on that page. The scaled box is an `ImageRegion`. `ImageRegion.box` is always in the page's IIIF coordinates.
+6. **Matching.** `strict_match` finds exact token sequences. Localization uses `lenient_match`, while both counts are retained for diagnostics. Lenient matching drops only known RdL editorial additions (`u.[s.w.]` and terminal membership notes), preserves other parentheses and brackets, rejoins OCR words split with `¬`, and rejoins ordinary `-` only when token coordinates show a line break. It also ignores punctuation stuck to a token and allows a small per-token edit distance for OCR substitutions. `v.` is not expanded to `von`. `find_image_regions` runs lenient matching on every manifest page, in canvas order, and scales each hit into IIIF pixels. The first hit is the earliest page, then the earliest token match on that page. The scaled box is an `ImageRegion`. `ImageRegion.box` is always in the page's IIIF coordinates.
 7. **Target.** `precise_target` writes the fragment selector above from that `ImageRegion`. The pipeline copies the original AnnotationPage and replaces `target` when there is at least one hit. A mention whose language differs from `journal.language` is searched on the `parallelVersions` edition of the mention's language, so a German mention on a French page uses the German manifest. Zero hits on the annotation's own manifest leave that coarse URL in place. A miss on a parallel edition leaves that edition's manifest URL. More than one hit still writes the first region, and the real match count stays on the per-annotation result. Each written crop URL is requested; a failed image response is recorded and does not stop the next annotation.
 
 `main.py` reads one AnnotationPage JSON, writes the patched page, and prints one diagnostic line per MentionedPerson. `scripts/localize_corpus.py` does that for every RdL AnnotationPage whose volume is in the local OCR corpus, and writes `examples/statistics.json`.
@@ -97,39 +97,40 @@ The input OCR file starts with `width,height`. Each later line is `text x,y,widt
 ## Corpus results
 
 <!-- corpus-statistics:start -->
-`scripts/localize_corpus.py` was run on the OCR in `data/` (15,163 page files) and the RdL annotation pages for those volumes. Published person targets are already precise, so each one was set back to a manifest URL before matching. A mention whose language differs from the journal is searched on the parallel edition of that language: a German mention on a French page is matched against the German manifest, and the box is on the German image. `lenient_match` then searches every page of the chosen manifest.
+`scripts/localize_corpus.py` was run on the OCR in `data/` (15,163 page files) and the RdL annotation pages for those volumes. Published person targets are already precise, so each one was set back to a manifest URL before matching. A mention whose language differs from the journal is searched on the parallel edition of that language: a German mention on a French page is matched against the German manifest, and the box is on the German image. Both matchers search the same parsed OCR pages; `lenient_match` supplies the production target.
 
-560 annotation pages fall in the corpus. 30 of them contain a `MentionedPerson`. The other 530 do not. A missing `body.identifier` is allowed: that field is a GND URI, and many local persons have only a Haller record. Five annotations are still unreadable for another reason.
+560 annotation pages fall in the corpus. 30 of them contain a `MentionedPerson`. The other 530 do not. A missing `body.identifier` is allowed: that field is a GND URI, and many local persons have only a Haller record. 5 annotations are still unreadable for another reason.
 
-| | Persons | Localized | Unmatched | More than one match |
-| --- | ---: | ---: | ---: | ---: |
-| Whole corpus | 1092 | 582 (53.3%) | 510 | 8 |
-| German (`oeg`) | 605 | 319 (52.7%) | 286 | 5 |
-| French (`soe`) | 487 | 263 (54.0%) | 224 | 3 |
+| Matcher | Queries | Zero | Exactly one | Multiple | Unique recall | Found rate |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| Strict | 1092 | 1084 | 8 | 0 | 0.7% | 0.7% |
+| Lenient | 1092 | 507 | 577 | 8 | 52.8% | 53.6% |
 
-All 582 crop URLs returned an image. The French-page hits are the same kind of result as the German edition they were redirected to, not boxes on the French scan. The published French boxes were not used as ground truth.
+Lenient matching uniquely rescued 569 strict misses. 8 strict misses became multiple lenient matches; 0 queries were multiple under both matchers.
 
-| Volume | Persons | Localized | Unmatched |
-| --- | ---: | ---: | ---: |
-| `oeg-001` 1761/2 | 79 | 50 | 29 |
-| `oeg-002` 1762/3 | 163 | 71 | 92 |
-| `oeg-002` 1763/4 | 19 | 17 | 2 |
-| `oeg-002` 1764/5 | 184 | 97 | 87 |
-| `oeg-002` 1765/6 | 41 | 23 | 18 |
-| `oeg-002` 1766/7 | 27 | 15 | 12 |
-| `oeg-002` 1767/8 | 9 | 3 | 6 |
-| `oeg-002` 1769/10 | 23 | 7 | 16 |
-| `oeg-002` 1770/11 | 10 | 5 | 5 |
-| `oeg-002` 1771/12 | 2 | 0 | 2 |
-| `oeg-003` 1779/1 | 48 | 31 | 17 |
-| `soe-001` 1761/2 | 79 | 50 | 29 |
-| `soe-001` 1762/3 | 105 | 51 | 54 |
-| `soe-001` 1763/4 | 19 | 17 | 2 |
-| `soe-001` 1764/5 | 184 | 97 | 87 |
-| `soe-001` 1765/6 | 41 | 23 | 18 |
-| `soe-001` 1766/7 | 27 | 15 | 12 |
-| `soe-001` 1767/8 | 9 | 3 | 6 |
-| `soe-001` 1769/10 | 23 | 7 | 16 |
+The production lenient matcher wrote 585 precise targets. All 585 crop URLs returned an image. The French-page hits are the same kind of result as the German edition they were redirected to, not boxes on the French scan. The published French boxes were not used as ground truth.
+
+| Volume | Queries | Strict one | Lenient one | Lenient zero | Lenient multiple |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| `oeg-001` 1761/2 | 79 | 0 | 49 | 29 | 1 |
+| `oeg-002` 1762/3 | 163 | 1 | 74 | 89 | 0 |
+| `oeg-002` 1763/4 | 19 | 0 | 17 | 2 | 0 |
+| `oeg-002` 1764/5 | 184 | 3 | 93 | 89 | 2 |
+| `oeg-002` 1765/6 | 41 | 0 | 23 | 18 | 0 |
+| `oeg-002` 1766/7 | 27 | 0 | 16 | 11 | 0 |
+| `oeg-002` 1767/8 | 9 | 0 | 3 | 6 | 0 |
+| `oeg-002` 1769/10 | 23 | 0 | 7 | 16 | 0 |
+| `oeg-002` 1770/11 | 10 | 0 | 3 | 5 | 2 |
+| `oeg-002` 1771/12 | 2 | 0 | 0 | 2 | 0 |
+| `oeg-003` 1779/1 | 48 | 0 | 31 | 17 | 0 |
+| `soe-001` 1761/2 | 79 | 0 | 49 | 29 | 1 |
+| `soe-001` 1762/3 | 105 | 1 | 53 | 52 | 0 |
+| `soe-001` 1763/4 | 19 | 0 | 17 | 2 | 0 |
+| `soe-001` 1764/5 | 184 | 3 | 93 | 89 | 2 |
+| `soe-001` 1765/6 | 41 | 0 | 23 | 18 | 0 |
+| `soe-001` 1766/7 | 27 | 0 | 16 | 11 | 0 |
+| `soe-001` 1767/8 | 9 | 0 | 3 | 6 | 0 |
+| `soe-001` 1769/10 | 23 | 0 | 7 | 16 | 0 |
 
 Per-page counts, crop URLs, and the patched AnnotationPages are under `examples/`. `examples/statistics.json` is the full aggregate.
 <!-- corpus-statistics:end -->

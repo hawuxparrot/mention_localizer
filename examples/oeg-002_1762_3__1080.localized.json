@@ -1406,14 +1406,14 @@
           {
             "format": "image/jpeg",
             "type": "Image",
-            "id": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1762_003!oeg-002_1762_003_0084.jpg/31,1061,592,40/full/0/default.jpg"
+            "id": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1762_003!oeg-002_1762_003_0084.jpg/101,1061,521,40/full/0/default.jpg"
           }
         ],
         "rdlRegion": "main",
         "source": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1762_003!oeg-002_1762_003_0084.jpg",
         "selector": {
           "conformsTo": "http://www.w3.org/TR/media-frags/",
-          "value": "xywh=31,1061,592,40",
+          "value": "xywh=101,1061,521,40",
           "type": "FragmentSelector"
         }
       },
@@ -1467,7 +1467,22 @@
           "id": "ordiiif-vocab:MentionedPerson"
         }
       },
-      "target": "https://www.e-periodica.ch/iiif/oeg-002:1762:3::1080/manifest",
+      "target": {
+        "rendering": [
+          {
+            "format": "image/jpeg",
+            "type": "Image",
+            "id": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1762_003!oeg-002_1762_003_0080.jpg/113,703,458,38/full/0/default.jpg"
+          }
+        ],
+        "rdlRegion": "main",
+        "source": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1762_003!oeg-002_1762_003_0080.jpg",
+        "selector": {
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
+          "value": "xywh=113,703,458,38",
+          "type": "FragmentSelector"
+        }
+      },
       "motivation": "linking",
       "type": "Annotation",
       "id": "https://manifests.republique-des-lettres.ch/oeg-002_1762_3__1080-publication_45890-mentioned-person-person_12162"
@@ -1879,7 +1894,22 @@
           "id": "ordiiif-vocab:MentionedPerson"
         }
       },
-      "target": "https://www.e-periodica.ch/iiif/oeg-002:1762:3::1080/manifest",
+      "target": {
+        "rendering": [
+          {
+            "format": "image/jpeg",
+            "type": "Image",
+            "id": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1762_003!oeg-002_1762_003_0084.jpg/34,385,873,46/full/0/default.jpg"
+          }
+        ],
+        "rdlRegion": "main",
+        "source": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1762_003!oeg-002_1762_003_0084.jpg",
+        "selector": {
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
+          "value": "xywh=34,385,873,46",
+          "type": "FragmentSelector"
+        }
+      },
       "motivation": "linking",
       "type": "Annotation",
       "id": "https://manifests.republique-des-lettres.ch/oeg-002_1762_3__1080-publication_45890-mentioned-person-person_12246"
@@ -4573,14 +4603,14 @@
           {
             "format": "image/jpeg",
             "type": "Image",
-            "id": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1762_003!oeg-002_1762_003_0080.jpg/44,1189,334,35/full/0/default.jpg"
+            "id": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1762_003!oeg-002_1762_003_0080.jpg/120,1189,257,35/full/0/default.jpg"
           }
         ],
         "rdlRegion": "main",
         "source": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1762_003!oeg-002_1762_003_0080.jpg",
         "selector": {
           "conformsTo": "http://www.w3.org/TR/media-frags/",
-          "value": "xywh=44,1189,334,35",
+          "value": "xywh=120,1189,257,35",
           "type": "FragmentSelector"
         }
       },
@@ -5429,14 +5459,14 @@
           {
             "format": "image/jpeg",
             "type": "Image",
-            "id": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1762_003!oeg-002_1762_003_0081.jpg/309,1058,560,39/full/0/default.jpg"
+            "id": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1762_003!oeg-002_1762_003_0081.jpg/389,1058,480,39/full/0/default.jpg"
           }
         ],
         "rdlRegion": "main",
         "source": "https://iiif.library.ethz.ch/iiif/2/e-periodica!oeg!1762_003!oeg-002_1762_003_0081.jpg",
         "selector": {
           "conformsTo": "http://www.w3.org/TR/media-frags/",
-          "value": "xywh=309,1058,560,39",
+          "value": "xywh=389,1058,480,39",
           "type": "FragmentSelector"
         }
       },

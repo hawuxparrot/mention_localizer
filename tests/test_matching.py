@@ -52,18 +52,18 @@ def test_strict_match_empty_query_raises() -> None:
         strict_match("   ", ocr_page("Haller"))
 
 
-def test_prepare_mention_drops_editorial_markup() -> None:
-    assert prepare_mention("... Herrenschwand v. Grain, der Arz. Dr.") == (
-        "Herrenschwand v. Grain, der Arz. Dr."
-    )
+def test_prepare_mention_drops_known_editorial_markup() -> None:
     assert prepare_mention(
         "*V. B. Tscharner von Bellevue (=Mitglied der engern Gesellschaft)"
-    ) == "V. B. Tscharner von Bellevue"
+    ) == "*V. B. Tscharner von Bellevue"
     assert prepare_mention("Bourgelaz in Lyon u.[s.w.]") == "Bourgelaz in Lyon"
-    assert prepare_mention(
-        "Walomont in Geldern [frz.: de Malomont, en Gueldres]"
-    ) == "Walomont in Geldern"
-    assert prepare_mention("Matthey in Tuerin[?]") == "Matthey in Tuerin"
+
+
+def test_prepare_mention_preserves_parentheses_and_brackets() -> None:
+    assert prepare_mention("Constant (Just.) Hauptmann") == (
+        "Constant (Just.) Hauptmann"
+    )
+    assert prepare_mention("Matthey in Tuerin[?]") == "Matthey in Tuerin[?]"
 
 
 def test_lenient_match_ignores_a_trailing_period() -> None:
@@ -81,14 +81,31 @@ def test_lenient_match_skips_punctuation_only_tokens() -> None:
     )
 
 
-def test_lenient_match_rejoins_a_line_break_hyphen() -> None:
+def test_lenient_match_rejoins_the_ocr_line_break_marker() -> None:
     page = ocr_page("des", "tägli¬", "chen", "Rathes")
     matches = lenient_match("des täglichen Rathes", page)
     assert matches == (
         BoundingBox.enclosing(tuple(token.box for token in page.tokens)),
     )
-    page = ocr_page("Herr", "zu", "Ger-", "zenfee.")
-    assert lenient_match("Herr zu Gerzensee", page) != ()
+
+
+def test_lenient_match_does_not_rejoin_an_ordinary_hyphen() -> None:
+    page = ocr_page("Vice-", "Präsident")
+    assert lenient_match("Vice Präsident", page) != ()
+    assert lenient_match("VicePräsident", page) == ()
+
+
+def test_lenient_match_rejoins_an_ordinary_hyphen_across_lines() -> None:
+    page = OcrPage(
+        page=make_page(),
+        tokens=(
+            OcrToken("Ger-", BoundingBox(x=80, y=0, width=8, height=6)),
+            OcrToken("zenfee", BoundingBox(x=0, y=10, width=8, height=6)),
+        ),
+        width=100,
+        height=50,
+    )
+    assert lenient_match("Gerzensee", page) != ()
 
 
 def test_lenient_match_allows_a_small_ocr_substitution() -> None:

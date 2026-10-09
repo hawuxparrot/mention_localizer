@@ -2,7 +2,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1770_11__409-publication_46081-mentioned-person-person_00973",
     "mention": "von Stahl, Herr zu Jerwakant, Oberster in kayserl. russischen Diensten u.[s.w.]",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -11,7 +12,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1770_11__409-publication_46081-mentioned-person-person_00931",
     "mention": "Scopoli M. D. Professor der metallurgischen Chymie zu Idria",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -20,7 +22,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1770_11__409-publication_46081-mentioned-person-person_01369",
     "mention": "Andreä, Hofapotheker in Hanover",
-    "match_count": 2,
+    "strict_match_count": 0,
+    "lenient_match_count": 2,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -29,7 +32,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1770_11__409-publication_46081-mentioned-person-person_05943",
     "mention": "F. L. Tribolet, Stadtarzt in Bern, beständiger Sekretär der Gesellschaft",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -38,7 +42,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1770_11__409-publication_46081-mentioned-person-person_11931",
     "mention": "von Mopinot, Ritter des St. Ludwigs-Ordens, Cavallerie-Oberster in französischen Diensten u.[s.w.]",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -47,7 +52,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1770_11__409-publication_46081-mentioned-person-person_11885",
     "mention": "Abt Expilli, Thesaurier der königl. Chroherrenstift zu Tarascon",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -56,7 +62,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1770_11__409-publication_46081-mentioned-person-person_11775",
     "mention": "Morell von Aubonne, Negotiant in Bern",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -65,7 +72,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1770_11__409-publication_46081-mentioned-person-person_11892",
     "mention": "S. W. Ewd.[?] Pater Frisi, Professor der Mathematik in Mayland",
-    "match_count": 0,
+    "strict_match_count": 0,
+    "lenient_match_count": 0,
     "precise_target_written": false,
     "crop_validation_succeeded": null,
     "error": null,
@@ -74,7 +82,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1770_11__409-publication_46081-mentioned-person-person_04526",
     "mention": "Graf Mniszek der jüngere",
-    "match_count": 2,
+    "strict_match_count": 0,
+    "lenient_match_count": 2,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
@@ -83,7 +92,8 @@
   {
     "annotation_id": "https://manifests.republique-des-lettres.ch/oeg-002_1770_11__409-publication_46081-mentioned-person-person_00130",
     "mention": "Brisson, Inspektor der Manufakturen in Lyon",
-    "match_count": 1,
+    "strict_match_count": 0,
+    "lenient_match_count": 1,
     "precise_target_written": true,
     "crop_validation_succeeded": true,
     "error": null,
