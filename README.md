@@ -44,13 +44,23 @@ Note: The query string is the mention, not the person. One person can map to mul
 Annotations are localized one at a time. Grouping mentions that share a manifest, so each page is parsed once, is still to come.
 
 ```text
-AnnotationPage ──► EntityAnnotation (mention + manifest URL)
+AnnotationPage ──► EntityAnnotation (mention, language, manifest URL)
                               │
+                    search manifest URL
+                    (own target or parallelVersions)
+                              │
+                              ▼
 IIIF Manifest ──► ManifestDocument ──► PageImage (service URL, IIIF size)
+                                                 │
+                                    OCR index (image stem → .txt)
+                                                 │
+                                                 ▼
+                                      positional OCR .txt
+                                                 │
+                                                 ▼
+                                       OcrPage (tokens, OCR size)
                               │                    │
-positional OCR .txt ──────────┼──────────► OcrPage (tokens, OCR size)
-                              │                    │
-                              └──── lenient_match ─┘
+                              └──── lenient_match/strict_match ─┘
                                         │
                                         ▼
                               scale OCR box into IIIF pixels
